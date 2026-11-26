@@ -1,992 +1,864 @@
 {
-  "updatedAt": "2026-11-26 15:34 KST",
+  "updatedAt": "2026-11-26 17:02 KST (기사·선물·만기 100%)",
   "scannedTotal": 292,
-  "analyzedDetail": 45,
+  "analyzedDetail": 79,
   "regime": {
-    "score": 0,
-    "type": "bear",
-    "badge": "🔴 하락장 · 현금 방어",
-    "title": "스윙 신규 매수 중단 · 현금 확보",
-    "maxSlots": 0,
-    "riskScale": 0.0,
+    "score": 81,
+    "type": "bull",
+    "badge": "🟢 선물·뉴스 강세 (네 마녀의 날 D-14 (12/10))",
+    "title": "호재·리포트 종목 적극 분할 매수",
+    "maxSlots": 4,
+    "riskScale": 1.0,
     "items": [
       {
         "name": "코스피",
         "close": 4711.21,
         "chg": 0.29,
-        "pts": 0,
-        "state": "하락주의"
+        "state": "네 마녀의 날 D-14 (12/10)"
       },
       {
         "name": "코스닥",
         "close": 655.71,
         "chg": 0.78,
-        "pts": 0,
-        "state": "하락주의"
+        "state": "MSCI 리밸런싱 D-4 (11/30)"
       }
     ]
   },
   "macro": {
     "futKospi": {
-      "px": 729.12,
-      "pct": 0.73
+      "px": 727.08,
+      "pct": 0.45
     },
     "futNasdaq": {
-      "px": 26254.5,
-      "pct": 0.59
+      "px": 26248.5,
+      "pct": 0.57
     },
     "fxKrw": {
-      "px": 1342.32,
-      "pct": -0.07
+      "px": 1343.98,
+      "pct": 0.06
     }
   },
   "swing": [
     {
-      "code": "121600",
-      "name": "나노신소재",
-      "market": "코스닥",
-      "px": 65700.0,
-      "dayChg": 5.29,
-      "slPx": 60444,
-      "tpPx": 76212,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": 5.5,
-      "winRate": 63.6,
-      "btCnt": 11,
-      "rs60": 61.5,
-      "volMult": 1.2,
-      "news": [],
-      "why": [
-        "20>60 정배열 + 최근 60일 코스피 대비 RS +61.5% 주도주",
-        "과거 1년 유사 자리 11회 검증 승률 64% · 비용 후 기댓값 +5.50%",
-        "손절 -8.0%(60,444원) · 1차 반절익절 +16.0%(76,212원)"
+      "code": "000880",
+      "name": "한화",
+      "market": "코스피",
+      "px": 66000.0,
+      "dayChg": -1.35,
+      "slPx": 62700,
+      "tpPx": 72600,
+      "ev": 4.7,
+      "winRate": 95,
+      "rs60": -1.4,
+      "tradingVal": 86,
+      "posTags": [
+        "강세·모멘텀",
+        "실적 성장",
+        "증권사 매수"
       ],
-      "score": 85
+      "why": [
+        "실시간 뉴스 4건 포착: 강세·모멘텀, 실적 성장, 증권사 매수",
+        "핵심 기사: 웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)",
+        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
+      ],
+      "score": 97,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
+          "url": "https://www.mk.co.kr/news/stock/12219212",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"한화솔루션, 탠덤셀 투자에 현금흐름 악화…목표가 하향\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YVm51ZDRMelBLcExKbV92RUpQbFNXNjVMczFTN2sxMTU1TG03clo4dlJfSWNBbkwzS3lidkNkYzQ4VlpUVVdJVUZPelhxVDg2QUJxWUppTlphZ1ZB?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] 한투證 \"한화엔진, 내년 영업익 84% 증가…최선호주 유지\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVlM3MXhuZkJLd245Mnh1Yi1JOGVNQ3UwcXhNWGJPVGlsN09lN0UtamRVUHd2ZXJqVUl4SDB4X1kwc0VHM3FkTXhoQmRsN1M2Z1N0U2YzWExsOHFP?oc=5",
+          "date": "Tue, 24 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "082740",
+      "name": "한화엔진",
+      "market": "코스피",
+      "px": 22300.0,
+      "dayChg": 1.36,
+      "slPx": 21185,
+      "tpPx": 24530,
+      "ev": 4.2,
+      "winRate": 92,
+      "rs60": 1.4,
+      "tradingVal": 100,
+      "posTags": [
+        "실적 성장",
+        "증권사 매수"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 실적 성장, 증권사 매수",
+        "핵심 기사: [모닝 리포트] 한투證 \"한화엔진, 내년 영업익 84% 증가…최선호주 유지\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 92,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] 한투證 \"한화엔진, 내년 영업익 84% 증가…최선호주 유지\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVlM3MXhuZkJLd245Mnh1Yi1JOGVNQ3UwcXhNWGJPVGlsN09lN0UtamRVUHd2ZXJqVUl4SDB4X1kwc0VHM3FkTXhoQmRsN1M2Z1N0U2YzWExsOHFP?oc=5",
+          "date": "Tue, 24 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "069960",
+      "name": "현대백화점",
+      "market": "코스피",
+      "px": 89600.0,
+      "dayChg": -1.86,
+      "slPx": 85120,
+      "tpPx": 98560,
+      "ev": 2.0,
+      "winRate": 70,
+      "rs60": -1.9,
+      "tradingVal": 80,
+      "posTags": [
+        "실적 성장"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 실적 성장",
+        "핵심 기사: [모닝 리포트] \"현대백화점, 전 사업부 흑자 전환 기대\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 70,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"현대백화점, 전 사업부 흑자 전환 기대\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nQnQ0LWktYnQ1YmRrSVNrVHlwM0RDdXNWdTRyYXE3Rk5TS1dTVDgzMElaVmZYRmpzUXFaZm9xZ0w4MzhEaFd5V014cnM4RTlVMm1hc0pjbHE4RG5Y?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
     }
   ],
   "closeBet": [
     {
-      "code": "100790",
-      "name": "미래에셋벤처투자",
-      "market": "코스닥",
-      "px": 18770.0,
-      "dayChg": 21.57,
-      "slPx": 17832,
-      "tpPx": 19333,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -0.35,
-      "winRate": 33.3,
-      "btCnt": 9,
-      "rs60": 47.9,
-      "volMult": 5.3,
+      "code": "082740",
+      "name": "한화엔진",
+      "market": "코스피",
+      "px": 22300.0,
+      "dayChg": 1.36,
+      "slPx": 21185,
+      "tpPx": 24530,
+      "ev": 4.2,
+      "winRate": 92,
+      "rs60": 1.4,
+      "tradingVal": 100,
+      "posTags": [
+        "실적 성장",
+        "증권사 매수"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 실적 성장, 증권사 매수",
+        "핵심 기사: [모닝 리포트] 한투證 \"한화엔진, 내년 영업익 84% 증가…최선호주 유지\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 92,
       "news": [
         {
-          "src": "매일경제",
-          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-          "url": "https://www.mk.co.kr/news/stock/12219388",
-          "date": "Thu, 26 Nov 2026"
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] 한투證 \"한화엔진, 내년 영업익 84% 증가…최선호주 유지\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVlM3MXhuZkJLd245Mnh1Yi1JOGVNQ3UwcXhNWGJPVGlsN09lN0UtamRVUHd2ZXJqVUl4SDB4X1kwc0VHM3FkTXhoQmRsN1M2Z1N0U2YzWExsOHFP?oc=5",
+          "date": "Tue, 24 Nov 2026"
         }
-      ],
-      "why": [
-        "거래량 20일 평균의 5.3배 + 당일 +21.6% 강세 마감",
-        "15:20~15:30 동시호가 소액 분산 매수 → 익일 09:00 시초가 전량 매도"
-      ],
-      "score": 163.26699887150943
-    },
-    {
-      "code": "347700",
-      "name": "스피어",
-      "market": "코스닥",
-      "px": 22700.0,
-      "dayChg": 18.41,
-      "slPx": 21565,
-      "tpPx": 23381,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -4.92,
-      "winRate": 14.3,
-      "btCnt": 7,
-      "rs60": 32.6,
-      "volMult": 4.5,
-      "news": [],
-      "why": [
-        "거래량 20일 평균의 4.5배 + 당일 +18.4% 강세 마감",
-        "15:20~15:30 동시호가 소액 분산 매수 → 익일 09:00 시초가 전량 매도"
-      ],
-      "score": 144.09168829135814
-    },
-    {
-      "code": "310210",
-      "name": "보로노이",
-      "market": "코스닥",
-      "px": 138500.0,
-      "dayChg": 18.17,
-      "slPx": 131575,
-      "tpPx": 142655,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -4.35,
-      "winRate": 16.7,
-      "btCnt": 6,
-      "rs60": 10.8,
-      "volMult": 2.6,
-      "news": [],
-      "why": [
-        "거래량 20일 평균의 2.6배 + 당일 +18.2% 강세 마감",
-        "15:20~15:30 동시호가 소액 분산 매수 → 익일 09:00 시초가 전량 매도"
-      ],
-      "score": 121.11583719443813
-    },
-    {
-      "code": "218410",
-      "name": "RFHIC",
-      "market": "코스닥",
-      "px": 60000.0,
-      "dayChg": 11.94,
-      "slPx": 57000,
-      "tpPx": 61800,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": 4.98,
-      "winRate": 55.6,
-      "btCnt": 9,
-      "rs60": 58.8,
-      "volMult": 2.0,
-      "news": [],
-      "why": [
-        "거래량 20일 평균의 2.0배 + 당일 +11.9% 강세 마감",
-        "15:20~15:30 동시호가 소액 분산 매수 → 익일 09:00 시초가 전량 매도"
-      ],
-      "score": 95.21398474996377
-    },
-    {
-      "code": "295310",
-      "name": "에이치브이엠",
-      "market": "코스닥",
-      "px": 58400.0,
-      "dayChg": 14.51,
-      "slPx": 55480,
-      "tpPx": 60152,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -1.8,
-      "winRate": 27.3,
-      "btCnt": 11,
-      "rs60": 54.9,
-      "volMult": 2.7,
-      "news": [],
-      "why": [
-        "거래량 20일 평균의 2.7배 + 당일 +14.5% 강세 마감",
-        "15:20~15:30 동시호가 소액 분산 매수 → 익일 09:00 시초가 전량 매도"
-      ],
-      "score": 86.28625065585487
-    },
-    {
-      "code": "078600",
-      "name": "대주전자재료",
-      "market": "코스닥",
-      "px": 87600.0,
-      "dayChg": 11.45,
-      "slPx": 83220,
-      "tpPx": 90228,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": 6.05,
-      "winRate": 60.0,
-      "btCnt": 10,
-      "rs60": 26.0,
-      "volMult": 2.9,
-      "news": [],
-      "why": [
-        "거래량 20일 평균의 2.9배 + 당일 +11.4% 강세 마감",
-        "15:20~15:30 동시호가 소액 분산 매수 → 익일 09:00 시초가 전량 매도"
-      ],
-      "score": 79.42749417123625
-    }
-  ],
-  "openBet": [
-    {
-      "code": "100790",
-      "name": "미래에셋벤처투자",
-      "market": "코스닥",
-      "px": 18770.0,
-      "dayChg": 21.57,
-      "slPx": 18301,
-      "tpPx": 19427,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -0.35,
-      "winRate": 33.3,
-      "btCnt": 9,
-      "rs60": 47.9,
-      "volMult": 5.3,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-          "url": "https://www.mk.co.kr/news/stock/12219388",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ],
-      "why": [
-        "60일선 상승 추세 + 건강한 시초 갭 +4.9% (+6%↑ 과열 아님)",
-        "09:00 진입 → 당일 +3.5% 익절 / -2.5% 손절 / 15:20 전 청산"
-      ],
-      "score": 124.35416572625788
-    },
-    {
-      "code": "950260",
-      "name": "인제니아테라퓨틱스(Reg.S)",
-      "market": "코스닥",
-      "px": 27450.0,
-      "dayChg": 6.6,
-      "slPx": 26764,
-      "tpPx": 28411,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": 0.0,
-      "winRate": 0.0,
-      "btCnt": 0,
-      "rs60": 83.1,
-      "volMult": 2.0,
-      "news": [],
-      "why": [
-        "60일선 상승 추세 + 건강한 시초 갭 +0.2% (+6%↑ 과열 아님)",
-        "09:00 진입 → 당일 +3.5% 익절 / -2.5% 손절 / 15:20 전 청산"
-      ],
-      "score": 63.189612919784764
-    },
-    {
-      "code": "456160",
-      "name": "지투지바이오",
-      "market": "코스닥",
-      "px": 43800.0,
-      "dayChg": 7.48,
-      "slPx": 42705,
-      "tpPx": 45333,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -0.35,
-      "winRate": 33.3,
-      "btCnt": 6,
-      "rs60": 30.9,
-      "volMult": 1.5,
-      "news": [],
-      "why": [
-        "60일선 상승 추세 + 건강한 시초 갭 +0.4% (+6%↑ 과열 아님)",
-        "09:00 진입 → 당일 +3.5% 익절 / -2.5% 손절 / 15:20 전 청산"
-      ],
-      "score": 58.03915753720682
-    },
-    {
-      "code": "459580",
-      "name": "KODEX CD금리액티브(합성)",
-      "market": "코스피",
-      "px": 1076155.0,
-      "dayChg": 0.03,
-      "slPx": 1049251,
-      "tpPx": 1113820,
-      "slPct": 3.0,
-      "tpPct": 6.0,
-      "ev": -0.18,
-      "winRate": 0.0,
-      "btCnt": 29,
-      "rs60": 31.4,
-      "volMult": 0.8,
-      "news": [],
-      "why": [
-        "60일선 상승 추세 + 건강한 시초 갭 +0.0% (+6%↑ 과열 아님)",
-        "09:00 진입 → 당일 +3.5% 익절 / -2.5% 손절 / 15:20 전 청산"
-      ],
-      "score": 36.703730884361526
-    },
-    {
-      "code": "468530",
-      "name": "프로티나",
-      "market": "코스닥",
-      "px": 70600.0,
-      "dayChg": 7.13,
-      "slPx": 68835,
-      "tpPx": 73071,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -3.55,
-      "winRate": 20.0,
-      "btCnt": 5,
-      "rs60": 127.3,
-      "volMult": 1.0,
-      "news": [],
-      "why": [
-        "60일선 상승 추세 + 건강한 시초 갭 -0.2% (+6%↑ 과열 아님)",
-        "09:00 진입 → 당일 +3.5% 익절 / -2.5% 손절 / 15:20 전 청산"
-      ],
-      "score": 36.56482467657352
-    },
-    {
-      "code": "277810",
-      "name": "레인보우로보틱스",
-      "market": "코스닥",
-      "px": 467000.0,
-      "dayChg": 0.76,
-      "slPx": 455325,
-      "tpPx": 483345,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -3.55,
-      "winRate": 20.0,
-      "btCnt": 5,
-      "rs60": 33.0,
-      "volMult": 1.6,
-      "news": [],
-      "why": [
-        "60일선 상승 추세 + 건강한 시초 갭 +3.3% (+6%↑ 과열 아님)",
-        "09:00 진입 → 당일 +3.5% 익절 / -2.5% 손절 / 15:20 전 청산"
-      ],
-      "score": 30.045862392120455
-    }
-  ],
-  "nxt": [
-    {
-      "code": "100790",
-      "name": "미래에셋벤처투자",
-      "market": "코스닥",
-      "px": 18770.0,
-      "dayChg": 21.57,
-      "slPx": 18113,
-      "tpPx": 19615,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -0.35,
-      "winRate": 33.3,
-      "btCnt": 9,
-      "rs60": 47.9,
-      "volMult": 5.3,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-          "url": "https://www.mk.co.kr/news/stock/12219388",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ],
-      "why": [
-        "일 거래대금 1,754억 대형주 (NXT 호가 안정)",
-        "08:00~08:50 프리 / 15:40~20:00 애프터 지정가 50% 비중 진입"
-      ],
-      "score": 56.64724
-    },
-    {
-      "code": "347700",
-      "name": "스피어",
-      "market": "코스닥",
-      "px": 22700.0,
-      "dayChg": 18.41,
-      "slPx": 21906,
-      "tpPx": 23722,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": -4.92,
-      "winRate": 14.3,
-      "btCnt": 7,
-      "rs60": 32.6,
-      "volMult": 4.5,
-      "news": [],
-      "why": [
-        "일 거래대금 1,051억 대형주 (NXT 호가 안정)",
-        "08:00~08:50 프리 / 15:40~20:00 애프터 지정가 50% 비중 진입"
-      ],
-      "score": 48.92254
-    },
-    {
-      "code": "053800",
-      "name": "안랩",
-      "market": "코스닥",
-      "px": 164500.0,
-      "dayChg": 4.18,
-      "slPx": 158742,
-      "tpPx": 171902,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": 4.43,
-      "winRate": 58.3,
-      "btCnt": 12,
-      "rs60": 207.1,
-      "volMult": 2.1,
-      "news": [],
-      "why": [
-        "일 거래대금 2,650억 대형주 (NXT 호가 안정)",
-        "08:00~08:50 프리 / 15:40~20:00 애프터 지정가 50% 비중 진입"
-      ],
-      "score": 43.66096
-    },
-    {
-      "code": "459580",
-      "name": "KODEX CD금리액티브(합성)",
-      "market": "코스피",
-      "px": 1076155.0,
-      "dayChg": 0.03,
-      "slPx": 1038490,
-      "tpPx": 1124582,
-      "slPct": 3.0,
-      "tpPct": 6.0,
-      "ev": -0.18,
-      "winRate": 0.0,
-      "btCnt": 29,
-      "rs60": 31.4,
-      "volMult": 0.8,
-      "news": [],
-      "why": [
-        "일 거래대금 3,392억 대형주 (NXT 호가 안정)",
-        "08:00~08:50 프리 / 15:40~20:00 애프터 지정가 50% 비중 진입"
-      ],
-      "score": 36.84364
-    },
-    {
-      "code": "218410",
-      "name": "RFHIC",
-      "market": "코스닥",
-      "px": 60000.0,
-      "dayChg": 11.94,
-      "slPx": 57900,
-      "tpPx": 62700,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": 4.98,
-      "winRate": 55.6,
-      "btCnt": 9,
-      "rs60": 58.8,
-      "volMult": 2.0,
-      "news": [],
-      "why": [
-        "일 거래대금 690억 대형주 (NXT 호가 안정)",
-        "08:00~08:50 프리 / 15:40~20:00 애프터 지정가 50% 비중 진입"
-      ],
-      "score": 35.26
-    },
-    {
-      "code": "078600",
-      "name": "대주전자재료",
-      "market": "코스닥",
-      "px": 87600.0,
-      "dayChg": 11.45,
-      "slPx": 84534,
-      "tpPx": 91542,
-      "slPct": 8.0,
-      "tpPct": 16.0,
-      "ev": 6.05,
-      "winRate": 60.0,
-      "btCnt": 10,
-      "rs60": 26.0,
-      "volMult": 2.9,
-      "news": [],
-      "why": [
-        "일 거래대금 665억 대형주 (NXT 호가 안정)",
-        "08:00~08:50 프리 / 15:40~20:00 애프터 지정가 50% 비중 진입"
-      ],
-      "score": 34.23072
-    }
-  ],
-  "rankedTable": [
-    {
-      "code": "053800",
-      "name": "안랩",
-      "market": "코스닥",
-      "px": 164500.0,
-      "dayChg": 4.18,
-      "ret60": 176.5,
-      "rs60": 207.1,
-      "ev": 4.43,
-      "tradingVal": 2650
-    },
-    {
-      "code": "468530",
-      "name": "프로티나",
-      "market": "코스닥",
-      "px": 70600.0,
-      "dayChg": 7.13,
-      "ret60": 96.7,
-      "rs60": 127.3,
-      "ev": -3.55,
-      "tradingVal": 193
-    },
-    {
-      "code": "950260",
-      "name": "인제니아테라퓨틱스(Reg.S)",
-      "market": "코스닥",
-      "px": 27450.0,
-      "dayChg": 6.6,
-      "ret60": 52.5,
-      "rs60": 83.1,
-      "ev": 0.0,
-      "tradingVal": 175
-    },
-    {
-      "code": "121600",
-      "name": "나노신소재",
-      "market": "코스닥",
-      "px": 65700.0,
-      "dayChg": 5.29,
-      "ret60": 30.9,
-      "rs60": 61.5,
-      "ev": 5.5,
-      "tradingVal": 182
-    },
-    {
-      "code": "218410",
-      "name": "RFHIC",
-      "market": "코스닥",
-      "px": 60000.0,
-      "dayChg": 11.94,
-      "ret60": 28.2,
-      "rs60": 58.8,
-      "ev": 4.98,
-      "tradingVal": 690
-    },
-    {
-      "code": "295310",
-      "name": "에이치브이엠",
-      "market": "코스닥",
-      "px": 58400.0,
-      "dayChg": 14.51,
-      "ret60": 24.3,
-      "rs60": 54.9,
-      "ev": -1.8,
-      "tradingVal": 307
-    },
-    {
-      "code": "100790",
-      "name": "미래에셋벤처투자",
-      "market": "코스닥",
-      "px": 18770.0,
-      "dayChg": 21.57,
-      "ret60": 17.3,
-      "rs60": 47.9,
-      "ev": -0.35,
-      "tradingVal": 1754
-    },
-    {
-      "code": "003490",
-      "name": "대한항공",
-      "market": "코스피",
-      "px": 29700.0,
-      "dayChg": -6.16,
-      "ret60": 3.5,
-      "rs60": 34.1,
-      "ev": -1.41,
-      "tradingVal": 922
-    },
-    {
-      "code": "352820",
-      "name": "하이브",
-      "market": "코스피",
-      "px": 185700.0,
-      "dayChg": 4.97,
-      "ret60": 3.2,
-      "rs60": 33.8,
-      "ev": -8.35,
-      "tradingVal": 601
-    },
-    {
-      "code": "277810",
-      "name": "레인보우로보틱스",
-      "market": "코스닥",
-      "px": 467000.0,
-      "dayChg": 0.76,
-      "ret60": 2.4,
-      "rs60": 33.0,
-      "ev": -3.55,
-      "tradingVal": 1004
-    },
-    {
-      "code": "347700",
-      "name": "스피어",
-      "market": "코스닥",
-      "px": 22700.0,
-      "dayChg": 18.41,
-      "ret60": 2.0,
-      "rs60": 32.6,
-      "ev": -4.92,
-      "tradingVal": 1051
-    },
-    {
-      "code": "033780",
-      "name": "KT&G",
-      "market": "코스피",
-      "px": 179500.0,
-      "dayChg": -2.02,
-      "ret60": 1.8,
-      "rs60": 32.4,
-      "ev": -1.18,
-      "tradingVal": 994
-    },
-    {
-      "code": "459580",
-      "name": "KODEX CD금리액티브(합성)",
-      "market": "코스피",
-      "px": 1076155.0,
-      "dayChg": 0.03,
-      "ret60": 0.8,
-      "rs60": 31.4,
-      "ev": -0.18,
-      "tradingVal": 3392
-    },
-    {
-      "code": "456160",
-      "name": "지투지바이오",
-      "market": "코스닥",
-      "px": 43800.0,
-      "dayChg": 7.48,
-      "ret60": 0.3,
-      "rs60": 30.9,
-      "ev": -0.35,
-      "tradingVal": 196
-    },
-    {
-      "code": "000250",
-      "name": "삼천당제약",
-      "market": "코스닥",
-      "px": 166400.0,
-      "dayChg": 9.62,
-      "ret60": -2.7,
-      "rs60": 27.9,
-      "ev": -0.35,
-      "tradingVal": 377
-    },
-    {
-      "code": "078600",
-      "name": "대주전자재료",
-      "market": "코스닥",
-      "px": 87600.0,
-      "dayChg": 11.45,
-      "ret60": -4.6,
-      "rs60": 26.0,
-      "ev": 6.05,
-      "tradingVal": 665
-    },
-    {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
-      "market": "코스피",
-      "px": 24010.0,
-      "dayChg": 0.86,
-      "ret60": -8.4,
-      "rs60": 22.2,
-      "ev": 0.77,
-      "tradingVal": 4342
-    },
-    {
-      "code": "379800",
-      "name": "KODEX 미국S&P500",
-      "market": "코스피",
-      "px": 21755.0,
-      "dayChg": 0.86,
-      "ret60": -8.5,
-      "rs60": 22.1,
-      "ev": 0.76,
-      "tradingVal": 3349
-    },
-    {
-      "code": "379810",
-      "name": "KODEX 미국나스닥100",
-      "market": "코스피",
-      "px": 23245.0,
-      "dayChg": 1.35,
-      "ret60": -13.1,
-      "rs60": 17.5,
-      "ev": 1.39,
-      "tradingVal": 3708
-    },
-    {
-      "code": "133690",
-      "name": "TIGER 미국나스닥100",
-      "market": "코스피",
-      "px": 155660.0,
-      "dayChg": 1.24,
-      "ret60": -13.2,
-      "rs60": 17.4,
-      "ev": 1.35,
-      "tradingVal": 4251
-    },
-    {
-      "code": "226950",
-      "name": "올릭스",
-      "market": "코스닥",
-      "px": 91600.0,
-      "dayChg": 13.51,
-      "ret60": -13.5,
-      "rs60": 17.1,
-      "ev": -3.55,
-      "tradingVal": 365
-    },
-    {
-      "code": "105560",
-      "name": "KB금융",
-      "market": "코스피",
-      "px": 145300.0,
-      "dayChg": -1.89,
-      "ret60": -15.3,
-      "rs60": 15.3,
-      "ev": 0.98,
-      "tradingVal": 1861
-    },
-    {
-      "code": "310210",
-      "name": "보로노이",
-      "market": "코스닥",
-      "px": 138500.0,
-      "dayChg": 18.17,
-      "ret60": -19.8,
-      "rs60": 10.8,
-      "ev": -4.35,
-      "tradingVal": 300
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "코스닥",
-      "px": 137200.0,
-      "dayChg": 3.39,
-      "ret60": -22.4,
-      "rs60": 8.2,
-      "ev": 4.74,
-      "tradingVal": 2309
-    },
-    {
-      "code": "229200",
-      "name": "KODEX 코스닥150",
-      "market": "코스피",
-      "px": 10850.0,
-      "dayChg": 1.07,
-      "ret60": -25.0,
-      "rs60": 5.6,
-      "ev": -7.44,
-      "tradingVal": 6034
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "코스피",
-      "px": 418000.0,
-      "dayChg": 2.2,
-      "ret60": -26.8,
-      "rs60": 3.8,
-      "ev": -0.36,
-      "tradingVal": 2042
-    },
-    {
-      "code": "000270",
-      "name": "기아",
-      "market": "코스피",
-      "px": 93700.0,
-      "dayChg": -2.4,
-      "ret60": -26.8,
-      "rs60": 3.8,
-      "ev": -7.54,
-      "tradingVal": 1336
-    },
-    {
-      "code": "102110",
-      "name": "TIGER 200",
-      "market": "코스피",
-      "px": 73265.0,
-      "dayChg": 0.44,
-      "ret60": -31.3,
-      "rs60": -0.7,
-      "ev": 0.95,
-      "tradingVal": 5432
-    },
-    {
-      "code": "069500",
-      "name": "KODEX 200",
-      "market": "코스피",
-      "px": 73395.0,
-      "dayChg": 0.35,
-      "ret60": -31.4,
-      "rs60": -0.8,
-      "ev": 0.95,
-      "tradingVal": 13916
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "market": "코스피",
-      "px": 171300.0,
-      "dayChg": 0.35,
-      "ret60": -33.3,
-      "rs60": -2.7,
-      "ev": 0.94,
-      "tradingVal": 22727
-    },
-    {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
-      "market": "코스피",
-      "px": 22995.0,
-      "dayChg": 1.79,
-      "ret60": -33.9,
-      "rs60": -3.3,
-      "ev": -1.15,
-      "tradingVal": 2205
-    },
-    {
-      "code": "347850",
-      "name": "디앤디파마텍",
-      "market": "코스닥",
-      "px": 36450.0,
-      "dayChg": 7.68,
-      "ret60": -34.4,
-      "rs60": -3.8,
-      "ev": -0.35,
-      "tradingVal": 401
-    },
-    {
-      "code": "091160",
-      "name": "KODEX 반도체",
-      "market": "코스피",
-      "px": 81200.0,
-      "dayChg": 0.95,
-      "ret60": -34.7,
-      "rs60": -4.0,
-      "ev": -1.15,
-      "tradingVal": 963
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 259000.0,
-      "dayChg": -3.9,
-      "ret60": -35.2,
-      "rs60": -4.6,
-      "ev": 1.94,
-      "tradingVal": 943
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 298500.0,
-      "dayChg": 2.23,
-      "ret60": -35.3,
-      "rs60": -4.7,
-      "ev": -3.55,
-      "tradingVal": 1208
-    },
-    {
-      "code": "000660",
-      "name": "SK하이닉스",
-      "market": "코스피",
-      "px": 1053000.0,
-      "dayChg": 2.23,
-      "ret60": -36.3,
-      "rs60": -5.7,
-      "ev": -1.49,
-      "tradingVal": 35161
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "코스피",
-      "px": 652000.0,
-      "dayChg": 2.68,
-      "ret60": -36.6,
-      "rs60": -6.0,
-      "ev": 0.65,
-      "tradingVal": 3245
-    },
-    {
-      "code": "395160",
-      "name": "KODEX AI반도체TOP2플러스",
-      "market": "코스피",
-      "px": 24520.0,
-      "dayChg": 1.85,
-      "ret60": -36.6,
-      "rs60": -6.0,
-      "ev": 0.65,
-      "tradingVal": 981
-    },
-    {
-      "code": "010060",
-      "name": "OCI홀딩스",
-      "market": "코스피",
-      "px": 165400.0,
-      "dayChg": 5.55,
-      "ret60": -39.7,
-      "rs60": -9.1,
-      "ev": -5.35,
-      "tradingVal": 439
-    },
-    {
-      "code": "141080",
-      "name": "리가켐바이오",
-      "market": "코스닥",
-      "px": 56700.0,
-      "dayChg": 5.59,
-      "ret60": -43.9,
-      "rs60": -13.3,
-      "ev": -4.92,
-      "tradingVal": 195
-    },
-    {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "market": "코스피",
-      "px": 19980.0,
-      "dayChg": 6.79,
-      "ret60": -44.7,
-      "rs60": -14.1,
-      "ev": -0.18,
-      "tradingVal": 431
+      ]
     },
     {
       "code": "009150",
       "name": "삼성전기",
       "market": "코스피",
-      "px": 784000.0,
-      "dayChg": 3.84,
-      "ret60": -44.8,
-      "rs60": -14.2,
-      "ev": -2.35,
-      "tradingVal": 6063
+      "px": 786000.0,
+      "dayChg": 4.11,
+      "slPx": 746700,
+      "tpPx": 864600,
+      "ev": 2.0,
+      "winRate": 70,
+      "rs60": 4.1,
+      "tradingVal": 6128,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 외인·기관 수급",
+        "핵심 기사: [인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 70,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
+          "url": "https://www.mk.co.kr/news/stock/12219388",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
     },
     {
-      "code": "012450",
-      "name": "한화에어로스페이스",
+      "code": "402340",
+      "name": "SK스퀘어",
       "market": "코스피",
-      "px": 627000.0,
-      "dayChg": -0.95,
-      "ret60": -45.8,
-      "rs60": -15.2,
-      "ev": -4.59,
-      "tradingVal": 936
+      "px": 651000.0,
+      "dayChg": 2.52,
+      "slPx": 618450,
+      "tpPx": 716100,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 2.5,
+      "tradingVal": 3257,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adzJndUNhamFKcDEzZE5RN1c3UFJjaDEzRXJqV0F2RmI0OFJGWVNTZXExTUhRUzFEcVhqSzdUY2h6ay1LMVdHUkNHRGJMVjhOLXlrYS13Q1dvM3p3?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
     },
     {
-      "code": "233740",
-      "name": "KODEX 코스닥150레버리지",
-      "market": "코스피",
-      "px": 3800.0,
-      "dayChg": 1.47,
-      "ret60": -48.6,
-      "rs60": -18.0,
-      "ev": -5.87,
-      "tradingVal": 6030
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "코스닥",
+      "px": 138400.0,
+      "dayChg": 4.3,
+      "slPx": 131480,
+      "tpPx": 152240,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 4.3,
+      "tradingVal": 2354,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XLXBTOGxuZXl5NHJ5blVIOHlFOHpRcEMtbXNhSUVsX21jSk9UV0U0Z2gzN2pJc1UxUm1QcHNZS2g0OGIzd3RzYmJ3SnBlVWVTQ1hzb3RnWldjUnlD?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
     },
     {
-      "code": "122630",
-      "name": "KODEX 레버리지",
+      "code": "278470",
+      "name": "에이피알",
       "market": "코스피",
-      "px": 45885.0,
-      "dayChg": 1.0,
-      "ret60": -56.9,
-      "rs60": -26.3,
-      "ev": 1.94,
-      "tradingVal": 12011
+      "px": 331500.0,
+      "dayChg": 13.53,
+      "slPx": 314925,
+      "tpPx": 364650,
+      "ev": 0.7,
+      "winRate": 57,
+      "rs60": 13.5,
+      "tradingVal": 1408,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 강세·모멘텀",
+        "핵심 기사: [MK 골든크로스 돌파종목 : 제닉(123330) & 에이피알(278470)]",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 57,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "[MK 골든크로스 돌파종목 : 제닉(123330) & 에이피알(278470)]",
+          "url": "https://www.mk.co.kr/news/stock/12218955",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "272210",
+      "name": "한화시스템",
+      "market": "코스피",
+      "px": 49450.0,
+      "dayChg": 4.66,
+      "slPx": 46978,
+      "tpPx": 54395,
+      "ev": 0.7,
+      "winRate": 57,
+      "rs60": 4.7,
+      "tradingVal": 248,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 강세·모멘텀",
+        "핵심 기사: 웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 57,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
+          "url": "https://www.mk.co.kr/news/stock/12219212",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
     }
   ],
-  "allUniverseCount": 292,
+  "openBet": [
+    {
+      "code": "082740",
+      "name": "한화엔진",
+      "market": "코스피",
+      "px": 22300.0,
+      "dayChg": 1.36,
+      "slPx": 21185,
+      "tpPx": 24530,
+      "ev": 4.2,
+      "winRate": 92,
+      "rs60": 1.4,
+      "tradingVal": 100,
+      "posTags": [
+        "실적 성장",
+        "증권사 매수"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 실적 성장, 증권사 매수",
+        "핵심 기사: [모닝 리포트] 한투證 \"한화엔진, 내년 영업익 84% 증가…최선호주 유지\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 92,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] 한투證 \"한화엔진, 내년 영업익 84% 증가…최선호주 유지\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGVlM3MXhuZkJLd245Mnh1Yi1JOGVNQ3UwcXhNWGJPVGlsN09lN0UtamRVUHd2ZXJqVUl4SDB4X1kwc0VHM3FkTXhoQmRsN1M2Z1N0U2YzWExsOHFP?oc=5",
+          "date": "Tue, 24 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "코스피",
+      "px": 171900.0,
+      "dayChg": 0.7,
+      "slPx": 163305,
+      "tpPx": 189090,
+      "ev": 2.0,
+      "winRate": 70,
+      "rs60": 0.7,
+      "tradingVal": 22906,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 외인·기관 수급",
+        "핵심 기사: 코스피, 장초반 4750선 회복…삼성전자·SK하이닉스 동반 반등",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 70,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "코스피, 장초반 4750선 회복…삼성전자·SK하이닉스 동반 반등",
+          "url": "https://www.mk.co.kr/news/stock/12218953",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "[특징주] 외국인 에스텍·기관 다올투자증권 순매수 1위…삼성전자 동반 순매도",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mQng0ejJYVEsxTlUyQWtIZlc4bThsLXJlMlpWUU84ZEN0YW5YN1VWejdYdlFuRWwycnFpZGNUYlUwVHdTVktZWVFxcnpwc0k3MUVZYnV2Y1lvNFBuaDJ4a0Flc1BjT3lCMHc?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "코스피",
+      "px": 786000.0,
+      "dayChg": 4.11,
+      "slPx": 746700,
+      "tpPx": 864600,
+      "ev": 2.0,
+      "winRate": 70,
+      "rs60": 4.1,
+      "tradingVal": 6128,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 외인·기관 수급",
+        "핵심 기사: [인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 70,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
+          "url": "https://www.mk.co.kr/news/stock/12219388",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "코스피",
+      "px": 651000.0,
+      "dayChg": 2.52,
+      "slPx": 618450,
+      "tpPx": 716100,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 2.5,
+      "tradingVal": 3257,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adzJndUNhamFKcDEzZE5RN1c3UFJjaDEzRXJqV0F2RmI0OFJGWVNTZXExTUhRUzFEcVhqSzdUY2h6ay1LMVdHUkNHRGJMVjhOLXlrYS13Q1dvM3p3?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "코스닥",
+      "px": 138400.0,
+      "dayChg": 4.3,
+      "slPx": 131480,
+      "tpPx": 152240,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 4.3,
+      "tradingVal": 2354,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XLXBTOGxuZXl5NHJ5blVIOHlFOHpRcEMtbXNhSUVsX21jSk9UV0U0Z2gzN2pJc1UxUm1QcHNZS2g0OGIzd3RzYmJ3SnBlVWVTQ1hzb3RnWldjUnlD?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "272210",
+      "name": "한화시스템",
+      "market": "코스피",
+      "px": 49450.0,
+      "dayChg": 4.66,
+      "slPx": 46978,
+      "tpPx": 54395,
+      "ev": 0.7,
+      "winRate": 57,
+      "rs60": 4.7,
+      "tradingVal": 248,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 강세·모멘텀",
+        "핵심 기사: 웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 57,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
+          "url": "https://www.mk.co.kr/news/stock/12219212",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    }
+  ],
+  "nxt": [
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "코스피",
+      "px": 171900.0,
+      "dayChg": 0.7,
+      "slPx": 163305,
+      "tpPx": 189090,
+      "ev": 2.0,
+      "winRate": 70,
+      "rs60": 0.7,
+      "tradingVal": 22906,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 외인·기관 수급",
+        "핵심 기사: 코스피, 장초반 4750선 회복…삼성전자·SK하이닉스 동반 반등",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 70,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "코스피, 장초반 4750선 회복…삼성전자·SK하이닉스 동반 반등",
+          "url": "https://www.mk.co.kr/news/stock/12218953",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "[특징주] 외국인 에스텍·기관 다올투자증권 순매수 1위…삼성전자 동반 순매도",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5mQng0ejJYVEsxTlUyQWtIZlc4bThsLXJlMlpWUU84ZEN0YW5YN1VWejdYdlFuRWwycnFpZGNUYlUwVHdTVktZWVFxcnpwc0k3MUVZYnV2Y1lvNFBuaDJ4a0Flc1BjT3lCMHc?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "코스피",
+      "px": 786000.0,
+      "dayChg": 4.11,
+      "slPx": 746700,
+      "tpPx": 864600,
+      "ev": 2.0,
+      "winRate": 70,
+      "rs60": 4.1,
+      "tradingVal": 6128,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 외인·기관 수급",
+        "핵심 기사: [인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 70,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
+          "url": "https://www.mk.co.kr/news/stock/12219388",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "코스피",
+      "px": 651000.0,
+      "dayChg": 2.52,
+      "slPx": 618450,
+      "tpPx": 716100,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 2.5,
+      "tradingVal": 3257,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adzJndUNhamFKcDEzZE5RN1c3UFJjaDEzRXJqV0F2RmI0OFJGWVNTZXExTUhRUzFEcVhqSzdUY2h6ay1LMVdHUkNHRGJMVjhOLXlrYS13Q1dvM3p3?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "코스닥",
+      "px": 138400.0,
+      "dayChg": 4.3,
+      "slPx": 131480,
+      "tpPx": 152240,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 4.3,
+      "tradingVal": 2354,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XLXBTOGxuZXl5NHJ5blVIOHlFOHpRcEMtbXNhSUVsX21jSk9UV0U0Z2gzN2pJc1UxUm1QcHNZS2g0OGIzd3RzYmJ3SnBlVWVTQ1hzb3RnWldjUnlD?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 259500.0,
+      "dayChg": -3.71,
+      "slPx": 246525,
+      "tpPx": 285450,
+      "ev": 0.7,
+      "winRate": 57,
+      "rs60": -3.7,
+      "tradingVal": 951,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 57,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 331500.0,
+      "dayChg": 13.53,
+      "slPx": 314925,
+      "tpPx": 364650,
+      "ev": 0.7,
+      "winRate": 57,
+      "rs60": 13.5,
+      "tradingVal": 1408,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 강세·모멘텀",
+        "핵심 기사: [MK 골든크로스 돌파종목 : 제닉(123330) & 에이피알(278470)]",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-14 (12/10)"
+      ],
+      "score": 57,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "[MK 골든크로스 돌파종목 : 제닉(123330) & 에이피알(278470)]",
+          "url": "https://www.mk.co.kr/news/stock/12218955",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    }
+  ],
+  "rankedTable": [
+    {
+      "code": "000880",
+      "name": "한화",
+      "market": "코스피",
+      "px": 66000.0,
+      "dayChg": -1.35,
+      "rs60": 97,
+      "ev": 4.7
+    },
+    {
+      "code": "082740",
+      "name": "한화엔진",
+      "market": "코스피",
+      "px": 22300.0,
+      "dayChg": 1.36,
+      "rs60": 92,
+      "ev": 4.2
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market": "코스피",
+      "px": 30400.0,
+      "dayChg": -1.94,
+      "rs60": 90,
+      "ev": 4.0
+    },
+    {
+      "code": "377300",
+      "name": "카카오페이",
+      "market": "코스피",
+      "px": 32350.0,
+      "dayChg": -7.44,
+      "rs60": 90,
+      "ev": 4.0
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "코스피",
+      "px": 171900.0,
+      "dayChg": 0.7,
+      "rs60": 70,
+      "ev": 2.0
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "코스피",
+      "px": 786000.0,
+      "dayChg": 4.11,
+      "rs60": 70,
+      "ev": 2.0
+    },
+    {
+      "code": "069960",
+      "name": "현대백화점",
+      "market": "코스피",
+      "px": 89600.0,
+      "dayChg": -1.86,
+      "rs60": 70,
+      "ev": 2.0
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "코스피",
+      "px": 651000.0,
+      "dayChg": 2.52,
+      "rs60": 65,
+      "ev": 1.5
+    },
+    {
+      "code": "036930",
+      "name": "주성엔지니어링",
+      "market": "코스닥",
+      "px": 138400.0,
+      "dayChg": 4.3,
+      "rs60": 65,
+      "ev": 1.5
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 259500.0,
+      "dayChg": -3.71,
+      "rs60": 57,
+      "ev": 0.7
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 331500.0,
+      "dayChg": 13.53,
+      "rs60": 57,
+      "ev": 0.7
+    },
+    {
+      "code": "272210",
+      "name": "한화시스템",
+      "market": "코스피",
+      "px": 49450.0,
+      "dayChg": 4.66,
+      "rs60": 57,
+      "ev": 0.7
+    }
+  ],
   "news": [
+    {
+      "src": "매일경제",
+      "title": "제일기획, 2027년 정기 임원인사 단행...권현정·홍상우 부사장 승진",
+      "url": "https://www.mk.co.kr/news/stock/12219525",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "IMM컨소, 12년 보유 끝 현대LNG해운 매각 마무리",
+      "url": "https://www.mk.co.kr/news/stock/12219459",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "日 키옥시아, 엔비디아와 SSD 실증···韓 HBM 일부 대체 노려",
+      "url": "https://www.mk.co.kr/news/world/12219457",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "ETF 10년새 23배 성장…자본硏 “액티브 ETF 규제 완화해야”",
+      "url": "https://www.mk.co.kr/news/stock/12219453",
+      "date": "Thu, 26 Nov 2026"
+    },
     {
       "src": "매일경제",
       "title": "[단독] 금감원, 공개매수신고서 심사 강화한다…일반주주 보호 포석",
@@ -1136,6 +1008,72 @@
       "title": "베일 벗은 디지털자산법, 코인 투자자에게 달라지는 것[엠블록레터]",
       "url": "https://www.mk.co.kr/news/stock/12218924",
       "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "버리 “나스닥 숏베팅 접었다” 향후 증시 관전 포인트는",
+      "url": "https://www.mk.co.kr/news/business/12218919",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "스튜디오드래곤 | 중국 구작 판매 기대 확대, 2027년 이익 개선의 추가 변수",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcVdoV09JelFHWndjYXBrc1hJVGd0THY3eUExeUp2dEVYY1EzUFhoeTlPTmxrUjJ1eDRvc0I2VE54Z0FQZm51OTBXNEpaWHFsSTNPZUhMVzFvU0xSQmZtXzRBSEFpVTROMTlWa01CRF9DTXlwQ2Iwb0hWSTBXa043NkJ0UlhocVlZ?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] 원익QnC, 내년 영업익 1678억원 전망…쿼츠가 성장 견인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lVU9ZTjhLclVIUG95cHZPSlRSUzJsOHVrYk1KSlFEWkg5UEZJY2NhWFdraDUyb1JlWU5aal9zenUtYmxtOWFzVEEwcGZTTHNNd2g2NzY5ZzBvRXhk?oc=5",
+      "date": "Wed, 25 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"코스맥스, 국내 증설·해외 사업 개선에 성장 지속\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uRW5MRzR3NHNMSkNjOTNjQ0xhX2hYTzJkblNkU1BNYVp5V3d4a3pXWER6c3VTUi1FaXM3SXgxNU81X0xXUWFkYW9GMi1ESmtLWFphRkpXSm5OSVNF?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"현대백화점, 전 사업부 흑자 전환 기대\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nQnQ0LWktYnQ1YmRrSVNrVHlwM0RDdXNWdTRyYXE3Rk5TS1dTVDgzMElaVmZYRmpzUXFaZm9xZ0w4MzhEaFd5V014cnM4RTlVMm1hc0pjbHE4RG5Y?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] 유안타證 \"이광수 입점 효과 '톡톡'…디어유, 목표가 3만원\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02MW9IYlo4dzBfTGx5UWIwMS0zQU5TQl9XV0VXdFhUT0RIaFVyaVhzY3E1dzhMV0hpbjNTZTdBTjQ1aWFaZnBleURHTlUzclRkTFBQX2VsMGZGaDV3?oc=5",
+      "date": "Wed, 25 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] 대신증권 \"CJ, 올리브영 인바운드 수요가 하단 지지\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HRFJtbmR1ZE54M2d1S0dSb1BYaGpTMDl4bExERHpIdjR5MTJMZFlJY1hNVEJucE11TWc1RjZiOWY4Rm9DU0hjZ2xJblNhSjJFQkJERWFvVWdsYzRp?oc=5",
+      "date": "Wed, 25 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"한화솔루션, 탠덤셀 투자에 현금흐름 악화…목표가 하향\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YVm51ZDRMelBLcExKbV92RUpQbFNXNjVMczFTN2sxMTU1TG03clo4dlJfSWNBbkwzS3lidkNkYzQ4VlpUVVdJVUZPelhxVDg2QUJxWUppTlphZ1ZB?oc=5",
+      "date": "Wed, 25 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"SKC, 동박 자회사 지분가치 8000억원 감소…목표가 하향\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TZVhyZm80VUFVYkRsQnNNdGpUZlZnS3FBVTd6Ulc1YnczUW5uR1pOTE9tQ3dIOTh1ZFR0ZnhONGVqSUtfeXNDLVJkMGJjZTZWU2dyREplWkNMNnd3?oc=5",
+      "date": "Wed, 25 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+      "date": "Wed, 25 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"파두, 주가만 빠졌다…낸드 업황은 견조\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EZk1DTnlCbjlySnJBdEVZWmRjQUtkLW94OGtISVJQMXZqRTRwV2FnT3J0aEI1SUQ0NzBMQnRWd2pyX3dKLUowQXhLakYwNmxZdFN2YnJiSy0wb2d4?oc=5",
+      "date": "Wed, 25 Nov 2026"
     }
   ]
 }
