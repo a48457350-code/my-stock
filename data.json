@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-26 21:24 KST (기사·선물·만기 100%)",
+  "updatedAt": "2026-11-27 08:48 KST (기사·선물·만기 100%)",
   "scannedTotal": 292,
   "analyzedDetail": 90,
   "regime": {
-    "score": 79,
+    "score": 83,
     "type": "bull",
-    "badge": "🟢 선물·뉴스 강세 (네 마녀의 날 D-14 (12/10))",
+    "badge": "🟢 선물·뉴스 강세 (네 마녀의 날 D-13 (12/10))",
     "title": "호재·리포트 종목 적극 분할 매수",
     "maxSlots": 4,
     "riskScale": 1.0,
@@ -13,14 +13,14 @@
       {
         "name": "코스피",
         "close": 4711.21,
-        "chg": 0.29,
-        "state": "네 마녀의 날 D-14 (12/10)"
+        "chg": 0.0,
+        "state": "네 마녀의 날 D-13 (12/10)"
       },
       {
         "name": "코스닥",
         "close": 655.71,
-        "chg": 0.78,
-        "state": "MSCI 리밸런싱 D-4 (11/30)"
+        "chg": 0.0,
+        "state": "MSCI 리밸런싱 D-3 (11/30)"
       }
     ]
   },
@@ -30,46 +30,201 @@
       "pct": 0.45
     },
     "futNasdaq": {
-      "px": 26273.5,
-      "pct": 0.66
+      "px": 26249.5,
+      "pct": 0.57
     },
     "fxKrw": {
-      "px": 1343.86,
-      "pct": 0.05
+      "px": 1344.5,
+      "pct": 0.09
     }
   },
   "swing": [
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 298500.0,
+      "dayChg": 0.0,
+      "slPx": 283575,
+      "tpPx": 328350,
+      "ev": 5.7,
+      "winRate": 95,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "목표가 상향",
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 4건 포착: 목표가 상향, 강세·모멘텀",
+        "핵심 기사: 에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 107,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+          "url": "https://www.mk.co.kr/news/stock/12219832",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
+          "url": "https://www.mk.co.kr/news/stock/12219622",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "코스피",
+      "px": 652000.0,
+      "dayChg": 0.0,
+      "slPx": 619400,
+      "tpPx": 717200,
+      "ev": 4.0,
+      "winRate": 90,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "주주환원",
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 주주환원, 외인·기관 수급",
+        "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 90,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+          "url": "https://www.mk.co.kr/news/stock/12219839",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adzJndUNhamFKcDEzZE5RN1c3UFJjaDEzRXJqV0F2RmI0OFJGWVNTZXExTUhRUzFEcVhqSzdUY2h6ay1LMVdHUkNHRGJMVjhOLXlrYS13Q1dvM3p3?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "market": "코스닥",
+      "px": 170300.0,
+      "dayChg": 0.0,
+      "slPx": 161785,
+      "tpPx": 187330,
+      "ev": 3.5,
+      "winRate": 85,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "목표가 상향",
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)",
+        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
+      ],
+      "score": 85,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4QUNJd3ZMenNLTTk0QjRtUFJRVGx5WmtZRW05d3RqcGxRcFVHd1pmV1Y5ZTZ5Y2pDaTV6UF8tdU8zUHNKQWJBSnlaeDkxWFpXZXhUVWpreHNtamhB?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "코스피",
+      "px": 430000.0,
+      "dayChg": 0.0,
+      "slPx": 408500,
+      "tpPx": 473000,
+      "ev": 2.8,
+      "winRate": 78,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "주주환원",
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 4건 포착: 주주환원, 외인·기관 수급",
+        "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)",
+        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
+      ],
+      "score": 78,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+          "url": "https://www.mk.co.kr/news/stock/12219839",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "'4조대어' SK팜테코, 소수지분 매각 본격화",
+          "url": "https://www.mk.co.kr/news/stock/12219648",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"SKC, 동박 자회사 지분가치 8000억원 감소…목표가 하향\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TZVhyZm80VUFVYkRsQnNNdGpUZlZnS3FBVTd6Ulc1YnczUW5uR1pOTE9tQ3dIOTh1ZFR0ZnhONGVqSUtfeXNDLVJkMGJjZTZWU2dyREplWkNMNnd3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        }
+      ]
+    },
     {
       "code": "000880",
       "name": "한화",
       "market": "코스피",
       "px": 65800.0,
-      "dayChg": -1.64,
+      "dayChg": 0.0,
       "slPx": 62510,
       "tpPx": 72380,
-      "ev": 5.2,
-      "winRate": 95,
-      "rs60": -1.6,
-      "tradingVal": 86,
+      "ev": 2.5,
+      "winRate": 75,
+      "rs60": 0.0,
+      "tradingVal": 0,
       "posTags": [
-        "강세·모멘텀",
         "실적 성장",
         "증권사 매수"
       ],
       "why": [
-        "실시간 뉴스 5건 포착: 강세·모멘텀, 실적 성장, 증권사 매수",
-        "핵심 기사: 웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)",
+        "실시간 뉴스 2건 포착: 실적 성장, 증권사 매수",
+        "핵심 기사: [모닝 리포트] \"한화솔루션, 탠덤셀 투자에 현금흐름 악화…목표가 하향\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)",
         "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
       ],
-      "score": 102,
+      "score": 75,
       "news": [
-        {
-          "src": "매일경제",
-          "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
-          "url": "https://www.mk.co.kr/news/stock/12219212",
-          "date": "Thu, 26 Nov 2026"
-        },
         {
           "src": "구글·리포트",
           "title": "[모닝 리포트] \"한화솔루션, 탠덤셀 투자에 현금흐름 악화…목표가 하향\"",
@@ -85,564 +240,67 @@
       ]
     },
     {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 324000.0,
-      "dayChg": 10.96,
-      "slPx": 307800,
-      "tpPx": 356400,
-      "ev": 4.7,
-      "winRate": 95,
-      "rs60": 11.0,
-      "tradingVal": 1760,
-      "posTags": [
-        "목표가 상향",
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
-        "핵심 기사: 에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 97,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-          "url": "https://www.mk.co.kr/news/stock/12219622",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
+      "code": "064760",
+      "name": "티씨케이",
       "market": "코스닥",
-      "px": 171400.0,
-      "dayChg": 1.06,
-      "slPx": 162830,
-      "tpPx": 188540,
-      "ev": 3.5,
-      "winRate": 85,
-      "rs60": 1.1,
-      "tradingVal": 854,
+      "px": 157900.0,
+      "dayChg": 0.0,
+      "slPx": 150005,
+      "tpPx": 173690,
+      "ev": 2.3,
+      "winRate": 73,
+      "rs60": 0.0,
+      "tradingVal": 0,
       "posTags": [
-        "목표가 상향",
-        "강세·모멘텀"
+        "수주·계약"
       ],
       "why": [
-        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)",
-        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
+        "실시간 뉴스 1건 포착: 수주·계약",
+        "핵심 기사: [모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 85,
+      "score": 73,
       "news": [
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4QUNJd3ZMenNLTTk0QjRtUFJRVGx5WmtZRW05d3RqcGxRcFVHd1pmV1Y5ZTZ5Y2pDaTV6UF8tdU8zUHNKQWJBSnlaeDkxWFpXZXhUVWpreHNtamhB?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "069960",
-      "name": "현대백화점",
-      "market": "코스피",
-      "px": 89900.0,
-      "dayChg": -1.53,
-      "slPx": 85405,
-      "tpPx": 98890,
-      "ev": 2.0,
-      "winRate": 70,
-      "rs60": -1.5,
-      "tradingVal": 81,
-      "posTags": [
-        "실적 성장"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 실적 성장",
-        "핵심 기사: [모닝 리포트] \"현대백화점, 전 사업부 흑자 전환 기대\"",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 70,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"현대백화점, 전 사업부 흑자 전환 기대\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nQnQ0LWktYnQ1YmRrSVNrVHlwM0RDdXNWdTRyYXE3Rk5TS1dTVDgzMElaVmZYRmpzUXFaZm9xZ0w4MzhEaFd5V014cnM4RTlVMm1hc0pjbHE4RG5Y?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "코스피",
-      "px": 421000.0,
-      "dayChg": 0.72,
-      "slPx": 399950,
-      "tpPx": 463100,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 0.7,
-      "tradingVal": 2104,
-      "posTags": [
-        "주주환원"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 주주환원",
-        "핵심 기사: 삼성SDI도 1.4조원 자사주 전량 소각",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "삼성SDI도 1.4조원 자사주 전량 소각",
-          "url": "https://www.mk.co.kr/news/stock/12219678",
+          "title": "[모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUWdPSlhab3VmelJHdGEtNC15WkdibWZRdFZ3aDNSek1OaDRNYmtmRXZTVldER1V3RzJjWEtCcWs0N0hLczQ5azdFODFZRWxuNHNOenJEUmdpRnVl?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
     }
   ],
-  "closeBet": [
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 324000.0,
-      "dayChg": 10.96,
-      "slPx": 307800,
-      "tpPx": 356400,
-      "ev": 4.7,
-      "winRate": 95,
-      "rs60": 11.0,
-      "tradingVal": 1760,
-      "posTags": [
-        "목표가 상향",
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
-        "핵심 기사: 에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 97,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-          "url": "https://www.mk.co.kr/news/stock/12219622",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "코스닥",
-      "px": 171400.0,
-      "dayChg": 1.06,
-      "slPx": 162830,
-      "tpPx": 188540,
-      "ev": 3.5,
-      "winRate": 85,
-      "rs60": 1.1,
-      "tradingVal": 854,
-      "posTags": [
-        "목표가 상향",
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)",
-        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
-      ],
-      "score": 85,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4QUNJd3ZMenNLTTk0QjRtUFJRVGx5WmtZRW05d3RqcGxRcFVHd1pmV1Y5ZTZ5Y2pDaTV6UF8tdU8zUHNKQWJBSnlaeDkxWFpXZXhUVWpreHNtamhB?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "market": "코스피",
-      "px": 785000.0,
-      "dayChg": 3.97,
-      "slPx": 745750,
-      "tpPx": 863500,
-      "ev": 2.0,
-      "winRate": 70,
-      "rs60": 4.0,
-      "tradingVal": 6332,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: [인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 70,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-          "url": "https://www.mk.co.kr/news/stock/12219388",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "코스피",
-      "px": 649000.0,
-      "dayChg": 2.2,
-      "slPx": 616550,
-      "tpPx": 713900,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 2.2,
-      "tradingVal": 3319,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adzJndUNhamFKcDEzZE5RN1c3UFJjaDEzRXJqV0F2RmI0OFJGWVNTZXExTUhRUzFEcVhqSzdUY2h6ay1LMVdHUkNHRGJMVjhOLXlrYS13Q1dvM3p3?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "코스닥",
-      "px": 138500.0,
-      "dayChg": 4.37,
-      "slPx": 131575,
-      "tpPx": 152350,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 4.4,
-      "tradingVal": 2472,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XLXBTOGxuZXl5NHJ5blVIOHlFOHpRcEMtbXNhSUVsX21jSk9UV0U0Z2gzN2pJc1UxUm1QcHNZS2g0OGIzd3RzYmJ3SnBlVWVTQ1hzb3RnWldjUnlD?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "272210",
-      "name": "한화시스템",
-      "market": "코스피",
-      "px": 49200.0,
-      "dayChg": 4.13,
-      "slPx": 46740,
-      "tpPx": 54120,
-      "ev": 0.7,
-      "winRate": 57,
-      "rs60": 4.1,
-      "tradingVal": 252,
-      "posTags": [
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 강세·모멘텀",
-        "핵심 기사: 웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 57,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
-          "url": "https://www.mk.co.kr/news/stock/12219212",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    }
-  ],
+  "closeBet": [],
   "openBet": [
     {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "코스닥",
-      "px": 171400.0,
-      "dayChg": 1.06,
-      "slPx": 162830,
-      "tpPx": 188540,
-      "ev": 3.5,
-      "winRate": 85,
-      "rs60": 1.1,
-      "tradingVal": 854,
-      "posTags": [
-        "목표가 상향",
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)",
-        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
-      ],
-      "score": 85,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4QUNJd3ZMenNLTTk0QjRtUFJRVGx5WmtZRW05d3RqcGxRcFVHd1pmV1Y5ZTZ5Y2pDaTV6UF8tdU8zUHNKQWJBSnlaeDkxWFpXZXhUVWpreHNtamhB?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "market": "코스피",
-      "px": 785000.0,
-      "dayChg": 3.97,
-      "slPx": 745750,
-      "tpPx": 863500,
-      "ev": 2.0,
-      "winRate": 70,
-      "rs60": 4.0,
-      "tradingVal": 6332,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: [인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 70,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-          "url": "https://www.mk.co.kr/news/stock/12219388",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "코스피",
-      "px": 649000.0,
-      "dayChg": 2.2,
-      "slPx": 616550,
-      "tpPx": 713900,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 2.2,
-      "tradingVal": 3319,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adzJndUNhamFKcDEzZE5RN1c3UFJjaDEzRXJqV0F2RmI0OFJGWVNTZXExTUhRUzFEcVhqSzdUY2h6ay1LMVdHUkNHRGJMVjhOLXlrYS13Q1dvM3p3?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "코스피",
-      "px": 421000.0,
-      "dayChg": 0.72,
-      "slPx": 399950,
-      "tpPx": 463100,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 0.7,
-      "tradingVal": 2104,
-      "posTags": [
-        "주주환원"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 주주환원",
-        "핵심 기사: 삼성SDI도 1.4조원 자사주 전량 소각",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "삼성SDI도 1.4조원 자사주 전량 소각",
-          "url": "https://www.mk.co.kr/news/stock/12219678",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "코스닥",
-      "px": 138500.0,
-      "dayChg": 4.37,
-      "slPx": 131575,
-      "tpPx": 152350,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 4.4,
-      "tradingVal": 2472,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XLXBTOGxuZXl5NHJ5blVIOHlFOHpRcEMtbXNhSUVsX21jSk9UV0U0Z2gzN2pJc1UxUm1QcHNZS2g0OGIzd3RzYmJ3SnBlVWVTQ1hzb3RnWldjUnlD?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "272210",
-      "name": "한화시스템",
-      "market": "코스피",
-      "px": 49200.0,
-      "dayChg": 4.13,
-      "slPx": 46740,
-      "tpPx": 54120,
-      "ev": 0.7,
-      "winRate": 57,
-      "rs60": 4.1,
-      "tradingVal": 252,
-      "posTags": [
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 강세·모멘텀",
-        "핵심 기사: 웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 57,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
-          "url": "https://www.mk.co.kr/news/stock/12219212",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    }
-  ],
-  "nxt": [
-    {
       "code": "278470",
       "name": "에이피알",
       "market": "코스피",
-      "px": 324000.0,
-      "dayChg": 10.96,
-      "slPx": 307800,
-      "tpPx": 356400,
-      "ev": 4.7,
+      "px": 298500.0,
+      "dayChg": 0.0,
+      "slPx": 283575,
+      "tpPx": 328350,
+      "ev": 5.7,
       "winRate": 95,
-      "rs60": 11.0,
-      "tradingVal": 1760,
+      "rs60": 0.0,
+      "tradingVal": 0,
       "posTags": [
         "목표가 상향",
         "강세·모멘텀"
       ],
       "why": [
-        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
-        "핵심 기사: 에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
+        "실시간 뉴스 4건 포착: 목표가 상향, 강세·모멘텀",
+        "핵심 기사: 에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 97,
+      "score": 107,
       "news": [
+        {
+          "src": "매일경제",
+          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+          "url": "https://www.mk.co.kr/news/stock/12219832",
+          "date": "Fri, 27 Nov 2026"
+        },
         {
           "src": "매일경제",
           "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
@@ -651,82 +309,8 @@
         },
         {
           "src": "구글·리포트",
-          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "코스닥",
-      "px": 171400.0,
-      "dayChg": 1.06,
-      "slPx": 162830,
-      "tpPx": 188540,
-      "ev": 3.5,
-      "winRate": 85,
-      "rs60": 1.1,
-      "tradingVal": 854,
-      "posTags": [
-        "목표가 상향",
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)",
-        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
-      ],
-      "score": 85,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4QUNJd3ZMenNLTTk0QjRtUFJRVGx5WmtZRW05d3RqcGxRcFVHd1pmV1Y5ZTZ5Y2pDaTV6UF8tdU8zUHNKQWJBSnlaeDkxWFpXZXhUVWpreHNtamhB?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "market": "코스피",
-      "px": 785000.0,
-      "dayChg": 3.97,
-      "slPx": 745750,
-      "tpPx": 863500,
-      "ev": 2.0,
-      "winRate": 70,
-      "rs60": 4.0,
-      "tradingVal": 6332,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: [인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 70,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "[인기검색TOP5] 셀로맥스사이언스, 미래에셋벤처투자, 나라스페이스테크놀로지, 나무가, 삼성전기",
-          "url": "https://www.mk.co.kr/news/stock/12219388",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
+          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
@@ -735,24 +319,31 @@
       "code": "402340",
       "name": "SK스퀘어",
       "market": "코스피",
-      "px": 649000.0,
-      "dayChg": 2.2,
-      "slPx": 616550,
-      "tpPx": 713900,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 2.2,
-      "tradingVal": 3319,
+      "px": 652000.0,
+      "dayChg": 0.0,
+      "slPx": 619400,
+      "tpPx": 717200,
+      "ev": 4.0,
+      "winRate": 90,
+      "rs60": 0.0,
+      "tradingVal": 0,
       "posTags": [
+        "주주환원",
         "외인·기관 수급"
       ],
       "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
+        "실시간 뉴스 2건 포착: 주주환원, 외인·기관 수급",
+        "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 65,
+      "score": 90,
       "news": [
+        {
+          "src": "매일경제",
+          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+          "url": "https://www.mk.co.kr/news/stock/12219839",
+          "date": "Fri, 27 Nov 2026"
+        },
         {
           "src": "구글·수급",
           "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
@@ -760,93 +351,188 @@
           "date": "Thu, 26 Nov 2026"
         }
       ]
-    },
-    {
-      "code": "006400",
-      "name": "삼성SDI",
-      "market": "코스피",
-      "px": 421000.0,
-      "dayChg": 0.72,
-      "slPx": 399950,
-      "tpPx": 463100,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 0.7,
-      "tradingVal": 2104,
-      "posTags": [
-        "주주환원"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 주주환원",
-        "핵심 기사: 삼성SDI도 1.4조원 자사주 전량 소각",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "삼성SDI도 1.4조원 자사주 전량 소각",
-          "url": "https://www.mk.co.kr/news/stock/12219678",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "코스닥",
-      "px": 138500.0,
-      "dayChg": 4.37,
-      "slPx": 131575,
-      "tpPx": 152350,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 4.4,
-      "tradingVal": 2472,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
-        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.66% · 네 마녀의 날 D-14 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XLXBTOGxuZXl5NHJ5blVIOHlFOHpRcEMtbXNhSUVsX21jSk9UV0U0Z2gzN2pJc1UxUm1QcHNZS2g0OGIzd3RzYmJ3SnBlVWVTQ1hzb3RnWldjUnlD?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    }
-  ],
-  "rankedTable": [
-    {
-      "code": "000880",
-      "name": "한화",
-      "market": "코스피",
-      "px": 65800.0,
-      "dayChg": -1.64,
-      "rs60": 102,
-      "ev": 5.2
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 324000.0,
-      "dayChg": 10.96,
-      "rs60": 97,
-      "ev": 4.7
     },
     {
       "code": "035720",
       "name": "카카오",
       "market": "코스피",
-      "px": 30150.0,
-      "dayChg": -2.74,
+      "px": 30200.0,
+      "dayChg": 0.0,
+      "slPx": 28690,
+      "tpPx": 33220,
+      "ev": 4.0,
+      "winRate": 90,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 외인·기관 수급",
+        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 90,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "카카오페이증권, 외국인·기관 순매수 30분 단위로 보여준다",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcFBGVWx0TXY3RVA3MHFvQmMzVUxteUZ3Q0pqRXJ1MzlFTnp6VmV4eDlXcmxHdUZnNzc2TGV3WkJJaUJtOHF5Zm5VWVlLdjkzS0p3U3FZZ0FlU0o3cU9iOGtEWjE?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "377300",
+      "name": "카카오페이",
+      "market": "코스피",
+      "px": 32250.0,
+      "dayChg": 0.0,
+      "slPx": 30638,
+      "tpPx": 35475,
+      "ev": 4.0,
+      "winRate": 90,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 외인·기관 수급",
+        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 90,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·수급",
+          "title": "카카오페이증권, 외국인·기관 순매수 30분 단위로 보여준다",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcFBGVWx0TXY3RVA3MHFvQmMzVUxteUZ3Q0pqRXJ1MzlFTnp6VmV4eDlXcmxHdUZnNzc2TGV3WkJJaUJtOHF5Zm5VWVlLdjkzS0p3U3FZZ0FlU0o3cU9iOGtEWjE?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "196170",
+      "name": "알테오젠",
+      "market": "코스닥",
+      "px": 170300.0,
+      "dayChg": 0.0,
+      "slPx": 161785,
+      "tpPx": 187330,
+      "ev": 3.5,
+      "winRate": 85,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "목표가 상향",
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 2건 포착: 목표가 상향, 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)",
+        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
+      ],
+      "score": 85,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] 하나證 \"알테오젠, 임상 우려 과도…목표가 41만원 유지\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB4QUNJd3ZMenNLTTk0QjRtUFJRVGx5WmtZRW05d3RqcGxRcFVHd1pmV1Y5ZTZ5Y2pDaTV6UF8tdU8zUHNKQWJBSnlaeDkxWFpXZXhUVWpreHNtamhB?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "\"에이피알 50만원 갑니다\" '블프' 매출 기대감에 목표가 상향…\"알테오젠 낙폭 과도\" 저평가 부각 [株토피아]",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DTUpMbUk0VDFFOUYzdV8xeXJlOWhqR1VXRlZ6eXBGOEUtVDgxLXhMQWFUYmFadk1DMGFITXV1eTdOY2YzLTZLUHRVcUFtMjVpRTltdG9rYkJZUQ?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "코스피",
+      "px": 430000.0,
+      "dayChg": 0.0,
+      "slPx": 408500,
+      "tpPx": 473000,
+      "ev": 2.8,
+      "winRate": 78,
+      "rs60": 0.0,
+      "tradingVal": 0,
+      "posTags": [
+        "주주환원",
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 4건 포착: 주주환원, 외인·기관 수급",
+        "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+        "선물·만기 반영: 코스피선물 +0.45% · 나스닥선물 +0.57% · 네 마녀의 날 D-13 (12/10)",
+        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
+      ],
+      "score": 78,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+          "url": "https://www.mk.co.kr/news/stock/12219839",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "'4조대어' SK팜테코, 소수지분 매각 본격화",
+          "url": "https://www.mk.co.kr/news/stock/12219648",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"SKC, 동박 자회사 지분가치 8000억원 감소…목표가 하향\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TZVhyZm80VUFVYkRsQnNNdGpUZlZnS3FBVTd6Ulc1YnczUW5uR1pOTE9tQ3dIOTh1ZFR0ZnhONGVqSUtfeXNDLVJkMGJjZTZWU2dyREplWkNMNnd3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        }
+      ]
+    }
+  ],
+  "nxt": [],
+  "rankedTable": [
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 298500.0,
+      "dayChg": 0.0,
+      "rs60": 107,
+      "ev": 5.7
+    },
+    {
+      "code": "402340",
+      "name": "SK스퀘어",
+      "market": "코스피",
+      "px": 652000.0,
+      "dayChg": 0.0,
+      "rs60": 90,
+      "ev": 4.0
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market": "코스피",
+      "px": 30200.0,
+      "dayChg": 0.0,
       "rs60": 90,
       "ev": 4.0
     },
@@ -854,8 +540,8 @@
       "code": "377300",
       "name": "카카오페이",
       "market": "코스피",
-      "px": 32350.0,
-      "dayChg": -7.44,
+      "px": 32250.0,
+      "dayChg": 0.0,
       "rs60": 90,
       "ev": 4.0
     },
@@ -863,17 +549,44 @@
       "code": "196170",
       "name": "알테오젠",
       "market": "코스닥",
-      "px": 171400.0,
-      "dayChg": 1.06,
+      "px": 170300.0,
+      "dayChg": 0.0,
       "rs60": 85,
       "ev": 3.5
+    },
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "코스피",
+      "px": 430000.0,
+      "dayChg": 0.0,
+      "rs60": 78,
+      "ev": 2.8
+    },
+    {
+      "code": "000880",
+      "name": "한화",
+      "market": "코스피",
+      "px": 65800.0,
+      "dayChg": 0.0,
+      "rs60": 75,
+      "ev": 2.5
+    },
+    {
+      "code": "064760",
+      "name": "티씨케이",
+      "market": "코스닥",
+      "px": 157900.0,
+      "dayChg": 0.0,
+      "rs60": 73,
+      "ev": 2.3
     },
     {
       "code": "009150",
       "name": "삼성전기",
       "market": "코스피",
-      "px": 785000.0,
-      "dayChg": 3.97,
+      "px": 784000.0,
+      "dayChg": 0.0,
       "rs60": 70,
       "ev": 2.0
     },
@@ -881,26 +594,17 @@
       "code": "069960",
       "name": "현대백화점",
       "market": "코스피",
-      "px": 89900.0,
-      "dayChg": -1.53,
+      "px": 89400.0,
+      "dayChg": 0.0,
       "rs60": 70,
       "ev": 2.0
-    },
-    {
-      "code": "402340",
-      "name": "SK스퀘어",
-      "market": "코스피",
-      "px": 649000.0,
-      "dayChg": 2.2,
-      "rs60": 65,
-      "ev": 1.5
     },
     {
       "code": "006400",
       "name": "삼성SDI",
       "market": "코스피",
-      "px": 421000.0,
-      "dayChg": 0.72,
+      "px": 418000.0,
+      "dayChg": 0.0,
       "rs60": 65,
       "ev": 1.5
     },
@@ -908,40 +612,91 @@
       "code": "036930",
       "name": "주성엔지니어링",
       "market": "코스닥",
-      "px": 138500.0,
-      "dayChg": 4.37,
+      "px": 137200.0,
+      "dayChg": 0.0,
       "rs60": 65,
       "ev": 1.5
+    },
+    {
+      "code": "028050",
+      "name": "삼성E&A",
+      "market": "코스피",
+      "px": 56800.0,
+      "dayChg": 0.0,
+      "rs60": 62,
+      "ev": 1.2
+    },
+    {
+      "code": "039490",
+      "name": "키움증권",
+      "market": "코스피",
+      "px": 204000.0,
+      "dayChg": 0.0,
+      "rs60": 62,
+      "ev": 1.2
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "코스피",
+      "px": 171300.0,
+      "dayChg": 0.0,
+      "rs60": 57,
+      "ev": 0.7
     },
     {
       "code": "005380",
       "name": "현대차",
       "market": "코스피",
-      "px": 259500.0,
-      "dayChg": -3.71,
+      "px": 259000.0,
+      "dayChg": 0.0,
       "rs60": 57,
       "ev": 0.7
-    },
-    {
-      "code": "272210",
-      "name": "한화시스템",
-      "market": "코스피",
-      "px": 49200.0,
-      "dayChg": 4.13,
-      "rs60": 57,
-      "ev": 0.7
-    },
-    {
-      "code": "001040",
-      "name": "CJ",
-      "market": "코스피",
-      "px": 125000.0,
-      "dayChg": 3.82,
-      "rs60": 55,
-      "ev": 0.5
     }
   ],
   "news": [
+    {
+      "src": "매일경제",
+      "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+      "url": "https://www.mk.co.kr/news/stock/12219839",
+      "date": "Fri, 27 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+      "url": "https://www.mk.co.kr/news/stock/12219832",
+      "date": "Fri, 27 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "팔사람은 다 팔았다던데... 주가 V자 반등 안나온 이유",
+      "url": "https://www.mk.co.kr/news/business/12219828",
+      "date": "Fri, 27 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "“솔직히 당신도 공매도 하고싶잖아”…‘하락베팅’ 이달 5% 급증",
+      "url": "https://www.mk.co.kr/news/stock/12219806",
+      "date": "Fri, 27 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "‘트리플 할인’일 때 담아서 키워볼까 … 1년 만에 48% 오른 ETF",
+      "url": "https://www.mk.co.kr/news/stock/12219561",
+      "date": "Fri, 27 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "금리 올렸는데 은행주 왜 파래요…한발 먼저 가는 주식 ‘선반영’ 해석",
+      "url": "https://www.mk.co.kr/news/stock/12219785",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "“AI 거품”이라더니 13일만에 말 바꿨다…상승에 베팅 건 ‘빅쇼트’ 주인공",
+      "url": "https://www.mk.co.kr/news/stock/12219779",
+      "date": "Thu, 26 Nov 2026"
+    },
     {
       "src": "매일경제",
       "title": "제 역할 전혀 못하는 ETF…AI·반도체만 담고 투자자는 단타 친다",
@@ -1040,7 +795,7 @@
     },
     {
       "src": "매일경제",
-      "title": "강덕영 한국유나이티드제약 회장 “2028년 위고비 복제약 출시…월 1회 비만약도 개발”",
+      "title": "“2028년, 위고비 복제약 출시합니다”…월 1회 비만약도 개발중인 K제약",
       "url": "https://www.mk.co.kr/news/it/12219422",
       "date": "Thu, 26 Nov 2026"
     },
@@ -1081,51 +836,33 @@
       "date": "Thu, 26 Nov 2026"
     },
     {
-      "src": "매일경제",
-      "title": "퇴직연금 디폴트옵션, 어디가 제일 잘하나…미래에셋證, 업계 1위",
-      "url": "https://www.mk.co.kr/news/stock/12219232",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "웨이비스, 한화시스템서 천마 핵심 모듈 후속 수주…누적 105억 원 돌파",
-      "url": "https://www.mk.co.kr/news/stock/12219212",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "삼성 금융계열사 5곳, 임원 28명 승진…부사장 9명·상무 19명",
-      "url": "https://www.mk.co.kr/news/economy/12219209",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "파루 최대주주 지본, 파루 주식 5억원 추가 매수",
-      "url": "https://www.mk.co.kr/news/business/12219173",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "한은 금리 인상은 선반영…금융지주 주가 일제히 하락",
-      "url": "https://www.mk.co.kr/news/stock/12219126",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "반도체 반등하자 삼전닉스 던졌다…초고수, 유가에 6% 빠진 대한항공 담았다[주식 초고수는 지금]",
-      "url": "https://www.mk.co.kr/news/stock/12219102",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "에브리봇, ‘머큐어 서울 마곡’에 AI 청소로봇 도입 추진…호텔 B2B 공략",
-      "url": "https://www.mk.co.kr/news/stock/12219088",
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"해성디에스, 기판 가격 인상·고객사 확대…주가 재평가 기대\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IRVRCUXhOSWhQdzFucklsTl9kd2NTMHA5WGhlMWlKdU5XTDI3X1ZrTXltdE1zTWY5bU90bFBRY1lRUVpxZE84bmtVZFAzTHR1LUdid01Bc3hsSGtN?oc=5",
       "date": "Thu, 26 Nov 2026"
     },
     {
       "src": "구글·리포트",
       "title": "스튜디오드래곤 | 중국 구작 판매 기대 확대, 2027년 이익 개선의 추가 변수",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcVdoV09JelFHWndjYXBrc1hJVGd0THY3eUExeUp2dEVYY1EzUFhoeTlPTmxrUjJ1eDRvc0I2VE54Z0FQZm51OTBXNEpaWHFsSTNPZUhMVzFvU0xSQmZtXzRBSEFpVTROMTlWa01CRF9DTXlwQ2Iwb0hWSTBXa043NkJ0UlhocVlZ?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUWdPSlhab3VmelJHdGEtNC15WkdibWZRdFZ3aDNSek1OaDRNYmtmRXZTVldER1V3RzJjWEtCcWs0N0hLczQ5azdFODFZRWxuNHNOenJEUmdpRnVl?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "[모닝 리포트] \"한국가스공사, LNG 가격 상승에 해외사업 이익 증가\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zTWxtRGloY2pwRmdaUGk2WUcwWTZ2SDJuaHRvSnBLSWJROVFrZmxkNFB4WXZLclAwRjdWZVlVOThBREFHZUpWbHVGSFVJLTlhOXJlVVlJeUZaejJx?oc=5",
       "date": "Thu, 26 Nov 2026"
     },
     {
@@ -1142,44 +879,20 @@
     },
     {
       "src": "구글·리포트",
-      "title": "[모닝 리포트] 원익QnC, 내년 영업익 1678억원 전망…쿼츠가 성장 견인",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lVU9ZTjhLclVIUG95cHZPSlRSUzJsOHVrYk1KSlFEWkg5UEZJY2NhWFdraDUyb1JlWU5aal9zenUtYmxtOWFzVEEwcGZTTHNNd2g2NzY5ZzBvRXhk?oc=5",
-      "date": "Wed, 25 Nov 2026"
-    },
-    {
-      "src": "구글·리포트",
       "title": "[모닝 리포트] \"한화솔루션, 탠덤셀 투자에 현금흐름 악화…목표가 하향\"",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YVm51ZDRMelBLcExKbV92RUpQbFNXNjVMczFTN2sxMTU1TG03clo4dlJfSWNBbkwzS3lidkNkYzQ4VlpUVVdJVUZPelhxVDg2QUJxWUppTlphZ1ZB?oc=5",
       "date": "Wed, 25 Nov 2026"
     },
     {
       "src": "구글·리포트",
-      "title": "[모닝 리포트] \"코스맥스, 국내 증설·해외 사업 개선에 성장 지속\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uRW5MRzR3NHNMSkNjOTNjQ0xhX2hYTzJkblNkU1BNYVp5V3d4a3pXWER6c3VTUi1FaXM3SXgxNU81X0xXUWFkYW9GMi1ESmtLWFphRkpXSm5OSVNF?oc=5",
-      "date": "Thu, 26 Nov 2026"
+      "title": "[모닝 리포트] 원익QnC, 내년 영업익 1678억원 전망…쿼츠가 성장 견인",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lVU9ZTjhLclVIUG95cHZPSlRSUzJsOHVrYk1KSlFEWkg5UEZJY2NhWFdraDUyb1JlWU5aal9zenUtYmxtOWFzVEEwcGZTTHNNd2g2NzY5ZzBvRXhk?oc=5",
+      "date": "Wed, 25 Nov 2026"
     },
     {
       "src": "구글·리포트",
       "title": "[모닝 리포트] 유안타證 \"이광수 입점 효과 '톡톡'…디어유, 목표가 3만원\"",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02MW9IYlo4dzBfTGx5UWIwMS0zQU5TQl9XV0VXdFhUT0RIaFVyaVhzY3E1dzhMV0hpbjNTZTdBTjQ1aWFaZnBleURHTlUzclRkTFBQX2VsMGZGaDV3?oc=5",
-      "date": "Wed, 25 Nov 2026"
-    },
-    {
-      "src": "구글·리포트",
-      "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
-      "date": "Wed, 25 Nov 2026"
-    },
-    {
-      "src": "구글·리포트",
-      "title": "[모닝 리포트] \"SKC, 동박 자회사 지분가치 8000억원 감소…목표가 하향\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TZVhyZm80VUFVYkRsQnNNdGpUZlZnS3FBVTd6Ulc1YnczUW5uR1pOTE9tQ3dIOTh1ZFR0ZnhONGVqSUtfeXNDLVJkMGJjZTZWU2dyREplWkNMNnd3?oc=5",
-      "date": "Wed, 25 Nov 2026"
-    },
-    {
-      "src": "구글·리포트",
-      "title": "[모닝 리포트] \"파두, 주가만 빠졌다…낸드 업황은 견조\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EZk1DTnlCbjlySnJBdEVZWmRjQUtkLW94OGtISVJQMXZqRTRwV2FnT3J0aEI1SUQ0NzBMQnRWd2pyX3dKLUowQXhLakYwNmxZdFN2YnJiSy0wb2d4?oc=5",
       "date": "Wed, 25 Nov 2026"
     }
   ]
