@@ -1,9 +1,8 @@
-
 name: Daily KRX 300 Auto Update
 on:
   schedule:
-    - cron: '*/15 23 * * 0-4'
-    - cron: '*/15 0-11 * * 1-5'
+    - cron: '7,22,37,52 23 * * 0-4'
+    - cron: '7,22,37,52 0-11 * * 1-5'
   workflow_dispatch:
 permissions:
   contents: write
