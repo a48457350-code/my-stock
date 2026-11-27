@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-27 20:23 KST (기사·선물·만기 100%)",
+  "updatedAt": "2026-11-27 21:29 KST (기사·선물·만기 100%)",
   "scannedTotal": 292,
-  "analyzedDetail": 78,
+  "analyzedDetail": 89,
   "regime": {
     "score": 87,
     "type": "bull",
@@ -30,12 +30,12 @@
       "pct": 4.32
     },
     "futNasdaq": {
-      "px": 26738.5,
-      "pct": 2.44
+      "px": 26673.5,
+      "pct": 2.2
     },
     "fxKrw": {
-      "px": 1333.34,
-      "pct": -0.72
+      "px": 1335.01,
+      "pct": -0.6
     }
   },
   "swing": [
@@ -58,7 +58,7 @@
       "why": [
         "실시간 뉴스 6건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)",
         "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
       ],
       "score": 108,
@@ -101,7 +101,7 @@
       "why": [
         "실시간 뉴스 2건 포착: 주주환원",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 90,
       "news": [
@@ -137,21 +137,21 @@
       ],
       "why": [
         "실시간 뉴스 2건 포착: 실적 성장, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "핵심 기사: [모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 87,
       "news": [
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
+          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
           "date": "Thu, 26 Nov 2026"
         },
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
+          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
@@ -174,7 +174,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 수주·계약",
         "핵심 기사: [모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 73,
       "news": [
@@ -182,6 +182,152 @@
           "src": "구글·리포트",
           "title": "[모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUWdPSlhab3VmelJHdGEtNC15WkdibWZRdFZ3aDNSek1OaDRNYmtmRXZTVldER1V3RzJjWEtCcWs0N0hLczQ5azdFODFZRWxuNHNOenJEUmdpRnVl?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "095610",
+      "name": "테스",
+      "market": "코스닥",
+      "px": 85900.0,
+      "dayChg": 9.29,
+      "slPx": 81605,
+      "tpPx": 94490,
+      "ev": 2.3,
+      "winRate": 73,
+      "rs60": 9.3,
+      "tradingVal": 221,
+      "posTags": [
+        "수주·계약"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 수주·계약",
+        "핵심 기사: 타이거일렉 | 북미 CPU 테스트보드 수주 확대, 원자재 공급 부족이 성장 속도의 변수",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 73,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "타이거일렉 | 북미 CPU 테스트보드 수주 확대, 원자재 공급 부족이 성장 속도의 변수",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMjl3aXE4aFY5RnRQZ3V1dFhoRW5TblRoS204WW10NnIyZHI1Xzk0bXRsT3NGalVnLWpKYWFpN3J0TW9Nb2lDdnZjOER5OXFkSEVMaVRMQVVYTUZzOHBNaHBTaXdfUE1TS3ZtWEhrV1M1eU9qNGdSNlpsUExzWHVHZ2lqZWNYX2da?oc=5",
+          "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "코스피",
+      "px": 340000.0,
+      "dayChg": 3.19,
+      "slPx": 323000,
+      "tpPx": 374000,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 3.2,
+      "tradingVal": 728,
+      "posTags": [
+        "증권사 매수"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 증권사 매수",
+        "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
+          "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    }
+  ],
+  "pullback": [
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 299500.0,
+      "dayChg": 0.34,
+      "slPx": 284525,
+      "tpPx": 329450,
+      "ev": 1.0,
+      "winRate": 60,
+      "rs60": 0.3,
+      "tradingVal": 2306,
+      "posTags": [],
+      "why": [
+        "실시간 뉴스 4건 포착: 시장 주목",
+        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 60,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+          "url": "https://www.mk.co.kr/news/stock/12219844",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+          "url": "https://www.mk.co.kr/news/stock/12219832",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    }
+  ],
+  "closeBet": [
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 270500.0,
+      "dayChg": 4.44,
+      "slPx": 256975,
+      "tpPx": 297550,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 4.4,
+      "tradingVal": 1035,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 3건 포착: 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
@@ -204,7 +350,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -215,37 +361,44 @@
           "date": "Fri, 27 Nov 2026"
         }
       ]
-    }
-  ],
-  "pullback": [],
-  "closeBet": [
+    },
     {
-      "code": "012330",
-      "name": "현대모비스",
+      "code": "278470",
+      "name": "에이피알",
       "market": "코스피",
-      "px": 340000.0,
-      "dayChg": 3.19,
-      "slPx": 323000,
-      "tpPx": 374000,
-      "ev": 1.7,
-      "winRate": 67,
-      "rs60": 3.2,
-      "tradingVal": 728,
-      "posTags": [
-        "증권사 매수"
-      ],
+      "px": 299500.0,
+      "dayChg": 0.34,
+      "slPx": 284525,
+      "tpPx": 329450,
+      "ev": 1.0,
+      "winRate": 60,
+      "rs60": 0.3,
+      "tradingVal": 2306,
+      "posTags": [],
       "why": [
-        "실시간 뉴스 1건 포착: 증권사 매수",
-        "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "실시간 뉴스 4건 포착: 시장 주목",
+        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 67,
+      "score": 60,
       "news": [
         {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
+          "src": "매일경제",
+          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+          "url": "https://www.mk.co.kr/news/stock/12219844",
           "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+          "url": "https://www.mk.co.kr/news/stock/12219832",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
+          "date": "Thu, 26 Nov 2026"
         }
       ]
     }
@@ -269,7 +422,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
         "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -294,6 +447,48 @@
       ]
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 270500.0,
+      "dayChg": 4.44,
+      "slPx": 256975,
+      "tpPx": 297550,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 4.4,
+      "tradingVal": 1035,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 3건 포착: 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
@@ -311,7 +506,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -324,36 +519,6 @@
       ]
     },
     {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
-      "slPx": 256975,
-      "tpPx": 297550,
-      "ev": 0.7,
-      "winRate": 57,
-      "rs60": 4.4,
-      "tradingVal": 1035,
-      "posTags": [
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 57,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "278470",
       "name": "에이피알",
       "market": "코스피",
@@ -361,17 +526,17 @@
       "dayChg": 0.34,
       "slPx": 284525,
       "tpPx": 329450,
-      "ev": 0.5,
-      "winRate": 55,
+      "ev": 1.0,
+      "winRate": 60,
       "rs60": 0.3,
       "tradingVal": 2306,
       "posTags": [],
       "why": [
-        "실시간 뉴스 3건 포착: 시장 주목",
+        "실시간 뉴스 4건 포착: 시장 주목",
         "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 55,
+      "score": 60,
       "news": [
         {
           "src": "매일경제",
@@ -414,7 +579,7 @@
       "why": [
         "실시간 뉴스 6건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)",
         "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
       ],
       "score": 108,
@@ -457,7 +622,7 @@
       "why": [
         "실시간 뉴스 2건 포착: 주주환원",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 90,
       "news": [
@@ -493,21 +658,21 @@
       ],
       "why": [
         "실시간 뉴스 2건 포착: 실적 성장, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "핵심 기사: [모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 87,
       "news": [
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
+          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
           "date": "Thu, 26 Nov 2026"
         },
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
+          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
@@ -530,7 +695,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
         "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -555,6 +720,48 @@
       ]
     },
     {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 270500.0,
+      "dayChg": 4.44,
+      "slPx": 256975,
+      "tpPx": 297550,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 4.4,
+      "tradingVal": 1035,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 3건 포착: 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
@@ -572,7 +779,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -580,36 +787,6 @@
           "src": "구글·리포트",
           "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
-          "date": "Fri, 27 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "코스닥",
-      "px": 156600.0,
-      "dayChg": 14.14,
-      "slPx": 148770,
-      "tpPx": 172260,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 14.1,
-      "tradingVal": 3358,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +12.39%",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.44% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +12.39%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LdkRNYjFOVXkxR3ptcFhqVzZjclI3Vjg0T2dRSlVBRXVqV3U2TURtVHBEcHhnRjBEVkJ5el9LckMzNnJaZGdHNHlPMGhXS0M4eUNxT2ptYkhzN2ds?oc=5",
           "date": "Fri, 27 Nov 2026"
         }
       ]
@@ -653,11 +830,29 @@
       "ev": 2.3
     },
     {
+      "code": "095610",
+      "name": "테스",
+      "market": "코스닥",
+      "px": 85900.0,
+      "dayChg": 9.29,
+      "rs60": 73,
+      "ev": 2.3
+    },
+    {
       "code": "005930",
       "name": "삼성전자",
       "market": "코스피",
       "px": 179500.0,
       "dayChg": 4.79,
+      "rs60": 67,
+      "ev": 1.7
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 270500.0,
+      "dayChg": 4.44,
       "rs60": 67,
       "ev": 1.7
     },
@@ -671,31 +866,13 @@
       "ev": 1.7
     },
     {
-      "code": "036930",
-      "name": "주성엔지니어링",
-      "market": "코스닥",
-      "px": 156600.0,
-      "dayChg": 14.14,
-      "rs60": 65,
-      "ev": 1.5
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
-      "rs60": 57,
-      "ev": 0.7
-    },
-    {
       "code": "278470",
       "name": "에이피알",
       "market": "코스피",
       "px": 299500.0,
       "dayChg": 0.34,
-      "rs60": 55,
-      "ev": 0.5
+      "rs60": 60,
+      "ev": 1.0
     }
   ],
   "news": [
@@ -923,6 +1100,12 @@
     },
     {
       "src": "구글·리포트",
+      "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
       "title": "[모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUWdPSlhab3VmelJHdGEtNC15WkdibWZRdFZ3aDNSek1OaDRNYmtmRXZTVldER1V3RzJjWEtCcWs0N0hLczQ5azdFODFZRWxuNHNOenJEUmdpRnVl?oc=5",
       "date": "Thu, 26 Nov 2026"
@@ -931,12 +1114,6 @@
       "src": "구글·리포트",
       "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "구글·리포트",
-      "title": "[모닝 리포트] \"한국가스공사, LNG 가격 상승에 해외사업 이익 증가\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9zTWxtRGloY2pwRmdaUGk2WUcwWTZ2SDJuaHRvSnBLSWJROVFrZmxkNFB4WXZLclAwRjdWZVlVOThBREFHZUpWbHVGSFVJLTlhOXJlVVlJeUZaejJx?oc=5",
       "date": "Thu, 26 Nov 2026"
     }
   ]
