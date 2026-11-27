@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27 14:46 KST (기사·선물·만기 100%)",
+  "updatedAt": "2026-11-27 15:45 KST (기사·선물·만기 100%)",
   "scannedTotal": 292,
   "analyzedDetail": 90,
   "regime": {
@@ -12,33 +12,77 @@
     "items": [
       {
         "name": "코스피",
-        "close": 4921.02,
-        "chg": 4.45,
+        "close": 4915.68,
+        "chg": 4.34,
         "state": "네 마녀의 날 D-13 (12/10)"
       },
       {
         "name": "코스닥",
-        "close": 710.54,
-        "chg": 8.36,
+        "close": 708.99,
+        "chg": 8.13,
         "state": "MSCI 리밸런싱 D-3 (11/30)"
       }
     ]
   },
   "macro": {
     "futKospi": {
-      "px": 755.35,
-      "pct": 3.89
+      "px": 757.16,
+      "pct": 4.14
     },
     "futNasdaq": {
-      "px": 26832.75,
-      "pct": 2.81
+      "px": 26847.75,
+      "pct": 2.86
     },
     "fxKrw": {
-      "px": 1337.58,
-      "pct": -0.41
+      "px": 1337.17,
+      "pct": -0.44
     }
   },
   "swing": [
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "코스피",
+      "px": 477000.0,
+      "dayChg": 10.93,
+      "slPx": 453150,
+      "tpPx": 524700,
+      "ev": 6.8,
+      "winRate": 95,
+      "rs60": 10.9,
+      "tradingVal": 540,
+      "posTags": [
+        "주주환원",
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 8건 포착: 주주환원, 외인·기관 수급",
+        "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)",
+        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
+      ],
+      "score": 118,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220218",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220025",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+          "url": "https://www.mk.co.kr/news/stock/12219839",
+          "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    },
     {
       "code": "402340",
       "name": "SK스퀘어",
@@ -50,7 +94,7 @@
       "ev": 6.5,
       "winRate": 95,
       "rs60": 5.4,
-      "tradingVal": 2169,
+      "tradingVal": 2670,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
@@ -58,7 +102,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 115,
       "news": [
@@ -83,61 +127,17 @@
       ]
     },
     {
-      "code": "034730",
-      "name": "SK",
-      "market": "코스피",
-      "px": 475000.0,
-      "dayChg": 10.47,
-      "slPx": 451250,
-      "tpPx": 522500,
-      "ev": 6.3,
-      "winRate": 95,
-      "rs60": 10.5,
-      "tradingVal": 432,
-      "posTags": [
-        "주주환원",
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 7건 포착: 주주환원, 외인·기관 수급",
-        "핵심 기사: SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)",
-        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
-      ],
-      "score": 113,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-          "url": "https://www.mk.co.kr/news/stock/12220025",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-          "url": "https://www.mk.co.kr/news/stock/12219839",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "'4조대어' SK팜테코, 소수지분 매각 본격화",
-          "url": "https://www.mk.co.kr/news/stock/12219648",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "000150",
       "name": "두산",
       "market": "코스피",
-      "px": 570000.0,
-      "dayChg": 7.14,
-      "slPx": 541500,
-      "tpPx": 627000,
+      "px": 567000.0,
+      "dayChg": 6.58,
+      "slPx": 538650,
+      "tpPx": 623700,
       "ev": 3.7,
       "winRate": 87,
-      "rs60": 7.1,
-      "tradingVal": 397,
+      "rs60": 6.6,
+      "tradingVal": 478,
       "posTags": [
         "실적 성장",
         "강세·모멘텀"
@@ -145,7 +145,7 @@
       "why": [
         "실시간 뉴스 2건 포착: 실적 성장, 강세·모멘텀",
         "핵심 기사: [모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 87,
       "news": [
@@ -167,21 +167,21 @@
       "code": "064760",
       "name": "티씨케이",
       "market": "코스닥",
-      "px": 175400.0,
-      "dayChg": 11.08,
-      "slPx": 166630,
-      "tpPx": 192940,
+      "px": 176900.0,
+      "dayChg": 12.03,
+      "slPx": 168055,
+      "tpPx": 194590,
       "ev": 2.3,
       "winRate": 73,
-      "rs60": 11.1,
-      "tradingVal": 83,
+      "rs60": 12.0,
+      "tradingVal": 104,
       "posTags": [
         "수주·계약"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 수주·계약",
         "핵심 기사: [모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 73,
       "news": [
@@ -197,21 +197,21 @@
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
-      "px": 340000.0,
-      "dayChg": 3.19,
-      "slPx": 323000,
-      "tpPx": 374000,
+      "px": 339000.0,
+      "dayChg": 2.88,
+      "slPx": 322050,
+      "tpPx": 372900,
       "ev": 1.7,
       "winRate": 67,
-      "rs60": 3.2,
-      "tradingVal": 577,
+      "rs60": 2.9,
+      "tradingVal": 704,
       "posTags": [
         "증권사 매수"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -227,21 +227,21 @@
       "code": "006400",
       "name": "삼성SDI",
       "market": "코스피",
-      "px": 452000.0,
-      "dayChg": 8.13,
-      "slPx": 429400,
-      "tpPx": 497200,
+      "px": 452500.0,
+      "dayChg": 8.25,
+      "slPx": 429875,
+      "tpPx": 497750,
       "ev": 1.5,
       "winRate": 65,
-      "rs60": 8.1,
-      "tradingVal": 2083,
+      "rs60": 8.2,
+      "tradingVal": 2439,
       "posTags": [
         "주주환원"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 주주환원",
         "핵심 기사: 삼성SDI도 1.4조원 자사주 전량 소각",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 65,
       "news": [
@@ -256,66 +256,24 @@
   ],
   "pullback": [
     {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 298500.0,
-      "dayChg": 0.0,
-      "slPx": 283575,
-      "tpPx": 328350,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 0.0,
-      "tradingVal": 2020,
-      "posTags": [],
-      "why": [
-        "실시간 뉴스 5건 포착: 시장 주목",
-        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-          "url": "https://www.mk.co.kr/news/stock/12219844",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
-          "url": "https://www.mk.co.kr/news/stock/12219832",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-          "url": "https://www.mk.co.kr/news/stock/12219622",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    }
-  ],
-  "closeBet": [
-    {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
-      "px": 340000.0,
-      "dayChg": 3.19,
-      "slPx": 323000,
-      "tpPx": 374000,
+      "px": 339000.0,
+      "dayChg": 2.88,
+      "slPx": 322050,
+      "tpPx": 372900,
       "ev": 1.7,
       "winRate": 67,
-      "rs60": 3.2,
-      "tradingVal": 577,
+      "rs60": 2.9,
+      "tradingVal": 704,
       "posTags": [
         "증권사 매수"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -328,54 +286,24 @@
       ]
     },
     {
-      "code": "035720",
-      "name": "카카오",
-      "market": "코스피",
-      "px": 31200.0,
-      "dayChg": 3.31,
-      "slPx": 29640,
-      "tpPx": 34320,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 3.3,
-      "tradingVal": 204,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "278470",
       "name": "에이피알",
       "market": "코스피",
-      "px": 298500.0,
-      "dayChg": 0.0,
-      "slPx": 283575,
-      "tpPx": 328350,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 0.0,
-      "tradingVal": 2020,
+      "px": 299500.0,
+      "dayChg": 0.34,
+      "slPx": 284525,
+      "tpPx": 329450,
+      "ev": 1.0,
+      "winRate": 60,
+      "rs60": 0.3,
+      "tradingVal": 2259,
       "posTags": [],
       "why": [
-        "실시간 뉴스 5건 포착: 시장 주목",
+        "실시간 뉴스 4건 포착: 시장 주목",
         "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 65,
+      "score": 60,
       "news": [
         {
           "src": "매일경제",
@@ -390,34 +318,36 @@
           "date": "Fri, 27 Nov 2026"
         },
         {
-          "src": "매일경제",
-          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-          "url": "https://www.mk.co.kr/news/stock/12219622",
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
-    },
+    }
+  ],
+  "closeBet": [
     {
       "code": "005380",
       "name": "현대차",
       "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
-      "slPx": 256975,
-      "tpPx": 297550,
-      "ev": 1.2,
-      "winRate": 62,
-      "rs60": 4.4,
-      "tradingVal": 833,
+      "px": 269000.0,
+      "dayChg": 3.86,
+      "slPx": 255550,
+      "tpPx": 295900,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 3.9,
+      "tradingVal": 995,
       "posTags": [
         "강세·모멘텀"
       ],
       "why": [
-        "실시간 뉴스 2건 포착: 강세·모멘텀",
+        "실시간 뉴스 3건 포착: 강세·모멘텀",
         "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 62,
+      "score": 67,
       "news": [
         {
           "src": "구글·리포트",
@@ -430,6 +360,82 @@
           "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
           "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "코스피",
+      "px": 339000.0,
+      "dayChg": 2.88,
+      "slPx": 322050,
+      "tpPx": 372900,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 2.9,
+      "tradingVal": 704,
+      "posTags": [
+        "증권사 매수"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 증권사 매수",
+        "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
+          "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 299500.0,
+      "dayChg": 0.34,
+      "slPx": 284525,
+      "tpPx": 329450,
+      "ev": 1.0,
+      "winRate": 60,
+      "rs60": 0.3,
+      "tradingVal": 2259,
+      "posTags": [],
+      "why": [
+        "실시간 뉴스 4건 포착: 시장 주목",
+        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 60,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+          "url": "https://www.mk.co.kr/news/stock/12219844",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+          "url": "https://www.mk.co.kr/news/stock/12219832",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
+          "date": "Thu, 26 Nov 2026"
         }
       ]
     }
@@ -439,24 +445,30 @@
       "code": "005930",
       "name": "삼성전자",
       "market": "코스피",
-      "px": 179800.0,
-      "dayChg": 4.96,
-      "slPx": 170810,
-      "tpPx": 197780,
-      "ev": 2.9,
-      "winRate": 79,
-      "rs60": 5.0,
-      "tradingVal": 19230,
+      "px": 179100.0,
+      "dayChg": 4.55,
+      "slPx": 170145,
+      "tpPx": 197010,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 4.5,
+      "tradingVal": 23956,
       "posTags": [
         "강세·모멘텀"
       ],
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
-        "핵심 기사: SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 79,
+      "score": 67,
       "news": [
+        {
+          "src": "매일경제",
+          "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220218",
+          "date": "Fri, 27 Nov 2026"
+        },
         {
           "src": "매일경제",
           "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
@@ -468,12 +480,48 @@
           "title": "삼성전자 로봇에 힘주자 관련주 줄줄이 급등…제닉스로보틱스 상한가",
           "url": "https://www.mk.co.kr/news/stock/12219958",
           "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 269000.0,
+      "dayChg": 3.86,
+      "slPx": 255550,
+      "tpPx": 295900,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 3.9,
+      "tradingVal": 995,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 3건 포착: 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+          "date": "Wed, 25 Nov 2026"
         },
         {
           "src": "구글·리포트",
-          "title": "[리포트 브리핑]삼성E&A, '삼성전자 포함 그룹사 투자 수혜 점검' 목표가 88,000원 - 키움증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxejMzUUJIMjZQdTNDSUN4TGtiZTZsX3hKRmJpN2FoS2k5a1NQUnZydHhJeC0wLUtaVm44cGhydkducm00ekRlR1FMRk5ZRndZd3VyYkc5TWpnOV80?oc=5",
-          "date": "Wed, 25 Nov 2026"
+          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
+          "date": "Thu, 26 Nov 2026"
         }
       ]
     },
@@ -481,21 +529,21 @@
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
-      "px": 340000.0,
-      "dayChg": 3.19,
-      "slPx": 323000,
-      "tpPx": 374000,
+      "px": 339000.0,
+      "dayChg": 2.88,
+      "slPx": 322050,
+      "tpPx": 372900,
       "ev": 1.7,
       "winRate": 67,
-      "rs60": 3.2,
-      "tradingVal": 577,
+      "rs60": 2.9,
+      "tradingVal": 704,
       "posTags": [
         "증권사 매수"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -518,14 +566,14 @@
       "ev": 1.5,
       "winRate": 65,
       "rs60": 4.7,
-      "tradingVal": 6097,
+      "tradingVal": 6887,
       "posTags": [
         "외인·기관 수급"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 외인·기관 수급",
         "핵심 기사: [장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 65,
       "news": [
@@ -538,54 +586,24 @@
       ]
     },
     {
-      "code": "035720",
-      "name": "카카오",
-      "market": "코스피",
-      "px": 31200.0,
-      "dayChg": 3.31,
-      "slPx": 29640,
-      "tpPx": 34320,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 3.3,
-      "tradingVal": 204,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "278470",
       "name": "에이피알",
       "market": "코스피",
-      "px": 298500.0,
-      "dayChg": 0.0,
-      "slPx": 283575,
-      "tpPx": 328350,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 0.0,
-      "tradingVal": 2020,
+      "px": 299500.0,
+      "dayChg": 0.34,
+      "slPx": 284525,
+      "tpPx": 329450,
+      "ev": 1.0,
+      "winRate": 60,
+      "rs60": 0.3,
+      "tradingVal": 2259,
       "posTags": [],
       "why": [
-        "실시간 뉴스 5건 포착: 시장 주목",
+        "실시간 뉴스 4건 포착: 시장 주목",
         "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 65,
+      "score": 60,
       "news": [
         {
           "src": "매일경제",
@@ -600,45 +618,59 @@
           "date": "Fri, 27 Nov 2026"
         },
         {
-          "src": "매일경제",
-          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-          "url": "https://www.mk.co.kr/news/stock/12219622",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "377300",
-      "name": "카카오페이",
-      "market": "코스피",
-      "px": 33800.0,
-      "dayChg": 4.81,
-      "slPx": 32110,
-      "tpPx": 37180,
-      "ev": 1.5,
-      "winRate": 65,
-      "rs60": 4.8,
-      "tradingVal": 44,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 65,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
     }
   ],
   "nxt": [
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "코스피",
+      "px": 477000.0,
+      "dayChg": 10.93,
+      "slPx": 453150,
+      "tpPx": 524700,
+      "ev": 6.8,
+      "winRate": 95,
+      "rs60": 10.9,
+      "tradingVal": 540,
+      "posTags": [
+        "주주환원",
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 8건 포착: 주주환원, 외인·기관 수급",
+        "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)",
+        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
+      ],
+      "score": 118,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220218",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220025",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
+          "url": "https://www.mk.co.kr/news/stock/12219839",
+          "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    },
     {
       "code": "402340",
       "name": "SK스퀘어",
@@ -650,7 +682,7 @@
       "ev": 6.5,
       "winRate": 95,
       "rs60": 5.4,
-      "tradingVal": 2169,
+      "tradingVal": 2670,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
@@ -658,7 +690,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 115,
       "news": [
@@ -683,68 +715,24 @@
       ]
     },
     {
-      "code": "034730",
-      "name": "SK",
-      "market": "코스피",
-      "px": 475000.0,
-      "dayChg": 10.47,
-      "slPx": 451250,
-      "tpPx": 522500,
-      "ev": 6.3,
-      "winRate": 95,
-      "rs60": 10.5,
-      "tradingVal": 432,
-      "posTags": [
-        "주주환원",
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 7건 포착: 주주환원, 외인·기관 수급",
-        "핵심 기사: SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)",
-        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
-      ],
-      "score": 113,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-          "url": "https://www.mk.co.kr/news/stock/12220025",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-          "url": "https://www.mk.co.kr/news/stock/12219839",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "'4조대어' SK팜테코, 소수지분 매각 본격화",
-          "url": "https://www.mk.co.kr/news/stock/12219648",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "036930",
       "name": "주성엔지니어링",
       "market": "코스닥",
-      "px": 157200.0,
-      "dayChg": 14.58,
-      "slPx": 149340,
-      "tpPx": 172920,
+      "px": 156900.0,
+      "dayChg": 14.36,
+      "slPx": 149055,
+      "tpPx": 172590,
       "ev": 4.0,
       "winRate": 90,
-      "rs60": 14.6,
-      "tradingVal": 2811,
+      "rs60": 14.4,
+      "tradingVal": 3061,
       "posTags": [
         "외인·기관 수급"
       ],
       "why": [
         "실시간 뉴스 2건 포착: 외인·기관 수급",
         "핵심 기사: [장중수급포착] 주성엔지니어링, 외국인/기관 동시 순매수… 주가 +6.63%",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 90,
       "news": [
@@ -766,14 +754,14 @@
       "code": "000150",
       "name": "두산",
       "market": "코스피",
-      "px": 570000.0,
-      "dayChg": 7.14,
-      "slPx": 541500,
-      "tpPx": 627000,
+      "px": 567000.0,
+      "dayChg": 6.58,
+      "slPx": 538650,
+      "tpPx": 623700,
       "ev": 3.7,
       "winRate": 87,
-      "rs60": 7.1,
-      "tradingVal": 397,
+      "rs60": 6.6,
+      "tradingVal": 478,
       "posTags": [
         "실적 성장",
         "강세·모멘텀"
@@ -781,7 +769,7 @@
       "why": [
         "실시간 뉴스 2건 포착: 실적 성장, 강세·모멘텀",
         "핵심 기사: [모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 87,
       "news": [
@@ -803,24 +791,30 @@
       "code": "005930",
       "name": "삼성전자",
       "market": "코스피",
-      "px": 179800.0,
-      "dayChg": 4.96,
-      "slPx": 170810,
-      "tpPx": 197780,
-      "ev": 2.9,
-      "winRate": 79,
-      "rs60": 5.0,
-      "tradingVal": 19230,
+      "px": 179100.0,
+      "dayChg": 4.55,
+      "slPx": 170145,
+      "tpPx": 197010,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 4.5,
+      "tradingVal": 23956,
       "posTags": [
         "강세·모멘텀"
       ],
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
-        "핵심 기사: SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 79,
+      "score": 67,
       "news": [
+        {
+          "src": "매일경제",
+          "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220218",
+          "date": "Fri, 27 Nov 2026"
+        },
         {
           "src": "매일경제",
           "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
@@ -832,37 +826,37 @@
           "title": "삼성전자 로봇에 힘주자 관련주 줄줄이 급등…제닉스로보틱스 상한가",
           "url": "https://www.mk.co.kr/news/stock/12219958",
           "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]삼성E&A, '삼성전자 포함 그룹사 투자 수혜 점검' 목표가 88,000원 - 키움증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxejMzUUJIMjZQdTNDSUN4TGtiZTZsX3hKRmJpN2FoS2k5a1NQUnZydHhJeC0wLUtaVm44cGhydkducm00ekRlR1FMRk5ZRndZd3VyYkc5TWpnOV80?oc=5",
-          "date": "Wed, 25 Nov 2026"
         }
       ]
     },
     {
-      "code": "108490",
-      "name": "로보티즈",
-      "market": "코스닥",
-      "px": 303000.0,
-      "dayChg": 8.02,
-      "slPx": 287850,
-      "tpPx": 333300,
-      "ev": 2.0,
-      "winRate": 70,
-      "rs60": 8.0,
-      "tradingVal": 1449,
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 269000.0,
+      "dayChg": 3.86,
+      "slPx": 255550,
+      "tpPx": 295900,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 3.9,
+      "tradingVal": 995,
       "posTags": [
-        "외인·기관 수급"
+        "강세·모멘텀"
       ],
       "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: [리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
-        "선물·만기 반영: 코스피선물 +3.89% · 나스닥선물 +2.81% · 네 마녀의 날 D-13 (12/10)"
+        "실시간 뉴스 3건 포착: 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+        "선물·만기 반영: 코스피선물 +4.14% · 나스닥선물 +2.86% · 네 마녀의 날 D-13 (12/10)"
       ],
-      "score": 70,
+      "score": 67,
       "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
         {
           "src": "구글·리포트",
           "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
@@ -870,15 +864,24 @@
           "date": "Thu, 26 Nov 2026"
         },
         {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 로보티즈, 외국인/기관 동시 순매수… 주가 +5.70%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zR0x2WEdET0xrWGk1dU9wdlB0eFpnUjlEb2FqcDdFOVhZZ1FBamFOM0tSREVWZ1VfZDF6R2JFM1RzZHU0S0ZKdHctNXpYY3NGWkd3cl9PZmkyWFVa?oc=5",
-          "date": "Fri, 27 Nov 2026"
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
+          "date": "Thu, 26 Nov 2026"
         }
       ]
     }
   ],
   "rankedTable": [
+    {
+      "code": "034730",
+      "name": "SK",
+      "market": "코스피",
+      "px": 477000.0,
+      "dayChg": 10.93,
+      "rs60": 118,
+      "ev": 6.8
+    },
     {
       "code": "402340",
       "name": "SK스퀘어",
@@ -889,20 +892,11 @@
       "ev": 6.5
     },
     {
-      "code": "034730",
-      "name": "SK",
-      "market": "코스피",
-      "px": 475000.0,
-      "dayChg": 10.47,
-      "rs60": 113,
-      "ev": 6.3
-    },
-    {
       "code": "036930",
       "name": "주성엔지니어링",
       "market": "코스닥",
-      "px": 157200.0,
-      "dayChg": 14.58,
+      "px": 156900.0,
+      "dayChg": 14.36,
       "rs60": 90,
       "ev": 4.0
     },
@@ -910,44 +904,44 @@
       "code": "000150",
       "name": "두산",
       "market": "코스피",
-      "px": 570000.0,
-      "dayChg": 7.14,
+      "px": 567000.0,
+      "dayChg": 6.58,
       "rs60": 87,
       "ev": 3.7
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "market": "코스피",
-      "px": 179800.0,
-      "dayChg": 4.96,
-      "rs60": 79,
-      "ev": 2.9
     },
     {
       "code": "064760",
       "name": "티씨케이",
       "market": "코스닥",
-      "px": 175400.0,
-      "dayChg": 11.08,
+      "px": 176900.0,
+      "dayChg": 12.03,
       "rs60": 73,
       "ev": 2.3
     },
     {
-      "code": "108490",
-      "name": "로보티즈",
-      "market": "코스닥",
-      "px": 303000.0,
-      "dayChg": 8.02,
-      "rs60": 70,
-      "ev": 2.0
+      "code": "005930",
+      "name": "삼성전자",
+      "market": "코스피",
+      "px": 179100.0,
+      "dayChg": 4.55,
+      "rs60": 67,
+      "ev": 1.7
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 269000.0,
+      "dayChg": 3.86,
+      "rs60": 67,
+      "ev": 1.7
     },
     {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
-      "px": 340000.0,
-      "dayChg": 3.19,
+      "px": 339000.0,
+      "dayChg": 2.88,
       "rs60": 67,
       "ev": 1.7
     },
@@ -964,35 +958,8 @@
       "code": "006400",
       "name": "삼성SDI",
       "market": "코스피",
-      "px": 452000.0,
-      "dayChg": 8.13,
-      "rs60": 65,
-      "ev": 1.5
-    },
-    {
-      "code": "035720",
-      "name": "카카오",
-      "market": "코스피",
-      "px": 31200.0,
-      "dayChg": 3.31,
-      "rs60": 65,
-      "ev": 1.5
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 298500.0,
-      "dayChg": 0.0,
-      "rs60": 65,
-      "ev": 1.5
-    },
-    {
-      "code": "377300",
-      "name": "카카오페이",
-      "market": "코스피",
-      "px": 33800.0,
-      "dayChg": 4.81,
+      "px": 452500.0,
+      "dayChg": 8.25,
       "rs60": 65,
       "ev": 1.5
     },
@@ -1000,8 +967,8 @@
       "code": "196170",
       "name": "알테오젠",
       "market": "코스닥",
-      "px": 187900.0,
-      "dayChg": 10.33,
+      "px": 186300.0,
+      "dayChg": 9.4,
       "rs60": 65,
       "ev": 1.5
     },
@@ -1009,8 +976,8 @@
       "code": "086520",
       "name": "에코프로",
       "market": "코스닥",
-      "px": 73500.0,
-      "dayChg": 14.84,
+      "px": 72900.0,
+      "dayChg": 13.91,
       "rs60": 65,
       "ev": 1.5
     },
@@ -1018,40 +985,49 @@
       "code": "083650",
       "name": "비에이치아이",
       "market": "코스닥",
-      "px": 36900.0,
-      "dayChg": 12.84,
+      "px": 36650.0,
+      "dayChg": 12.08,
       "rs60": 65,
       "ev": 1.5
     },
     {
-      "code": "005380",
-      "name": "현대차",
+      "code": "278470",
+      "name": "에이피알",
       "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
-      "rs60": 62,
-      "ev": 1.2
+      "px": 299500.0,
+      "dayChg": 0.34,
+      "rs60": 60,
+      "ev": 1.0
     },
     {
-      "code": "039490",
-      "name": "키움증권",
+      "code": "000660",
+      "name": "SK하이닉스",
       "market": "코스피",
-      "px": 232500.0,
-      "dayChg": 13.97,
-      "rs60": 62,
-      "ev": 1.2
-    },
-    {
-      "code": "028050",
-      "name": "삼성E&A",
-      "market": "코스피",
-      "px": 58600.0,
-      "dayChg": 3.17,
-      "rs60": 57,
-      "ev": 0.7
+      "px": 1110000.0,
+      "dayChg": 5.41,
+      "rs60": 55,
+      "ev": 0.5
     }
   ],
   "news": [
+    {
+      "src": "매일경제",
+      "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+      "url": "https://www.mk.co.kr/news/stock/12220218",
+      "date": "Fri, 27 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "F4 “공매도 특이동향 현재로선 없어...위법 혐의 엄중 대응”",
+      "url": "https://www.mk.co.kr/news/stock/12220186",
+      "date": "Fri, 27 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "한은 기준금리 올린 날 무슨 일이?…국고채 만기별로 희비 엇갈린 이유",
+      "url": "https://www.mk.co.kr/news/stock/12220173",
+      "date": "Fri, 27 Nov 2026"
+    },
     {
       "src": "매일경제",
       "title": "“100만원부터 가입 가능”…신한투자증권, 연 5% 발행어음 출시",
@@ -1215,24 +1191,6 @@
       "date": "Thu, 26 Nov 2026"
     },
     {
-      "src": "매일경제",
-      "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
-      "url": "https://www.mk.co.kr/news/stock/12219622",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "민간 자본시장 개혁기구 출범…위원장에 메리츠 김용범 부회장",
-      "url": "https://www.mk.co.kr/news/stock/12219562",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "제일기획, 2027년 정기 임원인사 단행...권현정·홍상우 부사장 승진",
-      "url": "https://www.mk.co.kr/news/stock/12219525",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
       "src": "구글·리포트",
       "title": "[모닝 리포트] \"해성디에스, 기판 가격 인상·고객사 확대…주가 재평가 기대\"",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IRVRCUXhOSWhQdzFucklsTl9kd2NTMHA5WGhlMWlKdU5XTDI3X1ZrTXltdE1zTWY5bU90bFBRY1lRUVpxZE84bmtVZFAzTHR1LUdid01Bc3hsSGtN?oc=5",
@@ -1276,6 +1234,12 @@
     },
     {
       "src": "구글·리포트",
+      "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
+      "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
       "title": "[모닝 리포트] 대신증권 \"CJ, 올리브영 인바운드 수요가 하단 지지\"",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HRFJtbmR1ZE54M2d1S0dSb1BYaGpTMDl4bExERHpIdjR5MTJMZFlJY1hNVEJucE11TWc1RjZiOWY4Rm9DU0hjZ2xJblNhSjJFQkJERWFvVWdsYzRp?oc=5",
       "date": "Wed, 25 Nov 2026"
@@ -1285,12 +1249,6 @@
       "title": "[모닝 리포트] \"코스맥스, 국내 증설·해외 사업 개선에 성장 지속\"",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uRW5MRzR3NHNMSkNjOTNjQ0xhX2hYTzJkblNkU1BNYVp5V3d4a3pXWER6c3VTUi1FaXM3SXgxNU81X0xXUWFkYW9GMi1ESmtLWFphRkpXSm5OSVNF?oc=5",
       "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "구글·리포트",
-      "title": "[모닝 리포트] \"한화솔루션, 탠덤셀 투자에 현금흐름 악화…목표가 하향\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5YVm51ZDRMelBLcExKbV92RUpQbFNXNjVMczFTN2sxMTU1TG03clo4dlJfSWNBbkwzS3lidkNkYzQ4VlpUVVdJVUZPelhxVDg2QUJxWUppTlphZ1ZB?oc=5",
-      "date": "Wed, 25 Nov 2026"
     }
   ]
 }
