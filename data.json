@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-27 12:00 KST (기사·선물·만기 100%)",
+  "updatedAt": "2026-11-27 12:47 KST (기사·선물·만기 100%)",
   "scannedTotal": 292,
-  "analyzedDetail": 90,
+  "analyzedDetail": 82,
   "regime": {
     "score": 87,
     "type": "bull",
@@ -12,30 +12,30 @@
     "items": [
       {
         "name": "코스피",
-        "close": 4845.34,
-        "chg": 2.85,
+        "close": 4875.61,
+        "chg": 3.49,
         "state": "네 마녀의 날 D-13 (12/10)"
       },
       {
         "name": "코스닥",
-        "close": 693.02,
-        "chg": 5.69,
+        "close": 696.71,
+        "chg": 6.25,
         "state": "MSCI 리밸런싱 D-3 (11/30)"
       }
     ]
   },
   "macro": {
     "futKospi": {
-      "px": 746.85,
-      "pct": 2.72
+      "px": 751.94,
+      "pct": 3.42
     },
     "futNasdaq": {
-      "px": 26675.0,
-      "pct": 2.2
+      "px": 26698.75,
+      "pct": 2.29
     },
     "fxKrw": {
-      "px": 1342.42,
-      "pct": -0.05
+      "px": 1341.48,
+      "pct": -0.12
     }
   },
   "swing": [
@@ -43,25 +43,25 @@
       "code": "034730",
       "name": "SK",
       "market": "코스피",
-      "px": 462000.0,
-      "dayChg": 7.44,
-      "slPx": 438900,
-      "tpPx": 508200,
-      "ev": 7.3,
+      "px": 468000.0,
+      "dayChg": 8.84,
+      "slPx": 444600,
+      "tpPx": 514800,
+      "ev": 6.8,
       "winRate": 95,
-      "rs60": 7.4,
-      "tradingVal": 193,
+      "rs60": 8.8,
+      "tradingVal": 247,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
       ],
       "why": [
-        "실시간 뉴스 9건 포착: 주주환원, 외인·기관 수급",
+        "실시간 뉴스 8건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)",
         "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
       ],
-      "score": 123,
+      "score": 118,
       "news": [
         {
           "src": "매일경제",
@@ -87,14 +87,14 @@
       "code": "402340",
       "name": "SK스퀘어",
       "market": "코스피",
-      "px": 668000.0,
-      "dayChg": 2.45,
-      "slPx": 634600,
-      "tpPx": 734800,
+      "px": 673000.0,
+      "dayChg": 3.22,
+      "slPx": 639350,
+      "tpPx": 740300,
       "ev": 6.5,
       "winRate": 95,
-      "rs60": 2.5,
-      "tradingVal": 1173,
+      "rs60": 3.2,
+      "tradingVal": 1404,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
@@ -102,7 +102,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 115,
       "news": [
@@ -130,21 +130,21 @@
       "code": "064760",
       "name": "티씨케이",
       "market": "코스닥",
-      "px": 170500.0,
-      "dayChg": 7.98,
-      "slPx": 161975,
-      "tpPx": 187550,
+      "px": 170900.0,
+      "dayChg": 8.23,
+      "slPx": 162355,
+      "tpPx": 187990,
       "ev": 2.3,
       "winRate": 73,
-      "rs60": 8.0,
-      "tradingVal": 39,
+      "rs60": 8.2,
+      "tradingVal": 48,
       "posTags": [
         "수주·계약"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 수주·계약",
         "핵심 기사: [모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 73,
       "news": [
@@ -160,21 +160,21 @@
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
-      "px": 335000.0,
-      "dayChg": 1.67,
-      "slPx": 318250,
-      "tpPx": 368500,
+      "px": 336500.0,
+      "dayChg": 2.12,
+      "slPx": 319675,
+      "tpPx": 370150,
       "ev": 1.7,
       "winRate": 67,
-      "rs60": 1.7,
-      "tradingVal": 369,
+      "rs60": 2.1,
+      "tradingVal": 421,
       "posTags": [
         "증권사 매수"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -190,21 +190,21 @@
       "code": "006400",
       "name": "삼성SDI",
       "market": "코스피",
-      "px": 447500.0,
-      "dayChg": 7.06,
-      "slPx": 425125,
-      "tpPx": 492250,
+      "px": 450000.0,
+      "dayChg": 7.66,
+      "slPx": 427500,
+      "tpPx": 495000,
       "ev": 1.5,
       "winRate": 65,
-      "rs60": 7.1,
-      "tradingVal": 1443,
+      "rs60": 7.7,
+      "tradingVal": 1566,
       "posTags": [
         "주주환원"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 주주환원",
         "핵심 기사: 삼성SDI도 1.4조원 자사주 전량 소각",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 65,
       "news": [
@@ -222,25 +222,25 @@
       "code": "034730",
       "name": "SK",
       "market": "코스피",
-      "px": 462000.0,
-      "dayChg": 7.44,
-      "slPx": 438900,
-      "tpPx": 508200,
-      "ev": 7.3,
+      "px": 468000.0,
+      "dayChg": 8.84,
+      "slPx": 444600,
+      "tpPx": 514800,
+      "ev": 6.8,
       "winRate": 95,
-      "rs60": 7.4,
-      "tradingVal": 193,
+      "rs60": 8.8,
+      "tradingVal": 247,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
       ],
       "why": [
-        "실시간 뉴스 9건 포착: 주주환원, 외인·기관 수급",
+        "실시간 뉴스 8건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)",
         "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
       ],
-      "score": 123,
+      "score": 118,
       "news": [
         {
           "src": "매일경제",
@@ -266,14 +266,14 @@
       "code": "402340",
       "name": "SK스퀘어",
       "market": "코스피",
-      "px": 668000.0,
-      "dayChg": 2.45,
-      "slPx": 634600,
-      "tpPx": 734800,
+      "px": 673000.0,
+      "dayChg": 3.22,
+      "slPx": 639350,
+      "tpPx": 740300,
       "ev": 6.5,
       "winRate": 95,
-      "rs60": 2.5,
-      "tradingVal": 1173,
+      "rs60": 3.2,
+      "tradingVal": 1404,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
@@ -281,7 +281,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 115,
       "news": [
@@ -306,96 +306,24 @@
       ]
     },
     {
-      "code": "035720",
-      "name": "카카오",
-      "market": "코스피",
-      "px": 31050.0,
-      "dayChg": 2.81,
-      "slPx": 29498,
-      "tpPx": 34155,
-      "ev": 4.0,
-      "winRate": 90,
-      "rs60": 2.8,
-      "tradingVal": 115,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 90,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·수급",
-          "title": "카카오페이증권, 외국인·기관 순매수 30분 단위로 보여준다",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcFBGVWx0TXY3RVA3MHFvQmMzVUxteUZ3Q0pqRXJ1MzlFTnp6VmV4eDlXcmxHdUZnNzc2TGV3WkJJaUJtOHF5Zm5VWVlLdjkzS0p3U3FZZ0FlU0o3cU9iOGtEWjE?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "377300",
-      "name": "카카오페이",
-      "market": "코스피",
-      "px": 33250.0,
-      "dayChg": 3.1,
-      "slPx": 31588,
-      "tpPx": 36575,
-      "ev": 4.0,
-      "winRate": 90,
-      "rs60": 3.1,
-      "tradingVal": 30,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 90,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·수급",
-          "title": "카카오페이증권, 외국인·기관 순매수 30분 단위로 보여준다",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcFBGVWx0TXY3RVA3MHFvQmMzVUxteUZ3Q0pqRXJ1MzlFTnp6VmV4eDlXcmxHdUZnNzc2TGV3WkJJaUJtOHF5Zm5VWVlLdjkzS0p3U3FZZ0FlU0o3cU9iOGtEWjE?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "064760",
       "name": "티씨케이",
       "market": "코스닥",
-      "px": 170500.0,
-      "dayChg": 7.98,
-      "slPx": 161975,
-      "tpPx": 187550,
+      "px": 170900.0,
+      "dayChg": 8.23,
+      "slPx": 162355,
+      "tpPx": 187990,
       "ev": 2.3,
       "winRate": 73,
-      "rs60": 8.0,
-      "tradingVal": 39,
+      "rs60": 8.2,
+      "tradingVal": 48,
       "posTags": [
         "수주·계약"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 수주·계약",
         "핵심 기사: [모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 73,
       "news": [
@@ -411,21 +339,21 @@
       "code": "005380",
       "name": "현대차",
       "market": "코스피",
-      "px": 266500.0,
-      "dayChg": 2.9,
-      "slPx": 253175,
-      "tpPx": 293150,
+      "px": 267500.0,
+      "dayChg": 3.28,
+      "slPx": 254125,
+      "tpPx": 294250,
       "ev": 1.7,
       "winRate": 67,
-      "rs60": 2.9,
-      "tradingVal": 468,
+      "rs60": 3.3,
+      "tradingVal": 540,
       "posTags": [
         "강세·모멘텀"
       ],
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
         "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -448,6 +376,66 @@
           "date": "Thu, 26 Nov 2026"
         }
       ]
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "코스피",
+      "px": 336500.0,
+      "dayChg": 2.12,
+      "slPx": 319675,
+      "tpPx": 370150,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 2.1,
+      "tradingVal": 421,
+      "posTags": [
+        "증권사 매수"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 증권사 매수",
+        "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
+          "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "코스피",
+      "px": 806000.0,
+      "dayChg": 2.81,
+      "slPx": 765700,
+      "tpPx": 886600,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 2.8,
+      "tradingVal": 4450,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
     }
   ],
   "openBet": [
@@ -455,14 +443,14 @@
       "code": "402340",
       "name": "SK스퀘어",
       "market": "코스피",
-      "px": 668000.0,
-      "dayChg": 2.45,
-      "slPx": 634600,
-      "tpPx": 734800,
+      "px": 673000.0,
+      "dayChg": 3.22,
+      "slPx": 639350,
+      "tpPx": 740300,
       "ev": 6.5,
       "winRate": 95,
-      "rs60": 2.5,
-      "tradingVal": 1173,
+      "rs60": 3.2,
+      "tradingVal": 1404,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
@@ -470,7 +458,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 115,
       "news": [
@@ -490,6 +478,108 @@
           "src": "구글·수급",
           "title": "[장중수급포착] SK스퀘어, 외국인/기관 동시 순매수… 주가 +5.35%",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adzJndUNhamFKcDEzZE5RN1c3UFJjaDEzRXJqV0F2RmI0OFJGWVNTZXExTUhRUzFEcVhqSzdUY2h6ay1LMVdHUkNHRGJMVjhOLXlrYS13Q1dvM3p3?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "005380",
+      "name": "현대차",
+      "market": "코스피",
+      "px": 267500.0,
+      "dayChg": 3.28,
+      "slPx": 254125,
+      "tpPx": 294250,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 3.3,
+      "tradingVal": 540,
+      "posTags": [
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 3건 포착: 강세·모멘텀",
+        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
+          "date": "Wed, 25 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        },
+        {
+          "src": "구글·리포트",
+          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "012330",
+      "name": "현대모비스",
+      "market": "코스피",
+      "px": 336500.0,
+      "dayChg": 2.12,
+      "slPx": 319675,
+      "tpPx": 370150,
+      "ev": 1.7,
+      "winRate": 67,
+      "rs60": 2.1,
+      "tradingVal": 421,
+      "posTags": [
+        "증권사 매수"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 증권사 매수",
+        "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 67,
+      "news": [
+        {
+          "src": "구글·리포트",
+          "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
+          "date": "Fri, 27 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "009150",
+      "name": "삼성전기",
+      "market": "코스피",
+      "px": 806000.0,
+      "dayChg": 2.81,
+      "slPx": 765700,
+      "tpPx": 886600,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": 2.8,
+      "tradingVal": 4450,
+      "posTags": [
+        "외인·기관 수급"
+      ],
+      "why": [
+        "실시간 뉴스 1건 포착: 외인·기관 수급",
+        "핵심 기사: [장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "구글·수급",
+          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
           "date": "Thu, 26 Nov 2026"
         }
       ]
@@ -502,168 +592,64 @@
       "dayChg": 2.81,
       "slPx": 29498,
       "tpPx": 34155,
-      "ev": 4.0,
-      "winRate": 90,
-      "rs60": 2.8,
-      "tradingVal": 115,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 90,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·수급",
-          "title": "카카오페이증권, 외국인·기관 순매수 30분 단위로 보여준다",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcFBGVWx0TXY3RVA3MHFvQmMzVUxteUZ3Q0pqRXJ1MzlFTnp6VmV4eDlXcmxHdUZnNzc2TGV3WkJJaUJtOHF5Zm5VWVlLdjkzS0p3U3FZZ0FlU0o3cU9iOGtEWjE?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "377300",
-      "name": "카카오페이",
-      "market": "코스피",
-      "px": 33250.0,
-      "dayChg": 3.1,
-      "slPx": 31588,
-      "tpPx": 36575,
-      "ev": 4.0,
-      "winRate": 90,
-      "rs60": 3.1,
-      "tradingVal": 30,
-      "posTags": [
-        "외인·기관 수급"
-      ],
-      "why": [
-        "실시간 뉴스 2건 포착: 외인·기관 수급",
-        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 90,
-      "news": [
-        {
-          "src": "구글·수급",
-          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·수급",
-          "title": "카카오페이증권, 외국인·기관 순매수 30분 단위로 보여준다",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1LcFBGVWx0TXY3RVA3MHFvQmMzVUxteUZ3Q0pqRXJ1MzlFTnp6VmV4eDlXcmxHdUZnNzc2TGV3WkJJaUJtOHF5Zm5VWVlLdjkzS0p3U3FZZ0FlU0o3cU9iOGtEWjE?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 266500.0,
-      "dayChg": 2.9,
-      "slPx": 253175,
-      "tpPx": 293150,
-      "ev": 1.7,
-      "winRate": 67,
-      "rs60": 2.9,
-      "tradingVal": 468,
-      "posTags": [
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 3건 포착: 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 67,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "012330",
-      "name": "현대모비스",
-      "market": "코스피",
-      "px": 335000.0,
-      "dayChg": 1.67,
-      "slPx": 318250,
-      "tpPx": 368500,
-      "ev": 1.7,
-      "winRate": 67,
-      "rs60": 1.7,
-      "tradingVal": 369,
-      "posTags": [
-        "증권사 매수"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 증권사 매수",
-        "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 67,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
-          "date": "Fri, 27 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "009150",
-      "name": "삼성전기",
-      "market": "코스피",
-      "px": 799000.0,
-      "dayChg": 1.91,
-      "slPx": 759050,
-      "tpPx": 878900,
       "ev": 1.5,
       "winRate": 65,
-      "rs60": 1.9,
-      "tradingVal": 3716,
+      "rs60": 2.8,
+      "tradingVal": 134,
       "posTags": [
         "외인·기관 수급"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "핵심 기사: 카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 65,
       "news": [
         {
           "src": "구글·수급",
-          "title": "[장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aTVFiZGl6NVhtblBBS0x6WXhiQmJwaWlDZzBpWHd3TVJjSm0yOF8zYjBkNUxHeWc5TVlzVVRDR0lwSTktN1llUDF1UjFHcE1tZjEyU2dXbFh1QkRh?oc=5",
+          "title": "카카오페이證, 외국인·기관 장중 순매수 30분 단위로 제공",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oWDg1QVVBMGNRcW5pTmRqMEhRVG5PdjM2QlJ5QjZRR2RYbHlLTGYxb2tQLXRwYTczUWRxZVYwdVdzZlJVb1VfWGh5VmwwT2Vxd3fSAVNBVV95cUxPN1U1N0pWbFlWZ29rSVFEWUpscUhBUHc4aHhiWFo3UWNpZnhRbFdCcEdtclVNQ01yVFFrSUZ5b2dsR2NOT2JLdXFEbFhrWXY4cXF0TQ?oc=5",
+          "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 298000.0,
+      "dayChg": -0.17,
+      "slPx": 283100,
+      "tpPx": 327800,
+      "ev": 1.5,
+      "winRate": 65,
+      "rs60": -0.2,
+      "tradingVal": 1529,
+      "posTags": [],
+      "why": [
+        "실시간 뉴스 5건 포착: 시장 주목",
+        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
+      ],
+      "score": 65,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+          "url": "https://www.mk.co.kr/news/stock/12219844",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+          "url": "https://www.mk.co.kr/news/stock/12219832",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
+          "url": "https://www.mk.co.kr/news/stock/12219622",
           "date": "Thu, 26 Nov 2026"
         }
       ]
@@ -674,14 +660,14 @@
       "code": "402340",
       "name": "SK스퀘어",
       "market": "코스피",
-      "px": 668000.0,
-      "dayChg": 2.45,
-      "slPx": 634600,
-      "tpPx": 734800,
+      "px": 673000.0,
+      "dayChg": 3.22,
+      "slPx": 639350,
+      "tpPx": 740300,
       "ev": 6.5,
       "winRate": 95,
-      "rs60": 2.5,
-      "tradingVal": 1173,
+      "rs60": 3.2,
+      "tradingVal": 1404,
       "posTags": [
         "주주환원",
         "외인·기관 수급"
@@ -689,7 +675,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 주주환원, 외인·기관 수급",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 115,
       "news": [
@@ -717,21 +703,21 @@
       "code": "005380",
       "name": "현대차",
       "market": "코스피",
-      "px": 266500.0,
-      "dayChg": 2.9,
-      "slPx": 253175,
-      "tpPx": 293150,
+      "px": 267500.0,
+      "dayChg": 3.28,
+      "slPx": 254125,
+      "tpPx": 294250,
       "ev": 1.7,
       "winRate": 67,
-      "rs60": 2.9,
-      "tradingVal": 468,
+      "rs60": 3.3,
+      "tradingVal": 540,
       "posTags": [
         "강세·모멘텀"
       ],
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
         "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -759,21 +745,21 @@
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
-      "px": 335000.0,
-      "dayChg": 1.67,
-      "slPx": 318250,
-      "tpPx": 368500,
+      "px": 336500.0,
+      "dayChg": 2.12,
+      "slPx": 319675,
+      "tpPx": 370150,
       "ev": 1.7,
       "winRate": 67,
-      "rs60": 1.7,
-      "tradingVal": 369,
+      "rs60": 2.1,
+      "tradingVal": 421,
       "posTags": [
         "증권사 매수"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -789,21 +775,21 @@
       "code": "009150",
       "name": "삼성전기",
       "market": "코스피",
-      "px": 799000.0,
-      "dayChg": 1.91,
-      "slPx": 759050,
-      "tpPx": 878900,
+      "px": 806000.0,
+      "dayChg": 2.81,
+      "slPx": 765700,
+      "tpPx": 886600,
       "ev": 1.5,
       "winRate": 65,
-      "rs60": 1.9,
-      "tradingVal": 3716,
+      "rs60": 2.8,
+      "tradingVal": 4450,
       "posTags": [
         "외인·기관 수급"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 외인·기관 수급",
         "핵심 기사: [장중수급포착] 삼성전기, 외국인/기관 동시 순매수… 주가 +5.89%",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 65,
       "news": [
@@ -819,21 +805,21 @@
       "code": "006400",
       "name": "삼성SDI",
       "market": "코스피",
-      "px": 447500.0,
-      "dayChg": 7.06,
-      "slPx": 425125,
-      "tpPx": 492250,
+      "px": 450000.0,
+      "dayChg": 7.66,
+      "slPx": 427500,
+      "tpPx": 495000,
       "ev": 1.5,
       "winRate": 65,
-      "rs60": 7.1,
-      "tradingVal": 1443,
+      "rs60": 7.7,
+      "tradingVal": 1566,
       "posTags": [
         "주주환원"
       ],
       "why": [
         "실시간 뉴스 1건 포착: 주주환원",
         "핵심 기사: 삼성SDI도 1.4조원 자사주 전량 소각",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 65,
       "news": [
@@ -846,31 +832,41 @@
       ]
     },
     {
-      "code": "196170",
-      "name": "알테오젠",
-      "market": "코스닥",
-      "px": 182000.0,
-      "dayChg": 6.87,
-      "slPx": 172900,
-      "tpPx": 200200,
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 298000.0,
+      "dayChg": -0.17,
+      "slPx": 283100,
+      "tpPx": 327800,
       "ev": 1.5,
       "winRate": 65,
-      "rs60": 6.9,
-      "tradingVal": 700,
-      "posTags": [
-        "외인·기관 수급"
-      ],
+      "rs60": -0.2,
+      "tradingVal": 1529,
+      "posTags": [],
       "why": [
-        "실시간 뉴스 1건 포착: 외인·기관 수급",
-        "핵심 기사: [장중수급포착] 알테오젠, 외국인/기관 동시 순매수… 주가 +2.06%",
-        "선물·만기 반영: 코스피선물 +2.72% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "실시간 뉴스 5건 포착: 시장 주목",
+        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+        "선물·만기 반영: 코스피선물 +3.42% · 나스닥선물 +2.29% · 네 마녀의 날 D-13 (12/10)"
       ],
       "score": 65,
       "news": [
         {
-          "src": "구글·수급",
-          "title": "[장중수급포착] 알테오젠, 외국인/기관 동시 순매수… 주가 +2.06%",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56WnQ1QWNvLUc2TndIdTBOQWNhRUREMlQzTTZDNjhoRGdXQU80UWJSSzRxOTN6ai10ZkVUNkhNb2swQk1vcnBpMldTLVF6MmZUUTVkYjN0ZTR0RHJi?oc=5",
+          "src": "매일경제",
+          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
+          "url": "https://www.mk.co.kr/news/stock/12219844",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
+          "url": "https://www.mk.co.kr/news/stock/12219832",
+          "date": "Fri, 27 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "에이피알, 뷰티 브랜드 '닥터멜락신' 인수",
+          "url": "https://www.mk.co.kr/news/stock/12219622",
           "date": "Thu, 26 Nov 2026"
         }
       ]
@@ -881,44 +877,26 @@
       "code": "034730",
       "name": "SK",
       "market": "코스피",
-      "px": 462000.0,
-      "dayChg": 7.44,
-      "rs60": 123,
-      "ev": 7.3
+      "px": 468000.0,
+      "dayChg": 8.84,
+      "rs60": 118,
+      "ev": 6.8
     },
     {
       "code": "402340",
       "name": "SK스퀘어",
       "market": "코스피",
-      "px": 668000.0,
-      "dayChg": 2.45,
+      "px": 673000.0,
+      "dayChg": 3.22,
       "rs60": 115,
       "ev": 6.5
-    },
-    {
-      "code": "035720",
-      "name": "카카오",
-      "market": "코스피",
-      "px": 31050.0,
-      "dayChg": 2.81,
-      "rs60": 90,
-      "ev": 4.0
-    },
-    {
-      "code": "377300",
-      "name": "카카오페이",
-      "market": "코스피",
-      "px": 33250.0,
-      "dayChg": 3.1,
-      "rs60": 90,
-      "ev": 4.0
     },
     {
       "code": "064760",
       "name": "티씨케이",
       "market": "코스닥",
-      "px": 170500.0,
-      "dayChg": 7.98,
+      "px": 170900.0,
+      "dayChg": 8.23,
       "rs60": 73,
       "ev": 2.3
     },
@@ -926,8 +904,8 @@
       "code": "005380",
       "name": "현대차",
       "market": "코스피",
-      "px": 266500.0,
-      "dayChg": 2.9,
+      "px": 267500.0,
+      "dayChg": 3.28,
       "rs60": 67,
       "ev": 1.7
     },
@@ -935,8 +913,8 @@
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
-      "px": 335000.0,
-      "dayChg": 1.67,
+      "px": 336500.0,
+      "dayChg": 2.12,
       "rs60": 67,
       "ev": 1.7
     },
@@ -944,8 +922,8 @@
       "code": "009150",
       "name": "삼성전기",
       "market": "코스피",
-      "px": 799000.0,
-      "dayChg": 1.91,
+      "px": 806000.0,
+      "dayChg": 2.81,
       "rs60": 65,
       "ev": 1.5
     },
@@ -953,8 +931,35 @@
       "code": "006400",
       "name": "삼성SDI",
       "market": "코스피",
-      "px": 447500.0,
-      "dayChg": 7.06,
+      "px": 450000.0,
+      "dayChg": 7.66,
+      "rs60": 65,
+      "ev": 1.5
+    },
+    {
+      "code": "035720",
+      "name": "카카오",
+      "market": "코스피",
+      "px": 31050.0,
+      "dayChg": 2.81,
+      "rs60": 65,
+      "ev": 1.5
+    },
+    {
+      "code": "278470",
+      "name": "에이피알",
+      "market": "코스피",
+      "px": 298000.0,
+      "dayChg": -0.17,
+      "rs60": 65,
+      "ev": 1.5
+    },
+    {
+      "code": "377300",
+      "name": "카카오페이",
+      "market": "코스피",
+      "px": 33350.0,
+      "dayChg": 3.41,
       "rs60": 65,
       "ev": 1.5
     },
@@ -962,8 +967,8 @@
       "code": "196170",
       "name": "알테오젠",
       "market": "코스닥",
-      "px": 182000.0,
-      "dayChg": 6.87,
+      "px": 183300.0,
+      "dayChg": 7.63,
       "rs60": 65,
       "ev": 1.5
     },
@@ -971,8 +976,8 @@
       "code": "036930",
       "name": "주성엔지니어링",
       "market": "코스닥",
-      "px": 152600.0,
-      "dayChg": 11.22,
+      "px": 153900.0,
+      "dayChg": 12.17,
       "rs60": 65,
       "ev": 1.5
     },
@@ -980,8 +985,8 @@
       "code": "083650",
       "name": "비에이치아이",
       "market": "코스닥",
-      "px": 35350.0,
-      "dayChg": 8.1,
+      "px": 35650.0,
+      "dayChg": 9.02,
       "rs60": 65,
       "ev": 1.5
     },
@@ -989,19 +994,10 @@
       "code": "005930",
       "name": "삼성전자",
       "market": "코스피",
-      "px": 176800.0,
-      "dayChg": 3.21,
+      "px": 178300.0,
+      "dayChg": 4.09,
       "rs60": 62,
       "ev": 1.2
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 300000.0,
-      "dayChg": 0.5,
-      "rs60": 60,
-      "ev": 1.0
     }
   ],
   "news": [
