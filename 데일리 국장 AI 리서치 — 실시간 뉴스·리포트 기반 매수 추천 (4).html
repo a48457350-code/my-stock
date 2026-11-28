@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#080c15">
+<title>데일리 국장 AI 리서치 — 실시간 뉴스·리포트 기반 매수 추천</title>
+<style>
+  :root{
+    --bg:#080c15; --bg2:#0f1625; --card:#141e33; --card2:#1a2742; --border:#243456;
+    --text:#f0f4ff; --dim:#94a7c9; --faint:#63779b;
+    --good:#22c55e; --bad:#ef4444; --warn:#f59e0b; --accent:#3b82f6; --accent2:#8b5cf6; --cyan:#22d3ee;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+  html,body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Inter",sans-serif;line-height:1.55;min-height:100%}
+  body{padding-bottom:82px;background:radial-gradient(900px 420px at 50% -10%,#17284a 0%,var(--bg) 58%)}
+  .app{max-width:760px;margin:0 auto;padding:14px 13px 20px}
+
+  /* Header */
+  .top-bar{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px}
+  .brand{display:flex;align-items:center;gap:9px}
+  .logo{width:36px;height:36px;border-radius:11px;background:linear-gradient(135deg,var(--accent),var(--accent2));display:flex;align-items:center;justify-content:center;font-size:19px;box-shadow:0 4px 16px rgba(59,130,246,.35)}
+  .brand h1{font-size:16.5px;font-weight:900;letter-spacing:-.4px}
+  .brand .sub{font-size:11px;color:var(--dim)}
+  .btn{background:var(--card2);border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:10px;font-size:12px;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:5px;text-decoration:none}
+  .btn.primary{background:linear-gradient(135deg,var(--accent),var(--accent2));border:none;color:#fff}
+  .btn.good{background:rgba(34,197,94,.16);border:1px solid rgba(34,197,94,.45);color:#4ade80}
+  .btn.bad{background:rgba(239,68,68,.15);border:1px solid rgba(239,68,68,.4);color:#f87171}
+  .btn.sm{padding:6px 10px;font-size:11px;border-radius:8px}
+  .btn:disabled{opacity:.5;cursor:wait}
+
+  /* Status & Clock */
+  .status-bar{font-size:11.5px;padding:9px 12px;border-radius:12px;margin-bottom:9px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.32);color:#bfdbfe;display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .status-bar.ok{background:rgba(34,197,94,.1);border-color:rgba(34,197,94,.35);color:#bbf7d0}
+  .status-bar.warn{background:rgba(245,158,11,.1);border-color:rgba(245,158,11,.35);color:#fde68a}
+  .clock-bar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;background:var(--card2);border:1px solid var(--border);border-radius:11px;padding:8px 12px;margin-bottom:12px;font-size:11.5px}
+  .market-switch{display:grid;grid-template-columns:1fr 1fr;gap:6px;background:var(--card);border:1px solid var(--border);border-radius:13px;padding:5px;margin-bottom:12px}
+  .msw-btn{background:none;border:1px solid transparent;color:var(--dim);padding:9px 10px;border-radius:9px;font-size:13px;font-weight:900;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:6px;transition:all .15s}
+  .msw-btn.active{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;box-shadow:0 3px 12px rgba(59,130,246,.32)}
+  .msw-btn.us.active{background:linear-gradient(135deg,#0ea5e9,#6366f1)}
+
+  /* Market Sentiment Hero */
+  .hero{border-radius:18px;padding:15px;margin-bottom:12px;border:1px solid var(--border);background:var(--card)}
+  .hero.bull{background:linear-gradient(135deg,rgba(34,197,94,.14),var(--card) 68%);border-color:rgba(34,197,94,.45)}
+  .hero.neutral{background:linear-gradient(135deg,rgba(245,158,11,.14),var(--card) 68%);border-color:rgba(245,158,11,.45)}
+  .hero.bear{background:linear-gradient(135deg,rgba(239,68,68,.16),var(--card) 68%);border-color:rgba(239,68,68,.5)}
+  .hero-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+  .hero-badge{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;font-weight:800;padding:3px 9px;border-radius:999px;background:rgba(255,255,255,.08)}
+  .hero-title{font-size:18px;font-weight:900;letter-spacing:-.4px;margin-top:6px}
+  .hero-desc{font-size:12px;color:var(--dim);margin-top:4px;line-height:1.6}
+  .hero-score{text-align:right;flex-shrink:0}
+  .hero-score .num{font-size:30px;font-weight:900;line-height:1}
+  .hero-score .lbl{font-size:10px;color:var(--dim);margin-top:2px}
+  .meter{height:7px;background:var(--bg2);border-radius:99px;overflow:hidden;margin:11px 0 8px}
+  .meter > i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--bad),var(--warn),var(--good));transition:width .3s}
+  .hero-pills{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:8px}
+  .hpill{background:rgba(8,12,21,.55);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:7px 9px;font-size:11px}
+  .hpill .k{color:var(--dim);font-size:10px}
+  .hpill .v{font-size:13px;font-weight:800;margin-top:1px}
+
+  /* Futures Signal Card */
+  .fut-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:13px;margin-bottom:12px}
+  .fut-card.bull{border-color:rgba(34,197,94,.45);background:linear-gradient(135deg,rgba(34,197,94,.09),var(--card) 70%)}
+  .fut-card.neutral{border-color:rgba(245,158,11,.45);background:linear-gradient(135deg,rgba(245,158,11,.09),var(--card) 70%)}
+  .fut-card.bear{border-color:rgba(239,68,68,.5);background:linear-gradient(135deg,rgba(239,68,68,.12),var(--card) 70%)}
+  .fut-hd{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+  .fut-title{font-size:13.5px;font-weight:900;display:flex;align-items:center;gap:6px}
+  .fut-badge{font-size:11px;font-weight:900;padding:3px 9px;border-radius:999px}
+  .fut-badge.bull{background:rgba(34,197,94,.2);color:#4ade80}
+  .fut-badge.neutral{background:rgba(245,158,11,.2);color:#fbbf24}
+  .fut-badge.bear{background:rgba(239,68,68,.2);color:#f87171}
+  .fut-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:8px}
+  .cal-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:12px}
+  .cal-pill{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:9px 10px;font-size:11px}
+  .cal-pill.alert{border-color:rgba(239,68,68,.55);background:rgba(239,68,68,.1)}
+  .cal-pill.warn{border-color:rgba(245,158,11,.5);background:rgba(245,158,11,.09)}
+  .cal-pill .ck{font-size:10px;color:var(--dim);margin-bottom:2px}
+  .cal-pill .cv{font-size:13px;font-weight:900}
+  .cal-pill .cd{font-size:10px;color:var(--faint);margin-top:2px}
+  .fut-presets{display:flex;gap:5px;flex-wrap:wrap;align-items:center}
+  .fchip{background:var(--bg2);border:1px solid var(--border);color:var(--dim);padding:4px 9px;border-radius:999px;font-size:11px;font-weight:700;cursor:pointer}
+  .fchip.active{border-color:var(--accent);color:#fff;background:rgba(59,130,246,.22)}
+
+  /* Seed & Filter bar */
+  .ctrl-card{background:var(--card);border:1px solid var(--border);border-radius:15px;padding:12px;margin-bottom:12px}
+  .ctrl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .field label{display:block;font-size:10px;color:var(--dim);font-weight:700;margin-bottom:3px}
+  .field input,.field select{width:100%;background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:8px 9px;border-radius:9px;font-size:12.5px;font-weight:700;outline:none}
+  .field input:focus,.field select:focus{border-color:var(--accent)}
+
+  /* Section title */
+  .sec-hd{display:flex;align-items:center;justify-content:space-between;margin:15px 0 9px}
+  .sec-hd h2{font-size:14.5px;font-weight:900;display:flex;align-items:center;gap:6px}
+  .sec-hd .hint{font-size:11px;color:var(--dim)}
+
+  /* Pick Cards (All info needed to buy) */
+  .pick{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:14px;margin-bottom:12px;position:relative;overflow:hidden}
+  .pick::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+  .pick.grade-S::before{background:var(--good)} .pick.grade-A::before{background:var(--cyan)} .pick.grade-B::before{background:var(--warn)}
+  .pick-hd{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:8px}
+  .pick-title{font-size:16px;font-weight:900;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+  .pick-code{font-size:11px;color:var(--dim);font-weight:600}
+  .grade-badge{font-size:11px;font-weight:900;padding:3px 9px;border-radius:8px;white-space:nowrap}
+  .grade-badge.S{background:rgba(34,197,94,.2);color:#4ade80;border:1px solid rgba(34,197,94,.45)}
+  .grade-badge.A{background:rgba(34,211,238,.18);color:#67e8f9;border:1px solid rgba(34,211,238,.4)}
+  .grade-badge.B{background:rgba(245,158,11,.18);color:#fcd34d;border:1px solid rgba(245,158,11,.4)}
+
+  .tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:9px}
+  .tag{font-size:10px;font-weight:700;padding:2px 7px;border-radius:6px;background:rgba(59,130,246,.16);color:#93c5fd}
+  .tag.good{background:rgba(34,197,94,.16);color:#4ade80}
+  .tag.warn{background:rgba(245,158,11,.16);color:#fbbf24}
+  .tag.bad{background:rgba(239,68,68,.16);color:#f87171}
+
+  .thesis-box{background:rgba(8,12,21,.68);border:1px solid rgba(59,130,246,.28);border-radius:11px;padding:10px 11px;margin-bottom:10px;font-size:12px;color:#d6e2f7}
+  .thesis-box .hd{font-size:11px;font-weight:800;color:var(--cyan);margin-bottom:5px;display:flex;justify-content:space-between}
+  .thesis-box ul{margin:0 0 0 16px}
+  .thesis-box li{margin:3px 0}
+  .thesis-box b{color:#fff}
+
+  .risk-note{background:rgba(239,68,68,.08);border:1px solid rgba(239,68,68,.28);border-radius:9px;padding:7px 10px;font-size:11.5px;color:#fecaca;margin-bottom:10px}
+
+  .plan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:10px}
+  .pbox{background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:10px;padding:8px 9px}
+  .pbox.buy{background:rgba(59,130,246,.09);border-color:rgba(59,130,246,.35)}
+  .pbox.tp{background:rgba(34,197,94,.08);border-color:rgba(34,197,94,.35)}
+  .pbox.sl{background:rgba(239,68,68,.08);border-color:rgba(239,68,68,.35)}
+  .pbox .k{font-size:10px;color:var(--dim)}
+  .pbox .v{font-size:13.5px;font-weight:900;margin-top:2px}
+  .pbox .r{font-size:10px;color:var(--dim);margin-top:1px}
+  .pbox.buy .v{color:#93c5fd} .pbox.tp .v{color:#4ade80} .pbox.sl .v{color:#f87171}
+
+  .news-links{margin-bottom:10px;display:grid;gap:5px}
+  .nlink{display:flex;align-items:center;justify-content:space-between;gap:8px;background:rgba(255,255,255,.025);border:1px solid var(--border);border-radius:9px;padding:7px 10px;color:var(--text);text-decoration:none;font-size:11.5px}
+  .nlink:hover{border-color:var(--accent);color:#93c5fd}
+  .nlink .src{font-size:10px;color:var(--faint);white-space:nowrap}
+
+  .card-actions{display:flex;gap:6px;flex-wrap:wrap;padding-top:9px;border-top:1px solid var(--border)}
+
+  /* Feed list */
+  .feed-tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin-bottom:10px}
+  .ftab{background:var(--card);border:1px solid var(--border);color:var(--dim);padding:6px 11px;border-radius:999px;font-size:11.5px;font-weight:700;cursor:pointer;white-space:nowrap}
+  .ftab.active{background:rgba(59,130,246,.22);border-color:var(--accent);color:#fff}
+  .news-item{background:var(--card);border:1px solid var(--border);border-radius:13px;padding:11px 12px;margin-bottom:8px;display:block;text-decoration:none;color:var(--text)}
+  .news-item:hover{border-color:var(--accent)}
+  .news-item .nt{font-size:13px;font-weight:800;line-height:1.45;margin-bottom:5px}
+  .news-item .nm{display:flex;justify-content:space-between;align-items:center;gap:6px;font-size:10.5px;color:var(--dim);flex-wrap:wrap}
+
+  /* Strategy & Checklist */
+  .strat-card{background:var(--card);border:1px solid var(--border);border-radius:15px;padding:13px;margin-bottom:10px}
+  .strat-card h3{font-size:14px;font-weight:900;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+  .strat-card p,.strat-card li{font-size:12px;color:var(--dim);line-height:1.65}
+  .strat-card ul{margin:5px 0 0 16px}
+  .chk-item{display:flex;align-items:flex-start;gap:9px;padding:8px 0;border-bottom:1px solid rgba(36,52,86,.5);font-size:12.5px;cursor:pointer}
+  .chk-item:last-child{border-bottom:none}
+  .chk-item input{margin-top:3px;width:16px;height:16px;accent-color:var(--good)}
+
+  /* Position items */
+  .pos-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px;margin-bottom:9px;border-left:4px solid var(--accent)}
+
+  .empty{background:var(--card);border:1px dashed var(--border);border-radius:14px;padding:22px;text-align:center;color:var(--dim);font-size:12.5px}
+
+  /* Bottom Nav */
+  .nav{position:fixed;left:0;right:0;bottom:0;background:rgba(10,15,27,.96);backdrop-filter:blur(10px);border-top:1px solid var(--border);display:grid;grid-template-columns:repeat(4,1fr);padding:6px 6px calc(6px + env(safe-area-inset-bottom));z-index:50}
+  .nav button{background:none;border:none;color:var(--dim);display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 4px;border-radius:10px;font-size:10.5px;font-weight:700;cursor:pointer}
+  .nav button .ic{font-size:18px;line-height:1.1}
+  .nav button.active{color:#fff;background:rgba(59,130,246,.18)}
+  .pane{display:none} .pane.active{display:block}
+
+  .toast{position:fixed;left:50%;bottom:84px;transform:translateX(-50%) translateY(16px);background:#1e293b;border:1px solid var(--accent);color:#fff;padding:9px 15px;border-radius:999px;font-size:12px;font-weight:700;opacity:0;pointer-events:none;transition:all .2s;z-index:90}
+  .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+  @media (max-width:460px){
+    .plan-grid,.ctrl-grid{grid-template-columns:1fr}
+    .hero-pills,.fut-grid,.cal-strip{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top-bar">
+    <div class="brand">
+      <div class="logo">📰</div>
+      <div>
+        <h1>데일리 국장 AI 리서치</h1>
+        <div class="sub">실시간 뉴스·증권사 리포트·수급 자동 분석</div>
+      </div>
+    </div>
+    <button class="btn primary sm" id="refreshBtn" onclick="fetchAllLiveNews(true)">🔄 실시간 갱신</button>
+  </header>
+
+  <div id="statusBar" class="status-bar">⏳ 오늘의 실시간 증시 뉴스와 증권사 리포트를 수집하는 중...</div>
+  <div id="clockBar" class="clock-bar">🕒 장 시간 확인 중...</div>
+  <div class="market-switch" id="marketSwitch">
+    <button class="msw-btn kr active" data-mkt="kr" onclick="setMarketMode('kr')">🇰🇷 국장 (KRX·NXT)</button>
+    <button class="msw-btn us" data-mkt="us" onclick="setMarketMode('us')">🇺🇸 미장 (미국주식)</button>
+  </div>
+
+  <!-- ================= TAB 1: 오늘의 매수 추천 ================= -->
+  <section class="pane active" id="pane-picks">
+    <div id="marketHero" class="hero"></div>
+
+    <!-- 만기일·리밸런싱 자동 변동성 캘린더 (옵션만기·네마녀의날·MSCI 자동 계산) -->
+    <div id="calStrip" class="cal-strip"></div>
+
+    <!-- 선물지수 + 원/달러 환율 3박자 신호등 필터 (권장 매수 비중 자동 조절) -->
+    <div id="futCard" class="fut-card neutral">
+      <div class="fut-hd">
+        <div class="fut-title">🚦 선물·환율 신호등 <span id="futAutoTag" style="font-size:10.5px;color:var(--cyan);font-weight:700">(자동 수신 중...)</span></div>
+        <span id="futBadge" class="fut-badge neutral">🟡 혼조 · 비중 50%</span>
+      </div>
+      <div class="fut-grid">
+        <div class="field">
+          <label for="futKospi">코스피200 선물 (%)</label>
+          <input id="futKospi" type="number" step="0.1" value="-0.3" oninput="onFuturesChange()">
+        </div>
+        <div class="field">
+          <label for="futNasdaq">나스닥100 선물 (%)</label>
+          <input id="futNasdaq" type="number" step="0.1" value="-0.4" oninput="onFuturesChange()">
+        </div>
+        <div class="field">
+          <label for="futUsd">원/달러 환율 (%)</label>
+          <input id="futUsd" type="number" step="0.1" value="0.2" oninput="onFuturesChange()">
+        </div>
+      </div>
+      <div id="futNote" style="font-size:11.5px;color:var(--dim);margin-bottom:8px;line-height:1.5"></div>
+      <div class="fut-presets">
+        <button class="fchip" onclick="setFutPreset(0.8, 0.7, -0.4)">🟢 강세(100%)</button>
+        <button class="fchip" onclick="setFutPreset(-0.2, -0.3, 0.2)">🟡 혼조(50%)</button>
+        <button class="fchip" onclick="setFutPreset(-1.5, -1.2, 0.9)">🔴 급락(관망)</button>
+        <a class="btn sm" style="margin-left:auto" href="https://m.stock.naver.com/domestic/index/KOSPI200/total" target="_blank" rel="noopener noreferrer">선물 ↗</a>
+        <a class="btn sm" href="https://kr.investing.com/indices/nq-100-futures" target="_blank" rel="noopener noreferrer">나스닥 ↗</a>
+      </div>
+    </div>
+
+    <div class="ctrl-card">
+      <div class="ctrl-grid">
+        <div class="field">
+          <label for="seedIn">💵 내 시드 (원)</label>
+          <input id="seedIn" type="number" value="3000000" step="100000" oninput="onSeedChange()">
+        </div>
+        <div class="field">
+          <label for="riskIn">🛡️ 1회 손실한도 (%)</label>
+          <input id="riskIn" type="number" value="2.0" step="0.5" min="0.5" max="5" oninput="onSeedChange()">
+        </div>
+        <div class="field">
+          <label for="stratFilter">🧭 매매 스타일</label>
+          <select id="stratFilter" onchange="onSeedChange()">
+            <option value="all" selected>전체 추천 보기</option>
+            <option value="swing">📈 실적/리포트 스윙</option>
+            <option value="short">⚡ 시초·종가 단기수급</option>
+            <option value="nxt">🌃 대체거래소(NXT)</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="sec-hd">
+      <h2 id="pickSecTitle">🔥 실시간 기사·리포트 기반 상승 여력 종목</h2>
+      <span class="hint" id="pickCountHint">핵심 근거 · 목표가 · 매수 플랜</span>
+    </div>
+    <div class="feed-tabs" id="pickTabs">
+      <button class="ftab active" data-pf="all" onclick="setPickFilter('all')">🔥 전체</button>
+      <button class="ftab" data-pf="pullback" onclick="setPickFilter('pullback')">💎 덜 오른 호재 (-2%~+3%)</button>
+      <button class="ftab" data-pf="closebet" onclick="setPickFilter('closebet')">🌙 오후 눌림·종가베팅</button>
+      <button class="ftab" data-pf="nochase" onclick="setPickFilter('nochase')">🚫 급등 제외 (+7%↓)</button>
+    </div>
+    <div id="pickList"></div>
+  </section>
+
+  <!-- ================= TAB 2: 실시간 속보/리포트 피드 ================= -->
+  <section class="pane" id="pane-news">
+    <div class="sec-hd">
+      <h2 id="newsSecTitle">⚡ 실시간 한국 증시 뉴스 &amp; 리포트</h2>
+      <span class="hint" id="newsCountHint">자동 감성 분석</span>
+    </div>
+    <div class="feed-tabs">
+      <button class="ftab active" data-cat="all" onclick="setNewsCat('all')">전체</button>
+      <button class="ftab" data-cat="report" onclick="setNewsCat('report')">📊 목표가/리포트</button>
+      <button class="ftab" data-cat="hot" onclick="setNewsCat('hot')">🔥 특징주/급등</button>
+      <button class="ftab" data-cat="flow" onclick="setNewsCat('flow')">💰 외인·기관 수급</button>
+      <button class="ftab" data-cat="order" onclick="setNewsCat('order')">🏗️ 수주/공시</button>
+      <button class="ftab" data-cat="futures" onclick="setNewsCat('futures')">🚦 선물/야간선물</button>
+    </div>
+    <div id="newsList"></div>
+  </section>
+
+  <!-- ================= TAB 3: 매수 전 체크 & 시간대별 전략 ================= -->
+  <section class="pane" id="pane-guide">
+    <div class="sec-hd">
+      <h2>✅ 매수 버튼 누르기 전 필수 5초 체크</h2>
+      <span class="hint">뇌동매매 방지</span>
+    </div>
+    <div class="strat-card">
+      <label class="chk-item"><input type="checkbox" onchange="updateChk()"><span><b>1. 오늘 장세 확인</b>: 미국 반도체/나스닥 급락 직후라면 09:00 시초 추격 대신 10시 이후 저점 확인 후 분할 매수</span></label>
+      <label class="chk-item"><input type="checkbox" onchange="updateChk()"><span><b>2. 재료의 지속성</b>: 단발성 테마가 아닌 증권사 목표가 상향·영업이익 급증·대규모 수주·자사주 매입 등 숫자가 뒷받침되는가?</span></label>
+      <label class="chk-item"><input type="checkbox" onchange="updateChk()"><span><b>3. 손절가 미리 확정</b>: 진입과 동시에 -5%(단타 -2.5%) 자동감시 손절 주문을 증권사 MTS에 걸어둘 준비가 되었는가?</span></label>
+      <label class="chk-item"><input type="checkbox" onchange="updateChk()"><span><b>4. 비중 분산 준수</b>: 한 종목에 내 시드의 25% 이상 몰빵하지 않고 2~3회 나눠 진입하는가?</span></label>
+      <div id="chkStatus" style="margin-top:9px;font-size:12px;font-weight:800;color:var(--warn)">0 / 4 체크 완료 — 4개 모두 체크 후 매수하세요</div>
+    </div>
+
+    <div class="sec-hd">
+      <h2>🕒 시간대별 실전 매매 플랜 (KRX + 대체거래소 NXT)</h2>
+    </div>
+    <div class="strat-card">
+      <h3>🌃 08:00~08:50 · 대체거래소 NXT 프리마켓</h3>
+      <ul>
+        <li>전일 장 마감 후 나온 대형 호재(목표가 상향·대규모 수주·실적 서프라이즈) 종목을 선점.</li>
+        <li>호가가 얇으므로 <b>반드시 지정가</b>, 평소 스윙 비중의 <b>50% 이내</b>로만 진입.</li>
+      </ul>
+    </div>
+    <div class="strat-card">
+      <h3>☀️ 09:00~09:30 · 시초가베팅 골든타임</h3>
+      <ul>
+        <li>실적·리포트 호재 종목 중 시초 갭이 <b>+0.5% ~ +4.5%</b>인 건강한 출발만 공략 (+6%↑ 과열 갭 추격 금지).</li>
+        <li>당일 <b>+3.5% 익절 / -2.5% 손절</b>, 미도달 시 15:20 전 정리.</li>
+      </ul>
+    </div>
+    <div class="strat-card">
+      <h3>📈 10:00~14:30 · 스윙 주도주 눌림 분할 매수</h3>
+      <ul>
+        <li>아침 변동성이 진정된 뒤 외국인·기관 순매수가 유지되는 종목을 2회 분할 매수.</li>
+        <li>1차 목표가(+8~12%) 도달 시 절반 익절 후 손절가를 본절로 상향.</li>
+      </ul>
+    </div>
+    <div class="strat-card">
+      <h3>🌙 15:20~15:30 · 종가베팅 / 15:40~20:00 NXT 애프터</h3>
+      <ul>
+        <li>거래량 2배↑ + 강세 마감 종목을 동시호가 소액 분산 매수 → <b>익일 09:00 시초가 전량 매도</b>.</li>
+        <li>NXT 애프터마켓(15:40~20:00)에서는 장 마감 후 공시/리포트 대응 및 보유 종목 분할 익절.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= TAB 4: 내 포지션 & 매매일지 ================= -->
+  <section class="pane" id="pane-pos">
+    <div class="sec-hd">
+      <h2>💼 내 보유 포지션 &amp; 매매일지</h2>
+      <span class="hint" id="posHint">0종목</span>
+    </div>
+    <div id="posList"></div>
+
+    <div class="ctrl-card" style="margin-top:12px">
+      <div style="font-size:13px;font-weight:800;margin-bottom:8px">➕ 매수 종목 직접 기록</div>
+      <div class="ctrl-grid" style="margin-bottom:8px">
+        <div class="field"><label for="mName">종목명</label><input id="mName" type="text" placeholder="예: 한화엔진"></div>
+        <div class="field"><label for="mPrice">매입가 (원)</label><input id="mPrice" type="number" placeholder="예: 45000"></div>
+        <div class="field"><label for="mQty">수량 (주)</label><input id="mQty" type="number" value="10" min="1"></div>
+      </div>
+      <button class="btn primary" style="width:100%" onclick="addManualPos()">포지션 저장</button>
+    </div>
+  </section>
+</div>
+
+<nav class="nav">
+  <button class="active" data-pane="picks" onclick="switchPane('picks')"><span class="ic">🔥</span>매수 추천</button>
+  <button data-pane="news" onclick="switchPane('news')"><span class="ic">⚡</span>실시간 뉴스</button>
+  <button data-pane="guide" onclick="switchPane('guide')"><span class="ic">✅</span>체크/전략</button>
+  <button data-pane="pos" onclick="switchPane('pos')"><span class="ic">💼</span>내 포지션</button>
+</nav>
+
+<div id="toast" class="toast"></div>
+
+<script>
+'use strict';
+
+// ── 국내 주요 상장사 사전 (실시간 기사에서 종목명 자동 추출·매칭용) ──
+const STOCK_DICT = [
+  { name:'삼성전자', code:'005930', sector:'반도체', nxt:true },
+  { name:'SK하이닉스', code:'000660', sector:'반도체', nxt:true },
+  { name:'한미반도체', code:'042700', sector:'반도체장비', nxt:true },
+  { name:'삼성전기', code:'009150', sector:'전자부품', nxt:true },
+  { name:'한화엔진', code:'082740', sector:'조선기자재', nxt:true },
+  { name:'HD현대마린엔진', code:'071970', sector:'조선기자재', nxt:true },
+  { name:'HD한국조선해양', code:'009540', sector:'조선', nxt:true },
+  { name:'HD현대중공업', code:'329180', sector:'조선', nxt:true },
+  { name:'한화오션', code:'042660', sector:'조선', nxt:true },
+  { name:'삼성중공업', code:'010140', sector:'조선', nxt:true },
+  { name:'한화에어로스페이스', code:'012450', sector:'방산', nxt:true },
+  { name:'한화시스템', code:'272210', sector:'방산', nxt:true },
+  { name:'현대로템', code:'064350', sector:'방산', nxt:true },
+  { name:'한국항공우주', code:'047810', sector:'방산', nxt:true },
+  { name:'LIG넥스원', code:'079550', sector:'방산', nxt:true },
+  { name:'효성중공업', code:'298040', sector:'전력기기', nxt:true },
+  { name:'HD현대일렉트릭', code:'267260', sector:'전력기기', nxt:true },
+  { name:'LS ELECTRIC', code:'010120', sector:'전력기기', nxt:true },
+  { name:'두산에너빌리티', code:'034020', sector:'원전/에너지', nxt:true },
+  { name:'금호건설', code:'002990', sector:'건설/인프라', nxt:false },
+  { name:'현대건설', code:'000720', sector:'건설', nxt:true },
+  { name:'삼성E&A', code:'028050', sector:'건설/플랜트', nxt:true },
+  { name:'KB금융', code:'105560', sector:'금융/은행', nxt:true },
+  { name:'하나금융지주', code:'086790', sector:'금융/은행', nxt:true },
+  { name:'신한지주', code:'055550', sector:'금융/은행', nxt:true },
+  { name:'메리츠금융지주', code:'138040', sector:'금융', nxt:true },
+  { name:'현대차', code:'005380', sector:'자동차', nxt:true },
+  { name:'기아', code:'000270', sector:'자동차', nxt:true },
+  { name:'삼성바이오로직스', code:'207940', sector:'바이오', nxt:true },
+  { name:'셀트리온', code:'068270', sector:'바이오', nxt:true },
+  { name:'알테오젠', code:'196170', sector:'바이오', nxt:true },
+  { name:'리가켐바이오', code:'141080', sector:'바이오', nxt:true },
+  { name:'파마리서치', code:'214450', sector:'바이오/미용', nxt:true },
+  { name:'티로보틱스', code:'117730', sector:'로봇', nxt:false },
+  { name:'레인보우로보틱스', code:'277810', sector:'로봇', nxt:true },
+  { name:'NAVER', code:'035420', sector:'AI/플랫폼', nxt:true },
+  { name:'카카오', code:'035720', sector:'AI/플랫폼', nxt:true },
+  { name:'LG에너지솔루션', code:'373220', sector:'2차전지', nxt:true },
+  { name:'에코프로비엠', code:'247540', sector:'2차전지', nxt:true },
+  { name:'삼양식품', code:'003230', sector:'식품/수출', nxt:true },
+  { name:'CJ제일제당', code:'097950', sector:'식품/바이오', nxt:true },
+  { name:'진에어', code:'272450', sector:'항공', nxt:false },
+  { name:'한화생명', code:'088350', sector:'보험', nxt:true },
+  { name:'호전실업', code:'111110', sector:'의류/배당', nxt:false },
+  { name:'KT', code:'030200', sector:'통신/배당', nxt:true },
+  { name:'SK텔레콤', code:'017670', sector:'통신/AI', nxt:true },
+  { name:'LG', code:'003550', sector:'지주', nxt:true },
+  { name:'SK', code:'034730', sector:'지주', nxt:true },
+  { name:'하이브', code:'352820', sector:'엔터', nxt:true },
+  { name:'크래프톤', code:'259960', sector:'게임', nxt:true },
+];
+
+// ── 기본 내장 검증 리포트 (오프라인/미리보기에서도 즉시 확인 가능한 2026.11.25 실제 기사 기반) ──
+const BASELINE_BRIEFING = {
+  dateLabel: '2026-11-25 09:00 KST 기준',
+  sentimentScore: 46,
+  regimeType: 'neutral',
+  regimeBadge: '🟡 변동성 주의 · 실적주 눌림 분할',
+  regimeTitle: '장 초반 반도체 충격 확인 후 실적주 분할 매수',
+  regimeDesc: '전일 코스피 +6.32%(5,006.03) 반등 직후, 간밤 미국 필라델피아 반도체지수 -7.9% 급락 여파로 오늘 장 초반 변동성이 큽니다. 시초 추격은 피하고 실적·수주가 확실한 저평가주 중심으로 분할 대응하세요.',
+  kospiNote: '5,006.03 (+6.32%, 11/24 마감)',
+  kosdaqNote: '665.88 (+4.79%, 11/24 마감)',
+  usNote: '필라반도체 -7.9% · 나스닥 -1.5%',
+  picks: [
+    {
+      name:'한화엔진', code:'082740', sector:'조선기자재', grade:'S', score:92, dayChg:1.8, style:'swing', nxt:true,
+      targetText:'목표가 60,000원 · 내년 PER 5.5~6배',
+      tags:['최선호주 유지','영업익 +84% 전망','외인 7일 연속 순매수','NXT 가능'],
+      why:[
+        '<b>실적 성장 1위</b>: 11월 25일 한국투자증권 리포트 기준 내년 매출 +59.8%, 영업이익 <b>+84.3%</b>로 국내 조선 밸류체인 최고 성장률 전망.',
+        '<b>탄탄한 수주잔고</b>: 고수익 컨테이너선 이중연료(DF) 엔진 수주잔고 140대↑·중속엔진 190대 확보로 2029년까지 일감 가시성 확보.',
+        '<b>수급 &amp; 저평가</b>: 최근 외국인 7거래일 연속 순매수 유입, 내년 예상 PER 5.5~6배로 과도한 저평가 구간.'
+      ],
+      risk:'전방 조선업황 변동성 및 중국 민영 조선사(수주잔고 48%) 관련 노이즈 주의.',
+      plan:{ weight:25, buyGuide:'장 초반 눌림 시 2회 분할', tp:'+12% ~ +18%', sl:'-5.0% 기계적 손절' },
+      links:[
+        { title:'[모닝 리포트] 한투證 "한화엔진, 내년 영업익 84% 증가…최선호주 유지"', src:'뉴스핌 · 11/25', url:'https://www.newspim.com/news/view/20261125000177' }
+      ]
+    },
+    {
+      name:'금호건설', code:'002990', sector:'건설/인프라', grade:'S', score:88, dayChg:8.4, style:'short', nxt:false,
+      targetText:'목표가 11,000원 (+107.5% 대폭 상향)',
+      tags:['목표가 2배 상향','3Q 영업익 +44%','수주목표 조기초과'],
+      why:[
+        '<b>목표주가 2배 상향</b>: 11월 24일 교보증권이 투자의견 매수 유지와 함께 목표가를 5,300원에서 <b>11,000원</b>으로 +107.5% 상향.',
+        '<b>숫자로 증명된 턴어라운드</b>: 3분기 영업이익 222억(+44.2% YoY), 누적 신규 수주 2조8,481억(+91.5%)으로 연간 목표 조기 돌파.',
+        '<b>정책·인프라 모멘텀</b>: LH 민간참여 공공주택 확대 및 호남 반도체 클러스터 전력망·용수·공항 인프라 추가 수주 기대.'
+      ],
+      risk:'미국 반도체 쇼크 영향이 적어 방어력이 좋으나, 목표가 급상향 직후 단기 급등 시 추격 매수 금지.',
+      plan:{ weight:20, buyGuide:'9,500원 부근 눌림 분할', tp:'+10% ~ +16%', sl:'-4.5% 손절' },
+      links:[
+        { title:'[모닝 리포트] 교보證 "금호건설, 공공주택 수주 호조…목표주가 상향"', src:'뉴스핌 · 11/24', url:'https://www.newspim.com/news/view/20261124000096' },
+        { title:'공공주택 수주 늘린 금호건설…교보證 "목표가 상향"', src:'뉴스웍스 · 11/24', url:'https://www.newsworks.co.kr/news/articleView.html?idxno=904260' }
+      ]
+    },
+    {
+      name:'효성중공업', code:'298040', sector:'전력기기', grade:'A', score:84, dayChg:-1.2, style:'swing', nxt:true,
+      targetText:'하향된 목표가 대비로도 주가 절반 수준',
+      tags:['수주잔고 18.9조(+71%)','美 멤피스 증설','과매도 저평가','NXT 가능'],
+      why:[
+        '<b>극심한 괴리율 저평가</b>: 최근 AI 데이터센터 우려로 주가가 크게 밀렸으나, 증권사가 낮춰 잡은 목표가 대비로도 주가가 절반 안팎 수준.',
+        '<b>폭발적 수주와 증설</b>: 3분기 말 중공업 수주잔고 <b>18조9,000억원(+71% YoY)</b> 확보, 미국 멤피스 공장 생산능력 4억→7억 달러 확대.',
+        '<b>송전망 장기 수요</b>: 유틸리티 기업들은 단기 경기가 아닌 장기 전력망 교체 주기로 발주해 데이터센터 지연 영향이 제한적.'
+      ],
+      risk:'간밤 미국 AI·반도체 급락 여파로 장 초반 동반 흔들림 가능 → 10시 이후 저점 지지 확인 후 진입.',
+      plan:{ weight:20, buyGuide:'장중 눌림 확인 후 2~3회 분할', tp:'+12% ~ +20%', sl:'-6.0% 손절' },
+      links:[
+        { title:'목표가 낮춰도 주가는 한참 아래…효성중공업·HD현대일렉 저평가론 고개', src:'인베스트조선 · 11/24', url:'https://www.investchosun.com/m/article.html?contid=2026112480076' }
+      ]
+    },
+    {
+      name:'삼성전자', code:'005930', sector:'반도체', grade:'A', score:80, dayChg:-0.8, style:'nxt', nxt:true,
+      targetText:'한화證 "코스피 바닥 지났다, 반도체 중심 매수"',
+      tags:['3Q 영업익 107.4조','75조 주주환원','대형주 반등 선두','NXT 가능'],
+      why:[
+        '<b>역대급 펀더멘털</b>: 3분기 연결 매출 195.3조원, 영업이익 <b>107.4조원</b>으로 4분기 연속 최대 실적 경신(HBM4·서버 D램 호조).',
+        '<b>주주환원 모멘텀</b>: 삼성 준감위 이해상충 없음 결론으로 <b>75조원 규모 주주환원</b> 1월 확정 무게.',
+        '<b>증권가 저점 매수 콜</b>: 11월 25일 한화투자증권 "코스피 바닥 통과, 반도체 중심 매수", 골드만·모건스탠리도 매수·비중확대 의견 유지.'
+      ],
+      risk:'간밤 필라델피아 반도체지수 -7.9% 폭락으로 오늘 장 초반 강한 하방 압력! 시초 몰빵 절대 금지, 장중 외인 수급 확인 후 분할.',
+      plan:{ weight:25, buyGuide:'오전 급락 진정 후 3회 분할', tp:'+10% ~ +15%', sl:'-5.0% 손절' },
+      links:[
+        { title:'[모닝 리포트] 한화證 "코스피 바닥 지났다…반도체 중심 매수"', src:'뉴스핌 · 11/25', url:'https://www.newspim.com/news/view/20261125000064' },
+        { title:'[AI MY 증시전망] 젠슨 황 복귀 효과 하루 만에 소멸…코스피 약세 전망', src:'뉴스핌 · 11/25', url:'https://www.newspim.com/news/view/20261125000087' }
+      ]
+    },
+    {
+      name:'KB금융', code:'105560', sector:'금융/은행', grade:'B', score:76, dayChg:0.9, style:'swing', nxt:true,
+      targetText:'하나證 목표가 235,000원 유지 · 주주환원 50%',
+      tags:['주주환원율 50%','ROE·PBR 재평가','반도체 하락장 방어','NXT 가능'],
+      why:[
+        '<b>주주환원 50% 조기 달성</b>: 11월 25일 모닝 리포트 기준 은행주 전반의 주주환원율 50% 조기 달성 가시화 및 ROE·PBR 동반 상승 전망.',
+        '<b>하락장 방어주 역할</b>: 미국 AI·반도체 급락으로 기술주가 흔들릴 때 배당·밸류업 매력이 부각되며 자금이 피신하는 대표 섹터.'
+      ],
+      risk:'금리 인하 전환 시 순이자마진(NIM) 둔화 우려.',
+      plan:{ weight:15, buyGuide:'반도체 약세장 방어용 1~2회 분할', tp:'+8% ~ +12%', sl:'-4.5% 손절' },
+      links:[
+        { title:'[모닝 리포트] "은행주, 주주환원율 50% 조기 달성 가시화…ROE 오르며 PBR도 상승"', src:'뉴스핌 · 11/25', url:'https://www.newspim.com/news/view/20261125000071' }
+      ]
+    }
+  ],
+  news: [
+    { cat:'report', title:'[모닝 리포트] 한투證 "한화엔진, 내년 영업익 84% 증가…최선호주 유지"', src:'뉴스핌', date:'11/25 08:53', sentiment:'pos', url:'https://www.newspim.com/news/view/20261125000177' },
+    { cat:'report', title:'[모닝 리포트] 한화證 "코스피 바닥 지났다…반도체 중심 매수"', src:'뉴스핌', date:'11/25 08:33', sentiment:'pos', url:'https://www.newspim.com/news/view/20261125000064' },
+    { cat:'hot',    title:'[AI MY 증시전망] 젠슨 황 복귀 효과 하루 만에 소멸…코스피 약세 전망', src:'뉴스핌', date:'11/25 08:27', sentiment:'neg', url:'https://www.newspim.com/news/view/20261125000087' },
+    { cat:'report', title:'[모닝 리포트] iM증권 "리가켐바이오, ADC 플랫폼 경쟁력 여전…매수 유지"', src:'뉴스핌', date:'11/25 08:36', sentiment:'pos', url:'https://www.newspim.com/news/view/20261125000100' },
+    { cat:'report', title:'[모닝 리포트] "티로보틱스, 진공로봇 출하 회복·AMR 공급 확대에 실적 개선"', src:'뉴스핌', date:'11/25 08:35', sentiment:'pos', url:'https://www.newspim.com/news/view/20261125000098' },
+    { cat:'report', title:'[모닝 리포트] "은행주, 주주환원율 50% 조기 달성 가시화…ROE 오르며 PBR 상승"', src:'뉴스핌', date:'11/25 08:00', sentiment:'pos', url:'https://www.newspim.com/news/view/20261125000071' },
+    { cat:'order',  title:'[모닝 리포트] 교보證 "금호건설, 공공주택 수주 호조…목표주가 11,000원 상향"', src:'뉴스핌', date:'11/24 08:40', sentiment:'pos', url:'https://www.newspim.com/news/view/20261124000096' },
+    { cat:'report', title:'목표가 낮춰도 주가는 한참 아래…효성중공업·HD현대일렉 저평가론 고개', src:'인베스트조선', date:'11/24 11:36', sentiment:'pos', url:'https://www.investchosun.com/m/article.html?contid=2026112480076' },
+    { cat:'flow',   title:'정기선 HD현대 회장, 150억원 주식 매입…"책임경영 강화"', src:'뉴스핌', date:'11/24 17:10', sentiment:'pos', url:'https://www.newspim.com/news/view/20261124001383' },
+  ]
+};
+
+// ── 뉴스 감성/모멘텀 키워드 스코어러 ──
+const POS_RULES = [
+  { re:/목표가\s*상향|목표주가\s*상향|목표가\s*2배/, pts:30, tag:'목표가 상향' },
+  { re:/최선호주|탑픽|매수\s*유지|강력\s*매수/, pts:20, tag:'증권사 추천' },
+  { re:/공급계약|대규모\s*수주|수주\s*호조|수주잔고/, pts:24, tag:'수주 모멘텀' },
+  { re:/영업익\s*증가|최대\s*실적|어닝\s*서프라이즈|실적\s*개선|흑자\s*전환/, pts:24, tag:'실적 성장' },
+  { re:/외국인.*순매수|기관.*순매수|쌍끌이/, pts:20, tag:'외인·기관 수급' },
+  { re:/자사주|주주환원|밸류업|배당\s*확대/, pts:18, tag:'주주환원' },
+  { re:/급등|상한가|신고가|강세|반등/, pts:12, tag:'강세 흐름' },
+];
+const NEG_RULES = [
+  { re:/목표가\s*하향|목표주가\s*하향|목표가\s*줄하향/, pts:-18, tag:'목표가 하향 주의' },
+  { re:/유상증자|적자\s*전환|어닝\s*쇼크|거래정지|감사의견/, pts:-35, tag:'악재 주의' },
+  { re:/급락|폭락|사이드카|약세|하락\s*출발/, pts:-12, tag:'단기 변동성' },
+];
+
+const APP = {
+  seed: 3000000,
+  riskPct: 2.0,
+  market: 'kr',
+  styleFilter: 'all',
+  pickFilter: 'all',
+  newsCat: 'all',
+  usData: null,
+  futKospi: -0.3,
+  futNasdaq: -0.4,
+  futUsd: 0.2,          // 원/달러 환율 등락(%) — 급등(+0.6%↑) 시 외인 매도 압력 경고
+  futScale: 0.5,        // 1.0(강세) | 0.5(혼조) | 0(급락 관망)
+  eventScale: 1.0,      // 만기일/MSCI 리밸런싱 당일 보수 계수(0.7)
+  eventWarn: '',        // 당일 변동성 이벤트 경고문
+  futState: 'neutral',  // 'bull' | 'neutral' | 'bear'
+  futNewsHint: '',
+  isLive: false,
+  data: JSON.parse(JSON.stringify(BASELINE_BRIEFING)),
+  positions: [],
+};
+
+const $ = s => document.querySelector(s);
+function esc(t){ const d=document.createElement('div'); d.textContent=t==null?'':t; return d.innerHTML; }
+function fmtWon(v){ return Math.round(v).toLocaleString('ko-KR') + '원'; }
+
+let _tt = null;
+function toast(msg){
+  const el = $('#toast'); if (!el) return;
+  el.textContent = msg; el.classList.add('show');
+  clearTimeout(_tt); _tt = setTimeout(()=>el.classList.remove('show'), 2200);
+}
+
+function loadStore(){
+  try {
+    const p = JSON.parse(localStorage.getItem('dailyStockAiPosV1') || '[]');
+    if (Array.isArray(p)) APP.positions = p;
+    const sd = Number(localStorage.getItem('dailyStockAiSeedV1'));
+    if (sd >= 100000) APP.seed = sd;
+  } catch(_){}
+}
+function saveStore(){
+  try {
+    localStorage.setItem('dailyStockAiPosV1', JSON.stringify(APP.positions));
+    localStorage.setItem('dailyStockAiSeedV1', String(APP.seed));
+  } catch(_){}
+}
+
+// ── KST 실시간 장 시계 ──
+function updateClock(){
+  const now = new Date();
+  const kst = new Date(now.getTime() + now.getTimezoneOffset()*60000 + 9*3600000);
+  const d = kst.getDay(), m = kst.getHours()*60 + kst.getMinutes();
+  const hh = String(kst.getHours()).padStart(2,'0'), mm = String(kst.getMinutes()).padStart(2,'0');
+  let lbl = '휴장 · 내일 리포트 준비', act = '내일 NXT 프리(08:00) · 시초가 후보 점검';
+  if (d >= 1 && d <= 5){
+    if (m >= 480 && m < 530){ lbl = '🌃 NXT 프리마켓 (08:00~08:50)'; act = '장전 호재주 지정가 50% 선취매'; }
+    else if (m >= 530 && m < 540){ lbl = '장전 동시호가 (08:50~09:00)'; act = '☀️ 시초가 갭(+0.5~4.5%) 체크'; }
+    else if (m >= 540 && m < 570){ lbl = '장 초반 골든타임 (09:00~09:30)'; act = '☀️ 시초가 진입 · 전일 종가베팅 매도'; }
+    else if (m >= 570 && m < 920){ lbl = 'KRX 정규장 + NXT 메인'; act = '📈 10시 이후 저점 분할 매수 & 손절 관리'; }
+    else if (m >= 920 && m <= 930){ lbl = '종가 동시호가 (15:20~15:30)'; act = '🌙 종가베팅 소액 분산 매수!'; }
+    else if (m >= 940 && m <= 1200){ lbl = '🌃 NXT 애프터마켓 (15:40~20:00)'; act = '장후 공시·리포트 야간 지정가 대응'; }
+  }
+  if (APP.market === 'us'){
+    let ulbl = '🇺🇸 미장 휴장 · 간밤 마감 복기', uact = '월가 목표가 상향·덜 오른 실적주 점검';
+    if (d >= 1 && d <= 6){
+      if ((d <= 5 && m >= 1080 && m < 1410)){ ulbl = '🇺🇸 미장 프리마켓 (18:00~23:30 KST)'; uact = '실적·월가 상향주 지정가 분할 준비'; }
+      else if ((d <= 5 && m >= 1410) || (d >= 2 && m < 360)){ ulbl = '🇺🇸 미장 정규장 진행 중'; uact = '💎 덜 오른 호재(-2~+3%) 눌림 진입'; }
+      else if (d >= 2 && m >= 360 && m < 600){ ulbl = '🇺🇸 미장 애프터마켓'; uact = '장 마감 후 실적 발표·가이던스 확인'; }
+    }
+    $('#clockBar').innerHTML = `<span>🕒 <b>${hh}:${mm} KST</b> · ${ulbl}</span><span style="color:var(--cyan);font-weight:700">${uact}</span>`;
+    return;
+  }
+  $('#clockBar').innerHTML = `<span>🕒 <b>${hh}:${mm} KST</b> · ${lbl}</span><span style="color:var(--cyan);font-weight:700">${act}</span>`;
+}
+
+// ── GitHub Actions(main.py)가 15분마다 갱신하는 ./data.json 직접 로드 (차단 0% · 100% 실시간 기사·선물·환율·만기 반영) ──
+async function fetchAllLiveNews(manual){
+  const btn = $('#refreshBtn'), sb = $('#statusBar');
+  if (btn){ btn.disabled = true; btn.textContent = '⏳ 불러오는 중...'; }
+  if (sb){ sb.className = 'status-bar'; sb.textContent = '📡 GitHub 서버 최신 data.json (기사·선물·환율·만기)을 불러오는 중...'; }
+
+  try {
+    const res = await fetch('./data.json?t=' + Date.now(), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const raw = await res.json();
+
+    // 1) 선물·환율 수치 자동 반영
+    const m = raw.macro || {};
+    if (m.futKospi && typeof m.futKospi.pct === 'number'){
+      APP.futKospi = m.futKospi.pct;
+      if ($('#futKospi')) $('#futKospi').value = APP.futKospi;
+    }
+    if (m.futNasdaq && typeof m.futNasdaq.pct === 'number'){
+      APP.futNasdaq = m.futNasdaq.pct;
+      if ($('#futNasdaq')) $('#futNasdaq').value = APP.futNasdaq;
+    }
+    if (m.fxKrw && typeof m.fxKrw.pct === 'number'){
+      APP.futUsd = m.fxKrw.pct;
+      if ($('#futUsd')) $('#futUsd').value = APP.futUsd;
+    }
+    const tag = $('#futAutoTag');
+    if (tag) tag.textContent = `(🟢 ${raw.updatedAt ? raw.updatedAt.slice(5,16) : '실시간'} 자동 반영)`;
+    APP.futNewsHint = `GitHub 서버 자동 수신 (${raw.updatedAt || '최신'})`;
+
+    // 2) 뉴스 목록 변환 (카테고리·감성 태그 자동 분류)
+    const rawNews = Array.isArray(raw.news) ? raw.news : [];
+    const newsItems = rawNews.map(n => {
+      const title = String(n.title || '').trim();
+      let posHit = 0, negHit = 0;
+      POS_RULES.forEach(r => { if (r.re.test(title)) posHit += r.pts; });
+      NEG_RULES.forEach(r => { if (r.re.test(title)) negHit += Math.abs(r.pts); });
+      const sentiment = posHit > negHit ? 'pos' : negHit > posHit ? 'neg' : 'neu';
+      let cat = 'hot';
+      if (/목표가|목표주가|리포트|증권|매수/.test(title)) cat = 'report';
+      else if (/수주|공급계약|공시|계약/.test(title)) cat = 'order';
+      else if (/외국인|기관|순매수|수급/.test(title)) cat = 'flow';
+      else if (/선물|야간선물|나스닥|코스피200/.test(title)) cat = 'futures';
+      return { cat, title, src: n.src || '실시간 뉴스', date: n.date || '오늘', sentiment, url: n.url || '#' };
+    });
+
+    // 3) main.py의 추천 종목(pullback + swing + closeBet + openBet + nxt)을 리서치 카드 포맷으로 통합 변환
+    const mergedPicks = [];
+    const byCode = new Map();
+    const pushList = (arr, styleName, bucketKey) => {
+      (arr || []).forEach(p => {
+        if (!p || !p.code) return;
+        if (byCode.has(p.code)){
+          const ex = byCode.get(p.code);
+          if (bucketKey) ex.buckets[bucketKey] = true;
+          if (styleName === 'nxt') ex.nxt = true;
+          return;
+        }
+        const sc = Math.min(99, Math.round(p.score || (p.winRate || 75)));
+        const chg = Number(p.dayChg || 0);
+        const grade = sc >= 85 ? 'S' : sc >= 72 ? 'A' : 'B';
+        const weight = grade === 'S' ? 25 : grade === 'A' ? 20 : 15;
+        const tags = Array.isArray(p.posTags) && p.posTags.length ? p.posTags.slice() : ['실시간 기사 포착'];
+        if (p.tradingVal >= 300 && !tags.includes('NXT 가능')) tags.push('NXT 가능');
+        const isOverheated = chg >= 7.0;
+        const isPullback = chg >= -2.0 && chg <= 3.0 && sc >= 60;
+        const isCloseBet = chg >= -1.5 && chg <= 4.5 && sc >= 60;
+        const obj = {
+          name: p.name,
+          code: p.code,
+          sector: p.market || '국장',
+          grade,
+          score: sc,
+          dayChg: chg,
+          px: Number(p.px || 0),
+          tradingVal: Number(p.tradingVal || 0),
+          style: styleName,
+          nxt: (p.tradingVal || 0) >= 300,
+          buckets: { [bucketKey]: true },
+          targetText: `현재가 ${Math.round(p.px||0).toLocaleString('ko-KR')}원 (${chg>=0?'+':''}${chg.toFixed(2)}%) · 점수 ${sc}점`,
+          tags,
+          why: (p.why || []).map(w => `<b>핵심 근거</b>: ${esc(w)}`),
+          risk: isOverheated
+            ? '당일 +7% 이상 이미 급등한 과열 구간입니다. 추격 매수는 피하고 다음 눌림을 기다리세요.'
+            : '뉴스 반영 직후 시초 갭 +6% 이상 급등 시 추격 금지 · -5% 기계적 손절 원칙 준수.',
+          plan: {
+            weight,
+            buyGuide: isOverheated ? '⚠️ 추격 금지 · 눌림 대기' : isPullback ? '오후 눌림 2회 분할 진입' : (isCloseBet ? '15:20 종가/눌림 분할' : '2회 분할 매수'),
+            tp: p.tpPx ? `${Math.round(p.tpPx).toLocaleString('ko-KR')}원 (+10%)` : '+10% ~ +15%',
+            sl: p.slPx ? `${Math.round(p.slPx).toLocaleString('ko-KR')}원 (-5%)` : '-5.0% 손절'
+          },
+          links: (p.news || []).map(l => ({ title: l.title, src: `${l.src || '뉴스'} · ${l.date || ''}`, url: l.url || '#' }))
+        };
+        byCode.set(p.code, obj);
+        mergedPicks.push(obj);
+      });
+    };
+    pushList(raw.pullback, 'swing', 'pullback');
+    pushList(raw.swing, 'swing', 'swing');
+    pushList(raw.closeBet, 'short', 'closeBet');
+    pushList(raw.openBet, 'short', 'openBet');
+    pushList(raw.nxt, 'nxt', 'nxt');
+    mergedPicks.sort((a, b) => b.score - a.score);
+
+    // 4) 시장 카드 데이터 매핑
+    const reg = raw.regime || {};
+    const ksItem = (reg.items && reg.items[0]) || { close: 0, chg: 0 };
+    const kqItem = (reg.items && reg.items[1]) || { close: 0, chg: 0 };
+    const posCnt = newsItems.filter(x => x.sentiment === 'pos').length;
+    const negCnt = newsItems.filter(x => x.sentiment === 'neg').length;
+
+    // 3-B) 미국장(raw.us) 데이터 변환
+    if (raw.us && typeof raw.us === 'object'){
+      const u = raw.us;
+      const uIdx = u.indices || {};
+      const fmtIdx = (o) => (o && o.px) ? `${Number(o.px).toLocaleString('en-US',{maximumFractionDigits:2})} (${o.pct>=0?'+':''}${Number(o.pct||0).toFixed(2)}%)` : '-';
+      const uReg = u.regime || {};
+      const uNews = (Array.isArray(u.news) ? u.news : []).map(n => {
+        const title = String(n.title || '').trim();
+        const isPos = /price target|upgrade|beat|buy|top pick|surge|rally|상향|호조|서프라이즈|급등|강세/i.test(title);
+        const isNeg = /downgrade|miss|cut|lawsuit|probe|drop|plunge|하향|부진|급락|폭락/i.test(title);
+        const sentiment = isPos && !isNeg ? 'pos' : isNeg ? 'neg' : 'neu';
+        let cat = 'hot';
+        if (/price target|upgrade|downgrade|analyst|목표가|리포트|월가/i.test(title)) cat = 'report';
+        else if (/contract|deal|partnership|buyback|수주|계약|자사주/i.test(title)) cat = 'order';
+        else if (/earnings|revenue|guidance|실적|어닝/i.test(title)) cat = 'flow';
+        else if (/fed|cpi|treasury|vix|s&p|nasdaq|선물|금리/i.test(title)) cat = 'futures';
+        return { cat, title, src: n.src || 'US News', date: n.date || '', sentiment, url: n.url || '#' };
+      });
+      const uPicks = (Array.isArray(u.picks) ? u.picks : []).map(p => {
+        const sc = Math.min(99, Math.round(p.score || 70));
+        const chg = Number(p.dayChg || 0);
+        const grade = sc >= 85 ? 'S' : sc >= 72 ? 'A' : 'B';
+        const weight = grade === 'S' ? 25 : grade === 'A' ? 20 : 15;
+        const isOverheated = chg >= 7.0;
+        const isPullback = chg >= -2.0 && chg <= 3.0 && sc >= 60;
+        const pxStr = p.px > 0 ? `$${Number(p.px).toLocaleString('en-US',{minimumFractionDigits:2, maximumFractionDigits:2})}` : '시세 조회';
+        return {
+          isUs: true,
+          name: p.name,
+          code: p.code,
+          sector: p.sector || '미국주식',
+          grade,
+          score: sc,
+          dayChg: chg,
+          px: Number(p.px || 0),
+          style: 'swing',
+          nxt: false,
+          targetText: `현재가 ${pxStr} (${chg>=0?'+':''}${chg.toFixed(2)}%) · 점수 ${sc}점`,
+          tags: Array.isArray(p.posTags) && p.posTags.length ? p.posTags.slice() : ['월가 기사 포착'],
+          why: (p.why || []).map(w => `<b>핵심 근거</b>: ${esc(w)}`),
+          risk: isOverheated
+            ? '당일 +7% 이상 급등한 과열 구간입니다. 미국 정규장 추격 매수는 피하고 눌림을 기다리세요.'
+            : '미국장은 상·하한가 제한이 없으므로 진입과 동시에 -6% 손절 기준을 꼭 지켜주세요.',
+          plan: {
+            weight,
+            buyGuide: isOverheated ? '⚠️ 추격 금지 · 눌림 대기' : isPullback ? '프리/정규장 눌림 2회 분할' : '2회 분할 매수',
+            tp: p.tpPx ? `$${Number(p.tpPx).toFixed(2)} (+12%)` : '+12% ~ +18%',
+            sl: p.slPx ? `$${Number(p.slPx).toFixed(2)} (-6%)` : '-6.0% 손절'
+          },
+          links: (p.news || []).map(l => ({ title: l.title, src: `${l.src || 'US'} · ${l.date || ''}`, url: l.url || '#' }))
+        };
+      });
+      APP.usData = {
+        dateLabel: u.updatedAt || raw.updatedAt || '실시간',
+        sentimentScore: uReg.score != null ? uReg.score : 50,
+        regimeType: uReg.type || 'neutral',
+        regimeBadge: uReg.badge || '🇺🇸 미장 분석 완료',
+        regimeTitle: uReg.title || '미국 지수·월가 뉴스 기반 대응',
+        regimeDesc: uReg.desc || '미국 주요 지수와 월가 리포트·뉴스를 종합 분석한 결과입니다.',
+        sp500Note: fmtIdx(uIdx.sp500),
+        nasdaqNote: `나스닥 ${uIdx.nasdaq ? (uIdx.nasdaq.pct>=0?'+':'')+Number(uIdx.nasdaq.pct||0).toFixed(2)+'%' : '-'} · SOX ${uIdx.sox ? (uIdx.sox.pct>=0?'+':'')+Number(uIdx.sox.pct||0).toFixed(2)+'%' : '-'}`,
+        vixNote: uIdx.vix && uIdx.vix.px ? `${Number(uIdx.vix.px).toFixed(2)} (${uIdx.vix.pct>=0?'+':''}${Number(uIdx.vix.pct||0).toFixed(2)}%)` : '-',
+        picks: uPicks,
+        news: uNews
+      };
+    }
+
+    APP.isLive = true;
+    APP.data = {
+      dateLabel: raw.updatedAt || '실시간',
+      sentimentScore: reg.score != null ? reg.score : 50,
+      regimeType: reg.type || 'neutral',
+      regimeBadge: reg.badge || '🟡 시장 분석 완료',
+      regimeTitle: reg.title || '실시간 기사·선물 기반 대응',
+      regimeDesc: `총 ${raw.scannedTotal || 300}종목과 실시간 기사 ${newsItems.length}건(호재 ${posCnt} · 주의 ${negCnt}), 선물·환율·만기일 일정을 종합 분석한 결과입니다.`,
+      kospiNote: ksItem.close ? `${Number(ksItem.close).toLocaleString('ko-KR')} (${ksItem.chg>=0?'+':''}${ksItem.chg}%)` : `기사 ${newsItems.length}건`,
+      kosdaqNote: kqItem.close ? `${Number(kqItem.close).toLocaleString('ko-KR')} (${kqItem.chg>=0?'+':''}${kqItem.chg}%)` : `호재 ${posCnt} / 주의 ${negCnt}`,
+      usNote: `나스닥선물 ${APP.futNasdaq>=0?'+':''}${APP.futNasdaq}% · 환율 ${APP.futUsd>=0?'+':''}${APP.futUsd}%`,
+      picks: mergedPicks,
+      news: newsItems
+    };
+
+    if (sb){
+      sb.className = 'status-bar ok';
+      const usCnt = APP.usData ? APP.usData.picks.length : 0;
+      sb.innerHTML = `<span>🟢 <b>실시간 자동 업데이트 완료</b> · ${esc(APP.data.dateLabel)} · 국장 ${mergedPicks.length}종목${usCnt ? ' · 미장 ' + usCnt + '종목' : ''}</span>`;
+    }
+    renderAll();
+    if (manual) toast(`최신 데이터(${mergedPicks.length}종목 · 기사 ${newsItems.length}건) 갱신 완료!`);
+  } catch(e){
+    APP.isLive = false;
+    if (sb){
+      sb.className = 'status-bar warn';
+      sb.innerHTML = `<span>📌 <b>기본 리포트 표시 중</b> · GitHub Pages 주소로 열면 15분마다 data.json이 자동 갱신됩니다.</span>`;
+    }
+    renderAll();
+    if (manual) toast('data.json을 아직 찾을 수 없어요 (Actions 1회 실행 필요)');
+  } finally {
+    if (btn){ btn.disabled = false; btn.textContent = '🔄 실시간 갱신'; }
+  }
+}
+
+// ── 만기일·리밸런싱 자동 변동성 캘린더 (외부 연결 없이 날짜로 100% 정확 자동 계산) ──
+function getNthWeekday(year, month0, weekday, nth){
+  const first = new Date(year, month0, 1);
+  const offset = (weekday - first.getDay() + 7) % 7;
+  return new Date(year, month0, 1 + offset + (nth - 1) * 7);
+}
+function nextKrOptionExpiry(today){
+  let y = today.getFullYear(), m = today.getMonth();
+  let dt = getNthWeekday(y, m, 4, 2); // 매월 둘째 주 목요일(4)
+  if (dt < today){
+    m++; if (m > 11){ m = 0; y++; }
+    dt = getNthWeekday(y, m, 4, 2);
+  }
+  const isQuad = [2, 5, 8, 11].includes(dt.getMonth()); // 3·6·9·12월 네 마녀의 날
+  return { date: dt, isQuad };
+}
+function nextUsQuadWitching(today){
+  let y = today.getFullYear();
+  const months = [2, 5, 8, 11]; // 3·6·9·12월 셋째 주 금요일(5)
+  for (let addY = 0; addY <= 1; addY++){
+    for (const m of months){
+      const dt = getNthWeekday(y + addY, m, 5, 3);
+      if (dt >= today) return dt;
+    }
+  }
+  return getNthWeekday(y + 1, 2, 5, 3);
+}
+function nextMsciRebal(today){
+  let y = today.getFullYear();
+  const months = [1, 4, 7, 10]; // 2·5·8·11월 마지막 평일
+  for (let addY = 0; addY <= 1; addY++){
+    for (const m of months){
+      let dt = new Date(y + addY, m + 1, 0);
+      while (dt.getDay() === 0 || dt.getDay() === 6) dt.setDate(dt.getDate() - 1);
+      if (dt >= today) return dt;
+    }
+  }
+  return new Date(y + 1, 2, 0);
+}
+
+function evaluateMarketCalendar(){
+  const now = new Date();
+  const kst = new Date(now.getTime() + now.getTimezoneOffset()*60000 + 9*3600000);
+  const today = new Date(kst.getFullYear(), kst.getMonth(), kst.getDate());
+  const dDiff = dt => Math.round((dt - today) / 86400000);
+  const fmtMd = dt => `${dt.getMonth()+1}/${dt.getDate()}`;
+
+  const krExp = nextKrOptionExpiry(today);
+  const krD = dDiff(krExp.date);
+  const msciDt = nextMsciRebal(today);
+  const msciD = dDiff(msciDt);
+  const usQuadDt = nextUsQuadWitching(today);
+  const usD = dDiff(usQuadDt);
+
+  let eventScale = 1.0, warns = [];
+  if (krD === 0){
+    eventScale = 0.7;
+    warns.push(krExp.isQuad ? '오늘 한국 네 마녀의 날(동시만기) — 동시호가 급변동 주의' : '오늘 한국 옵션만기일 — 15:20 동시호가 프로그램 매매 주의');
+  } else if (krD === 1){
+    warns.push('내일 한국 옵션만기일 — 장 막판 변동성 확대 대비');
+  }
+  if (msciD === 0){
+    eventScale = Math.min(eventScale, 0.75);
+    warns.push('오늘 MSCI 리밸런싱일 — 종가 동시호가 외국인 대량 수급 왜곡 주의');
+  }
+  if (usD === 0){
+    warns.push('오늘 밤 미국 네 마녀의 날 — 내일 시초가 갭 변동성 주의');
+  }
+
+  APP.eventScale = eventScale;
+  APP.eventWarn = warns.join(' · ');
+
+  const strip = $('#calStrip');
+  if (!strip) return;
+  const krCls = krD === 0 ? 'alert' : krD <= 2 ? 'warn' : '';
+  const msciCls = msciD === 0 ? 'alert' : msciD <= 3 ? 'warn' : '';
+  const usCls = usD === 0 ? 'alert' : usD <= 3 ? 'warn' : '';
+
+  strip.innerHTML = `
+    <div class="cal-pill ${krCls}">
+      <div class="ck">${krExp.isQuad ? '🧙 한국 네 마녀의 날' : '📅 한국 옵션만기일'}</div>
+      <div class="cv" style="color:${krD===0?'#f87171':krD<=2?'#fbbf24':'var(--text)'}">${krD===0 ? '오늘 (D-Day!)' : 'D-' + krD}</div>
+      <div class="cd">${fmtMd(krExp.date)} · ${krD<=1 ? '종가베팅 비중 축소' : '둘째 주 목요일'}</div>
+    </div>
+    <div class="cal-pill ${msciCls}">
+      <div class="ck">🌍 MSCI 리밸런싱</div>
+      <div class="cv" style="color:${msciD===0?'#f87171':msciD<=3?'#fbbf24':'var(--text)'}">${msciD===0 ? '오늘 (D-Day!)' : 'D-' + msciD}</div>
+      <div class="cd">${fmtMd(msciDt)} · ${msciD<=2 ? '동시호가 수급 왜곡 주의' : '2·5·8·11월 말일'}</div>
+    </div>
+    <div class="cal-pill ${usCls}">
+      <div class="ck">🇺🇸 미국 네 마녀의 날</div>
+      <div class="cv" style="color:${usD===0?'#f87171':usD<=3?'#fbbf24':'var(--text)'}">${usD===0 ? '오늘 밤!' : 'D-' + usD}</div>
+      <div class="cd">${fmtMd(usQuadDt)} · 분기 셋째 금요일</div>
+    </div>
+  `;
+}
+
+// ── 선물지수 + 환율 + 만기일 신호등 판정 ──
+function evaluateFutures(){
+  evaluateMarketCalendar();
+  const fk = Number(APP.futKospi) || 0;
+  const fn = Number(APP.futNasdaq) || 0;
+  const fx = Number(APP.futUsd) || 0;
+  const avg = fk * 0.6 + fn * 0.4;
+  let state = 'neutral', scale = 0.5, badge = '🟡 혼조 · 권장 비중 50%',
+      note = '선물·환율 방향이 엇갈리거나 약보합입니다. 시초·종가 추격을 피하고 실적주만 <b>예정 비중의 절반(50%)</b>으로 분할 접근하세요.';
+
+  if (fk <= -1.0 || fn <= -1.2 || avg <= -0.9 || fx >= 1.2){
+    state = 'bear'; scale = 0.0; badge = '🔴 선물급락/환율급등 · 관망(0%)';
+    note = fx >= 1.2
+      ? '원/달러 환율이 급등(+1.2%↑)해 외국인 매도 압력이 강합니다. <b>신규 매수 중단 · 현금 방어</b>가 안전합니다.'
+      : '선물 하방 압력이 강합니다. <b>시초가/종가베팅 중단 · 현금 방어</b> 후 선물 반등(+0.3%↑)을 기다리세요.';
+  } else if (fk >= 0.3 && fn >= 0.0 && avg >= 0.3 && fx <= 0.4){
+    state = 'bull'; scale = 1.0; badge = '🟢 선물강세·환율안정 · 비중 100%';
+    note = '코스피200·나스닥 선물 강세와 환율 안정이 맞물렸습니다. 외국인 수급 유입 가능성이 높아 <b>예정 비중 100%</b> 실행이 유리합니다.';
+  } else if (fx >= 0.6){
+    scale = 0.4; badge = '🟡 환율 상승 주의 · 비중 40%';
+    note = '원/달러 환율이 상승(+0.6%↑) 중이라 외국인 수급이 제한될 수 있습니다. 비중을 40%로 줄여 분할 접근하세요.';
+  }
+
+  // 만기일/MSCI 리밸런싱 당일이면 비중 추가 보수 조절
+  if (scale > 0 && APP.eventScale < 1.0){
+    scale = Number((scale * APP.eventScale).toFixed(2));
+    badge = `⚠️ 만기/리밸런싱 · 비중 ${Math.round(scale*100)}%`;
+  }
+
+  APP.futState = state;
+  APP.futScale = scale;
+  const card = $('#futCard'), bEl = $('#futBadge'), nEl = $('#futNote');
+  if (card) card.className = 'fut-card ' + state;
+  if (bEl){ bEl.className = 'fut-badge ' + state; bEl.textContent = badge; }
+  const warnHtml = APP.eventWarn ? `<div style="margin-top:4px;color:#fbbf24;font-weight:700">⚠️ ${esc(APP.eventWarn)}</div>` : '';
+  const hintHtml = APP.futNewsHint ? `<div style="margin-top:3px;color:var(--cyan);font-size:10.5px">📡 ${esc(APP.futNewsHint)}</div>` : '';
+  if (nEl) nEl.innerHTML = note + warnHtml + hintHtml;
+}
+
+function onFuturesChange(){
+  APP.futKospi = Number($('#futKospi').value) || 0;
+  APP.futNasdaq = Number($('#futNasdaq').value) || 0;
+  APP.futUsd = Number($('#futUsd').value) || 0;
+  evaluateFutures();
+  renderPicks();
+}
+
+function setFutPreset(k, n, fx){
+  $('#futKospi').value = k;
+  $('#futNasdaq').value = n;
+  if (fx != null && $('#futUsd')) $('#futUsd').value = fx;
+  onFuturesChange();
+  toast(`필터 적용: 선물 ${k>=0?'+':''}${k}% / 나스닥 ${n>=0?'+':''}${n}% / 환율 ${fx>=0?'+':''}${fx}%`);
+}
+
+// ── 렌더링 ──
+function setMarketMode(mkt){
+  APP.market = mkt === 'us' ? 'us' : 'kr';
+  APP.pickFilter = 'all';
+  document.querySelectorAll('#marketSwitch .msw-btn').forEach(b => b.classList.toggle('active', b.dataset.mkt === APP.market));
+  const isUs = APP.market === 'us';
+  if ($('#calStrip')) $('#calStrip').style.display = isUs ? 'none' : '';
+  if ($('#futCard')) $('#futCard').style.display = isUs ? 'none' : '';
+  if ($('#stratFilter') && $('#stratFilter').parentElement) $('#stratFilter').parentElement.style.display = isUs ? 'none' : '';
+  if ($('#pickSecTitle')) $('#pickSecTitle').textContent = isUs ? '🇺🇸 미국 지수·월가 뉴스 기반 상승 여력 종목' : '🔥 실시간 기사·리포트 기반 상승 여력 종목';
+  if ($('#newsSecTitle')) $('#newsSecTitle').textContent = isUs ? '🇺🇸 실시간 미국 증시 & 월가 뉴스' : '⚡ 실시간 한국 증시 뉴스 & 리포트';
+  updateClock();
+  renderAll();
+}
+
+function renderAll(){
+  evaluateFutures();
+  renderHero();
+  renderPicks();
+  renderNews();
+  renderPositions();
+}
+
+function renderHero(){
+  const el = $('#marketHero');
+  if (APP.market === 'us'){
+    const u = APP.usData;
+    if (!u){
+      el.className = 'hero neutral';
+      el.innerHTML = `
+        <div class="hero-top">
+          <div>
+            <div class="hero-badge">🇺🇸 미장 모드 준비 완료</div>
+            <div class="hero-title">미국 지수·월가 뉴스 첫 수집 대기 중</div>
+            <div class="hero-desc">업데이트된 <b>main.py</b>를 깃허브에 올리고 Actions에서 <b>Run workflow</b>를 1회 실행하면 S&amp;P500·나스닥·필라델피아 반도체·VIX와 월가 추천 종목이 자동으로 채워집니다.</div>
+          </div>
+          <div class="hero-score"><div class="num" style="color:#fbbf24">--</div><div class="lbl">미장 심리 /100</div></div>
+        </div>`;
+      return;
+    }
+    el.className = 'hero ' + u.regimeType;
+    const scColor = u.regimeType === 'bull' ? '#4ade80' : u.regimeType === 'neutral' ? '#fbbf24' : '#f87171';
+    el.innerHTML = `
+      <div class="hero-top">
+        <div>
+          <div class="hero-badge">${esc(u.regimeBadge)}</div>
+          <div class="hero-title">${esc(u.regimeTitle)}</div>
+          <div class="hero-desc">${esc(u.regimeDesc)}</div>
+        </div>
+        <div class="hero-score">
+          <div class="num" style="color:${scColor}">${u.sentimentScore}</div>
+          <div class="lbl">미장 심리 /100</div>
+        </div>
+      </div>
+      <div class="meter"><i style="width:${u.sentimentScore}%"></i></div>
+      <div class="hero-pills">
+        <div class="hpill"><div class="k">S&amp;P 500</div><div class="v">${esc(u.sp500Note)}</div></div>
+        <div class="hpill"><div class="k">나스닥 / 반도체(SOX)</div><div class="v">${esc(u.nasdaqNote)}</div></div>
+        <div class="hpill"><div class="k">VIX 공포지수</div><div class="v">${esc(u.vixNote)}</div></div>
+      </div>`;
+    return;
+  }
+  const d = APP.data;
+  el.className = 'hero ' + d.regimeType;
+  const scColor = d.regimeType === 'bull' ? '#4ade80' : d.regimeType === 'neutral' ? '#fbbf24' : '#f87171';
+  el.innerHTML = `
+    <div class="hero-top">
+      <div>
+        <div class="hero-badge">${d.regimeBadge}</div>
+        <div class="hero-title">${d.regimeTitle}</div>
+        <div class="hero-desc">${d.regimeDesc}</div>
+      </div>
+      <div class="hero-score">
+        <div class="num" style="color:${scColor}">${d.sentimentScore}</div>
+        <div class="lbl">뉴스 심리 /100</div>
+      </div>
+    </div>
+    <div class="meter"><i style="width:${d.sentimentScore}%"></i></div>
+    <div class="hero-pills">
+      <div class="hpill"><div class="k">코스피 / 시장</div><div class="v">${esc(d.kospiNote)}</div></div>
+      <div class="hpill"><div class="k">코스닥 / 심리</div><div class="v">${esc(d.kosdaqNote)}</div></div>
+      <div class="hpill"><div class="k">글로벌 / 포착</div><div class="v">${esc(d.usNote)}</div></div>
+    </div>
+  `;
+}
+
+function isPullbackPick(p){
+  const chg = typeof p.dayChg === 'number' ? p.dayChg : null;
+  return chg !== null && chg >= -2.0 && chg <= 3.0 && (p.score || 0) >= 60;
+}
+function isCloseBetPick(p){
+  const chg = typeof p.dayChg === 'number' ? p.dayChg : null;
+  return chg !== null && chg >= -1.5 && chg <= 4.5 && (p.score || 0) >= 60;
+}
+function isNoChasePick(p){
+  const chg = typeof p.dayChg === 'number' ? p.dayChg : null;
+  return chg === null || chg < 7.0;
+}
+
+function renderPicks(){
+  const listEl = $('#pickList');
+  const isUs = APP.market === 'us';
+  const f = APP.styleFilter;
+  const pf = APP.pickFilter || 'all';
+  const srcPicks = isUs ? ((APP.usData && APP.usData.picks) || []) : (APP.data.picks || []);
+  const basePicks = isUs ? srcPicks : srcPicks.filter(p => {
+    if (f === 'all') return true;
+    if (f === 'nxt') return !!p.nxt;
+    return p.style === f;
+  });
+
+  // 퀵 필터 버튼별 종목 수 실시간 표시
+  const cntAll = basePicks.length;
+  const cntPull = basePicks.filter(isPullbackPick).length;
+  const cntClose = basePicks.filter(isCloseBetPick).length;
+  const cntNoChase = basePicks.filter(isNoChasePick).length;
+  const tabMap = {
+    all: `🔥 전체 (${cntAll})`,
+    pullback: `💎 덜 오른 호재 -2~+3% (${cntPull})`,
+    closebet: isUs ? `🌙 눌림·스윙 적합 (${cntClose})` : `🌙 오후 눌림·종가베팅 (${cntClose})`,
+    nochase: `🚫 급등 제외 +7%↓ (${cntNoChase})`
+  };
+  document.querySelectorAll('#pickTabs .ftab').forEach(b => {
+    const k = b.dataset.pf;
+    if (tabMap[k]) b.textContent = tabMap[k];
+    b.classList.toggle('active', k === pf);
+  });
+
+  const picks = basePicks.filter(p => {
+    if (pf === 'pullback') return isPullbackPick(p);
+    if (pf === 'closebet') return isCloseBetPick(p);
+    if (pf === 'nochase') return isNoChasePick(p);
+    return true;
+  });
+
+  $('#pickCountHint').textContent = `${picks.length}종목 선별 · 시드 ${fmtWon(APP.seed)}`;
+
+  if (!picks.length){
+    const msg = pf === 'pullback'
+      ? '현재 -2% ~ +3% 구간의 덜 오른 호재 종목이 없습니다. "🌙 오후 눌림·종가베팅" 또는 "🔥 전체" 탭을 확인해 보세요.'
+      : pf === 'closebet'
+      ? '현재 오후 눌림·종가베팅(-1.5% ~ +4.5%) 조건에 맞는 종목이 없습니다. "🔥 전체" 탭을 확인해 보세요.'
+      : '선택한 스타일에 해당하는 추천 종목이 없습니다. 상단 필터를 "전체 추천 보기"로 바꿔보세요.';
+    listEl.innerHTML = `<div class="empty">${msg}</div>`;
+    return;
+  }
+
+  const usScale = APP.usData ? (APP.usData.regimeType === 'bull' ? 1.0 : APP.usData.regimeType === 'neutral' ? 0.5 : 0.25) : 0.5;
+  const activeScale = isUs ? usScale : APP.futScale;
+  listEl.innerHTML = picks.map((p, idx) => {
+    const adjWeight = Math.round(p.plan.weight * activeScale);
+    const allocAmt = Math.round(APP.seed * (adjWeight / 100));
+    const maxLoss = Math.round(APP.seed * (APP.riskPct / 100) * Math.max(0.5, activeScale));
+    const link1Url = isUs ? `https://finance.yahoo.com/quote/${encodeURIComponent(p.code)}` : `https://m.stock.naver.com/domestic/stock/${p.code}/total`;
+    const link1Lbl = isUs ? '💹 야후 시세' : '💹 네이버 시세';
+    const link2Url = isUs ? `https://www.google.com/finance/?q=${encodeURIComponent(p.code)}` : `https://dart.fss.or.kr/dsab007/main.do?option=corp&textCrpNm=${encodeURIComponent(p.name)}`;
+    const link2Lbl = isUs ? '📊 구글 파이낸스' : '📑 DART 공시';
+    const chg = typeof p.dayChg === 'number' ? p.dayChg : null;
+    const statusTags = [];
+    if (chg !== null && chg >= 7.0){
+      statusTags.push(`<span class="tag bad">⚠️ 급등 추격주의 (+${chg.toFixed(1)}%)</span>`);
+    } else if (isPullbackPick(p)){
+      statusTags.push(`<span class="tag good">💎 덜 오른 호재 (${chg>=0?'+':''}${chg.toFixed(1)}%)</span>`);
+    }
+    if (isCloseBetPick(p)){
+      statusTags.push(`<span class="tag">🌙 오후 눌림·종가 적합</span>`);
+    }
+    return `
+      <div class="pick grade-${p.grade}">
+        <div class="pick-hd">
+          <div>
+            <div class="pick-title">
+              <span>${idx+1}. ${esc(p.name)}</span>
+              <span class="pick-code">${esc(p.code)} · ${esc(p.sector)}</span>
+            </div>
+            <div style="font-size:11.5px;color:#93c5fd;font-weight:700;margin-top:2px">${esc(p.targetText)}</div>
+          </div>
+          <span class="grade-badge ${p.grade}">${p.grade}급 · ${p.score}점</span>
+        </div>
+
+        <div class="tags">
+          ${statusTags.join('')}${(p.tags||[]).map(t => `<span class="tag good">${esc(t)}</span>`).join('')}
+        </div>
+
+        <div class="thesis-box">
+          <div class="hd"><span>🧠 왜 지금 매수 여력이 있는가? (실시간 팩트 근거)</span><span>비중 ${p.plan.weight}%</span></div>
+          <ul>${(p.why||[]).map(w => `<li>${w}</li>`).join('')}</ul>
+        </div>
+
+        <div class="risk-note">⚠️ <b>리스크 주의</b>: ${esc(p.risk)}</div>
+
+        <div class="plan-grid">
+          <div class="pbox buy">
+            <div class="k">권장 투입금 (${isUs ? '미장반영' : '선물반영'} ${adjWeight}%)</div>
+            <div class="v">${activeScale === 0 ? '관망 (0원)' : fmtWon(allocAmt)}</div>
+            <div class="r">${activeScale === 0 ? '지수 급락 → 반등 대기' : esc(p.plan.buyGuide)}</div>
+          </div>
+          <div class="pbox tp">
+            <div class="k">🎯 목표 수익 구간</div>
+            <div class="v">${esc(p.plan.tp)}</div>
+            <div class="r">1차 도달 시 50% 분할익절</div>
+          </div>
+          <div class="pbox sl">
+            <div class="k">🛑 손절 원칙</div>
+            <div class="v">${esc(p.plan.sl)}</div>
+            <div class="r">허용 손실 -${fmtWon(maxLoss)}</div>
+          </div>
+        </div>
+
+        <div class="news-links">
+          ${(p.links||[]).map(l => `
+            <a class="nlink" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">
+              <span>📰 ${esc(l.title)}</span>
+              <span class="src">${esc(l.src)} ↗</span>
+            </a>
+          `).join('')}
+        </div>
+
+        <div class="card-actions">
+          <a class="btn sm" href="${link1Url}" target="_blank" rel="noopener noreferrer">${link1Lbl}</a>
+          <a class="btn sm" href="${link2Url}" target="_blank" rel="noopener noreferrer">${link2Lbl}</a>
+          <button class="btn good sm" style="margin-left:auto" onclick="quickSavePos('${esc(p.name)}','${esc(p.code)}',${allocAmt})">➕ 내 포지션 기록</button>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderNews(){
+  const srcNews = APP.market === 'us' ? ((APP.usData && APP.usData.news) || []) : (APP.data.news || []);
+  const list = srcNews.filter(n => APP.newsCat === 'all' || n.cat === APP.newsCat);
+  $('#newsCountHint').textContent = `총 ${list.length}건`;
+  const el = $('#newsList');
+  if (!list.length){
+    el.innerHTML = '<div class="empty">해당 카테고리의 기사가 없습니다.</div>';
+    return;
+  }
+  el.innerHTML = list.map(n => {
+    const sBadge = n.sentiment === 'pos' ? '<span class="tag good">호재/강세</span>'
+                 : n.sentiment === 'neg' ? '<span class="tag bad">경계/변동성</span>'
+                 : '<span class="tag">중립/정보</span>';
+    return `
+      <a class="news-item" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">
+        <div class="nt">${esc(n.title)}</div>
+        <div class="nm">
+          <span>${sBadge} ${esc(n.src)}</span>
+          <span>${esc(n.date)} ↗</span>
+        </div>
+      </a>
+    `;
+  }).join('');
+}
+
+function renderPositions(){
+  $('#posHint').textContent = `${APP.positions.length}종목 보유`;
+  const el = $('#posList');
+  if (!APP.positions.length){
+    el.innerHTML = '<div class="empty">아직 기록된 보유 종목이 없습니다.<br><b>🔥 매수 추천</b> 탭에서 [내 포지션 기록]을 누르거나 아래에서 직접 추가하세요.</div>';
+    return;
+  }
+  el.innerHTML = APP.positions.map((p, i) => `
+    <div class="pos-card">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:5px">
+        <div><b style="font-size:14.5px">${esc(p.name)}</b> <span style="font-size:11px;color:var(--dim)">${p.code ? esc(p.code)+' · ' : ''}${p.qty}주 · ${p.date}</span></div>
+        <button class="btn bad sm" onclick="delPos(${i})">청산</button>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;font-size:11.5px;color:var(--dim)">
+        <div>매입/투입 <b style="color:var(--text)">${fmtWon(p.price)}</b></div>
+        <div>손절(-5%) <b style="color:#f87171">${fmtWon(p.price * 0.95)}</b></div>
+        <div>1차익절(+10%) <b style="color:#4ade80">${fmtWon(p.price * 1.10)}</b></div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// ── 인터랙션 ──
+function onSeedChange(){
+  APP.seed = Math.max(100000, Number($('#seedIn').value) || 3000000);
+  APP.riskPct = Math.max(0.5, Math.min(5, Number($('#riskIn').value) || 2.0));
+  APP.styleFilter = $('#stratFilter').value || 'all';
+  saveStore();
+  renderPicks();
+}
+
+function setPickFilter(pf){
+  APP.pickFilter = pf;
+  renderPicks();
+}
+
+function setNewsCat(c){
+  APP.newsCat = c;
+  document.querySelectorAll('#pane-news .ftab').forEach(b => b.classList.toggle('active', b.dataset.cat === c));
+  renderNews();
+}
+
+function switchPane(name){
+  document.querySelectorAll('.pane').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav button').forEach(b => b.classList.toggle('active', b.dataset.pane === name));
+  const target = $('#pane-' + name);
+  if (target) target.classList.add('active');
+}
+
+function updateChk(){
+  const all = document.querySelectorAll('.chk-item input');
+  const cnt = Array.from(all).filter(x => x.checked).length;
+  const st = $('#chkStatus');
+  if (cnt === all.length){
+    st.style.color = '#4ade80';
+    st.textContent = `✅ ${cnt} / ${all.length} 모두 확인 완료 — 계획대로 분할 매수 실행 가능!`;
+  } else {
+    st.style.color = '#f59e0b';
+    st.textContent = `${cnt} / ${all.length} 체크 완료 — 4개 모두 체크 후 매수하세요`;
+  }
+}
+
+function quickSavePos(name, code, allocAmt){
+  APP.positions.unshift({ name, code, price: allocAmt, qty: 1, date: new Date().toISOString().slice(0,10) });
+  saveStore(); renderPositions();
+  toast(`${name} 포지션에 기록 완료!`);
+}
+
+function addManualPos(){
+  const name = ($('#mName').value || '').trim();
+  const price = Number($('#mPrice').value);
+  const qty = Math.max(1, Math.round(Number($('#mQty').value) || 1));
+  if (!name || !(price > 0)){ toast('종목명과 매입가를 입력해 주세요'); return; }
+  APP.positions.unshift({ name, code:'', price, qty, date: new Date().toISOString().slice(0,10) });
+  $('#mName').value = ''; $('#mPrice').value = '';
+  saveStore(); renderPositions();
+  toast(`${name} 저장 완료!`);
+}
+
+function delPos(i){
+  APP.positions.splice(i, 1);
+  saveStore(); renderPositions();
+  toast('청산 처리되었습니다');
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  loadStore();
+  $('#seedIn').value = APP.seed;
+  updateClock();
+  setInterval(updateClock, 15000);
+  renderAll();
+  fetchAllLiveNews(false);
+  setInterval(() => fetchAllLiveNews(false), 60000);
+});
+</script>
+</body>
+</html>
