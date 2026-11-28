@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-28 15:37 KST (국장·미장 뉴스 100%)",
+  "updatedAt": "2026-11-28 15:52 KST (국장·미장 뉴스 100%)",
   "us": {
-    "updatedAt": "2026-11-28 15:37 KST (미국 지수·월가 뉴스 100%)",
+    "updatedAt": "2026-11-28 15:52 KST (미국 지수·월가 뉴스 100%)",
     "regime": {
       "score": 93,
       "type": "bull",
       "badge": "🟢 미장 지수·뉴스 강세",
       "title": "월가 상향·실적주 적극 분할 매수",
-      "desc": "미국 주요 120종목과 실시간 월가 기사 119건(호재 56 · 주의 2), S&P500·나스닥·필라델피아 반도체·VIX를 종합 분석한 결과입니다."
+      "desc": "미국 주요 120종목과 실시간 월가 기사 117건(호재 57 · 주의 2), S&P500·나스닥·필라델피아 반도체·VIX를 종합 분석한 결과입니다."
     },
     "indices": {
       "sp500": {
@@ -334,6 +334,32 @@
         ]
       },
       {
+        "code": "GS",
+        "name": "골드만삭스",
+        "sector": "투자은행",
+        "px": 812.87,
+        "dayChg": 1.48,
+        "slPx": 764.1,
+        "tpPx": 910.41,
+        "posTags": [
+          "월가 매수·상향"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: 월가 매수·상향",
+          "핵심 기사: Fresenius stock upgraded to Buy by Goldman Sachs at EUR 67 target - ad-hoc-news.de",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 73,
+        "news": [
+          {
+            "src": "WallSt·PT",
+            "title": "Fresenius stock upgraded to Buy by Goldman Sachs at EUR 67 target - ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU0g3UGRfQUJpUnMzYWFqd1ZUVmwxOXB2eTllT09fclhlSUxHUUlMem1SUTBCWHBiN3k1RmRzYk10RDJiVFdVNGVMTXBQcmFMYWNSNFpjQzZ0dHBOVXNOeXRBajlScVdEQkREaWRSODVyUWV1RkhQeWExelp1OWdSYXUzR19oV0RkdWN2c200clpoRUxkdUl3UmJHSVg2VXhLaHRUdjh4SlRCQmplWFpDaF8wTC1JdHl5UjlPcm1saDBuNmZaOTA4?oc=5",
+            "date": "Fri, 27 Nov 2026"
+          }
+        ]
+      },
+      {
         "code": "MSFT",
         "name": "마이크로소프트",
         "sector": "빅테크·AI",
@@ -555,6 +581,32 @@
             "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
             "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
             "date": "Tue, 17 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "GS",
+        "name": "골드만삭스",
+        "sector": "투자은행",
+        "px": 812.87,
+        "dayChg": 1.48,
+        "slPx": 764.1,
+        "tpPx": 910.41,
+        "posTags": [
+          "월가 매수·상향"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: 월가 매수·상향",
+          "핵심 기사: Fresenius stock upgraded to Buy by Goldman Sachs at EUR 67 target - ad-hoc-news.de",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 73,
+        "news": [
+          {
+            "src": "WallSt·PT",
+            "title": "Fresenius stock upgraded to Buy by Goldman Sachs at EUR 67 target - ad-hoc-news.de",
+            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOU0g3UGRfQUJpUnMzYWFqd1ZUVmwxOXB2eTllT09fclhlSUxHUUlMem1SUTBCWHBiN3k1RmRzYk10RDJiVFdVNGVMTXBQcmFMYWNSNFpjQzZ0dHBOVXNOeXRBajlScVdEQkREaWRSODVyUWV1RkhQeWExelp1OWdSYXUzR19oV0RkdWN2c200clpoRUxkdUl3UmJHSVg2VXhLaHRUdjh4SlRCQmplWFpDaF8wTC1JdHl5UjlPcm1saDBuNmZaOTA4?oc=5",
+            "date": "Fri, 27 Nov 2026"
           }
         ]
       },
@@ -829,7 +881,7 @@
     ]
   },
   "scannedTotal": 292,
-  "analyzedDetail": 77,
+  "analyzedDetail": 75,
   "regime": {
     "score": 87,
     "type": "bull",
@@ -1778,8 +1830,8 @@
     },
     {
       "src": "구글·리포트",
-      "title": "엘티씨 | 세정장비 생산능력 확보, 321단 NAND 소재의 수익성 개선 본격화",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOemVXZXVXbVZ4Nk5vSHVrZ1RyeFFjeDBPbnpybFBVYktMV3NsSXBpRmc3Tk43RW1JQTZpRzQ4eHpyaGJJcTV1VFFwbVg2Y2lQZVd3cFdKdnB3N2g1SkYyMU5wR3QySzFaNE40bXh3Y29HNEszejVBQWNCcmtjYnM4eVFWeE1oakVk?oc=5",
+      "title": "팬오션 | VLCC 10척 인수 효과, 2027년 탱커 이익 확대가 핵심",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOd0hCcHNSUkl4LVRhVm5ydkFwc3NMOHZFR3Z5NUFUNEp2cnZBU1hmeWxOTlJCYjBwamVGT3U2NGlaWEx6aFR0dGtJVkljX0JWUjZ6MEJBOW5TRzRkZUFBYjNZZjhnY1c5cHNzZk1BNE9jc3ZyRHBkX29Lclg5ODE5Q21vV3BNenNH?oc=5",
       "date": "Fri, 27 Nov 2026"
     },
     {
