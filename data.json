@@ -1,11 +1,839 @@
 {
-  "updatedAt": "2026-11-27 21:29 KST (기사·선물·만기 100%)",
+  "updatedAt": "2026-11-28 15:37 KST (국장·미장 뉴스 100%)",
+  "us": {
+    "updatedAt": "2026-11-28 15:37 KST (미국 지수·월가 뉴스 100%)",
+    "regime": {
+      "score": 93,
+      "type": "bull",
+      "badge": "🟢 미장 지수·뉴스 강세",
+      "title": "월가 상향·실적주 적극 분할 매수",
+      "desc": "미국 주요 120종목과 실시간 월가 기사 119건(호재 56 · 주의 2), S&P500·나스닥·필라델피아 반도체·VIX를 종합 분석한 결과입니다."
+    },
+    "indices": {
+      "sp500": {
+        "px": 7297.49,
+        "pct": 1.6
+      },
+      "nasdaq": {
+        "px": 24129.5,
+        "pct": 2.31
+      },
+      "sox": {
+        "px": 9186.71,
+        "pct": 4.69
+      },
+      "vix": {
+        "px": 23.81,
+        "pct": -11.16
+      }
+    },
+    "picks": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "sector": "AI·반도체",
+        "px": 150.49,
+        "dayChg": 0.8,
+        "slPx": 141.46,
+        "tpPx": 168.55,
+        "posTags": [
+          "AI·수주·환원",
+          "강세 모멘텀",
+          "실적 서프라이즈"
+        ],
+        "why": [
+          "미국 실시간 기사 9건 포착: AI·수주·환원, 강세 모멘텀, 실적 서프라이즈",
+          "핵심 기사: Nvidia And AI Infrastructure Stocks Worth Watching For Data Center Demand",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 99,
+        "news": [
+          {
+            "src": "Yahoo·US",
+            "title": "Nvidia And AI Infrastructure Stocks Worth Watching For Data Center Demand",
+            "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ai-infrastructure-stocks-worth-061003955.html?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "Yahoo·US",
+            "title": "NVDA Stock Could Hit A Bottom Next Week As Jensen Huang Faces Congress, Says Analyst — 'I Would Buy It With Both Hands'",
+            "url": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-hit-bottom-jensen-haung-congress/cNRRYXMR9Vp?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "Yahoo·US",
+            "title": "Nvidia Stock Has Swung 5% or More in a Single Day 5 Times in November. Here's How Big a Position I Think Makes Sense.",
+            "url": "https://www.fool.com/investing/2026/11/27/nvidia-stock-has-swung-5-or-more-in-a-single-day-5-times-in-november-here-s-how-big-a-position-i-think-makes-sense/?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "PANW",
+        "name": "팔로알토",
+        "sector": "사이버보안",
+        "px": 366.76,
+        "dayChg": 2.98,
+        "slPx": 344.75,
+        "tpPx": 410.77,
+        "posTags": [
+          "실적 서프라이즈",
+          "강세 모멘텀",
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 3건 포착: 실적 서프라이즈, 강세 모멘텀, AI·수주·환원",
+          "핵심 기사: Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 99,
+        "news": [
+          {
+            "src": "CNBC·US",
+            "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+            "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+            "date": "Thu, 19 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Palo Alto stock surges as all signs point to how important cybersecurity is in the AI age",
+            "url": "https://www.cnbc.com/investingclub/2026/11/18/palo-alto-surges-as-all-signs-point-to-cybersecurity-need-in-the-ai-age.html",
+            "date": "Thu, 19 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+            "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+            "date": "Thu, 19 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "CRWD",
+        "name": "크라우드스트라이크",
+        "sector": "사이버보안",
+        "px": 217.2,
+        "dayChg": 3.77,
+        "slPx": 204.17,
+        "tpPx": 243.26,
+        "posTags": [
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 3건 포착: AI·수주·환원",
+          "핵심 기사: Amazon, Tesla, CrowdStrike, Tesla and more analyst calls of the week",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 99,
+        "news": [
+          {
+            "src": "WallSt·PT",
+            "title": "Amazon, Tesla, CrowdStrike, Tesla and more analyst calls of the week",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcDlnMmxCR2ZqWGMxTHlEbEhVbzF0ak5OblBlbTBBXzBVblh0MEZpSmNzTUlTMk5HMlg2NjNaQWdYemJwMi1QQm1uQ2JSckZTSWZHNlEwRjQ4alNWcjZDMHg3M3NPVEVSVEhCMXdfY0Zkc2M2THdWV2Zxb2lCbHVZNGJCVl9sUTBDbUFTY2Z4NDVUS2lzQ3ROTWRURnJsQy1rT3lUSDVYeDFQajYxOEVrZGdpWm5jczBJOVd5VFNReUdWR3FOTk5NeEZDeFYzcHJqVWc?oc=5",
+            "date": "Fri, 27 Nov 2026"
+          },
+          {
+            "src": "WallSt·PT",
+            "title": "Top Guggenheim Analyst Upgrades CrowdStrike Stock (CRWD) to Buy After Zscaler Mega-Deal",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcmM4U01oUEd4LU9SX0NpRy1fQXB6MlFvZTZ0ZkJibjRleXNhNmJfVkRCa2NzRXAzUWNOcTNZYkpic1luU295ejFqZGFBNkhrWU9xSVZsTHQ3ZURGZ2tnMGZWbGhiMkdhMzU0bTFadFRTS0UtaW5WNHB6cUY1OGNRYU5SM2JkVlhoeUZEeGUzQUNVR3NZc181LUdIdWtBd2VBeTJRWUhkcVFfQ3FNMmJicEF1SVVmckZLdlllb01Nclk?oc=5",
+            "date": "Thu, 26 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler",
+            "url": "https://www.cnbc.com/investingclub/2026/11/23/crowdstrikes-zscaler-deal-investors-are-missing-the-bigger-picture.html",
+            "date": "Mon, 23 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "ZS",
+        "name": "지스케일러",
+        "sector": "사이버보안",
+        "px": 239.49,
+        "dayChg": 3.74,
+        "slPx": 225.12,
+        "tpPx": 268.23,
+        "posTags": [
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 2건 포착: AI·수주·환원",
+          "핵심 기사: Top Guggenheim Analyst Upgrades CrowdStrike Stock (CRWD) to Buy After Zscaler Mega-Deal",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 94,
+        "news": [
+          {
+            "src": "WallSt·PT",
+            "title": "Top Guggenheim Analyst Upgrades CrowdStrike Stock (CRWD) to Buy After Zscaler Mega-Deal",
+            "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcmM4U01oUEd4LU9SX0NpRy1fQXB6MlFvZTZ0ZkJibjRleXNhNmJfVkRCa2NzRXAzUWNOcTNZYkpic1luU295ejFqZGFBNkhrWU9xSVZsTHQ3ZURGZ2tnMGZWbGhiMkdhMzU0bTFadFRTS0UtaW5WNHB6cUY1OGNRYU5SM2JkVlhoeUZEeGUzQUNVR3NZc181LUdIdWtBd2VBeTJRWUhkcVFfQ3FNMmJicEF1SVVmckZLdlllb01Nclk?oc=5",
+            "date": "Thu, 26 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Investors are missing the bigger picture in CrowdStrike's deal to buy Zscaler",
+            "url": "https://www.cnbc.com/investingclub/2026/11/23/crowdstrikes-zscaler-deal-investors-are-missing-the-bigger-picture.html",
+            "date": "Mon, 23 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "WMT",
+        "name": "월마트",
+        "sector": "유통·소비",
+        "px": 133.13,
+        "dayChg": 0.9,
+        "slPx": 125.14,
+        "tpPx": 149.11,
+        "posTags": [
+          "실적 서프라이즈",
+          "강세 모멘텀"
+        ],
+        "why": [
+          "미국 실시간 기사 2건 포착: 실적 서프라이즈, 강세 모멘텀",
+          "핵심 기사: Learn Why The Bull Case For Walmart (WMT) Could Change Following Earnings Beat",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 91,
+        "news": [
+          {
+            "src": "Yahoo·US",
+            "title": "Learn Why The Bull Case For Walmart (WMT) Could Change Following Earnings Beat",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-walmart-020743257.html?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+            "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+            "date": "Thu, 19 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "BAC",
+        "name": "뱅크오브아메리카",
+        "sector": "금융",
+        "px": 49.07,
+        "dayChg": 1.09,
+        "slPx": 46.13,
+        "tpPx": 54.96,
+        "posTags": [
+          "월가 목표가 상향"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: 월가 목표가 상향",
+          "핵심 기사: Regeneron Pharmaceuticals (NASDAQ:REGN) Stock Price Target Raised at Bank of America",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 81,
+        "news": [
+          {
+            "src": "WallSt·PT",
+            "title": "Regeneron Pharmaceuticals (NASDAQ:REGN) Stock Price Target Raised at Bank of America",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc3lON2tBemJJYUJscUdJSDVSa3BtSTlqbmhhajhWRElTRnBmVm96emVac0UwUFgtNWhZQ1dkMGtxOWNQWjJRQzFfczZvY052bmZxTzlZQ0pqSGlHM0pNSTdRNlNYMzBKSmExaFhKdkJfMkVhdkZpZDFxdndxSzJ1U0FJY19iRUotdG9hNEJTalJCdHczWUwtS25OUjZRWDBNTXpDVWJLRHM5QmE1S29oVjV6MlE0clNfZGNqNnlFaEwwek5Va2pZRllZOWJTZEJxY2tGdE9wTzJRQi1U?oc=5",
+            "date": "Fri, 27 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "PLTR",
+        "name": "팔란티어",
+        "sector": "AI·소프트웨어",
+        "px": 172.17,
+        "dayChg": 5.25,
+        "slPx": 161.84,
+        "tpPx": 192.83,
+        "posTags": [
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 3건 포착: AI·수주·환원",
+          "핵심 기사: Palantir Technologies (PLTR) Signed A Poland Defense Software Agreement",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 79,
+        "news": [
+          {
+            "src": "Yahoo·US",
+            "title": "Palantir Technologies (PLTR) Signed A Poland Defense Software Agreement",
+            "url": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-pltr-signed-poland-020938771.html?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "Yahoo·US",
+            "title": "Palantir's new military AI deal has a surprising catch",
+            "url": "https://www.thestreet.com/investing/palantirs-new-military-ai-deal-has-a-surprising-catch?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "WallSt·PT",
+            "title": "Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?",
+            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUDRzWVUtQmh1OTJiZG03T1d3VnE5Q1I0UzZDM3J5bGd6TkEzTHpRMi1zR2xrLVUtXzBWdDFPLVF5TDV2Uk1OMTV2WlJablpTNlY1RHRwdXUwYXNTTjQxQVJFcnRvQm1NbkI2RTdRWUkwZGlCajAzOTI2cWxIOFQ2YlFOd3NCV0otVDRyTkRfdTFSQWhtQy03ay1aRmhodnBLbi1KZmVrQzhwWE9tUENrU2kxeTdIdmdHbEFwQ2tOMXhDY21rRXc?oc=5",
+            "date": "Fri, 27 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "HD",
+        "name": "홈디포",
+        "sector": "유통·리테일",
+        "px": 362.15,
+        "dayChg": 0.25,
+        "slPx": 340.42,
+        "tpPx": 405.61,
+        "posTags": [
+          "실적 서프라이즈"
+        ],
+        "why": [
+          "미국 실시간 기사 2건 포착: 실적 서프라이즈",
+          "핵심 기사: Why Home Depot shares are falling despite an earnings beat — and how to proceed",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 79,
+        "news": [
+          {
+            "src": "CNBC·US",
+            "title": "Why Home Depot shares are falling despite an earnings beat — and how to proceed",
+            "url": "https://www.cnbc.com/investingclub/2026/11/17/why-home-depot-shares-are-falling-despite-an-earnings-beat-and-how-to-proceed.html",
+            "date": "Tue, 17 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+            "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+            "date": "Tue, 17 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "DELL",
+        "name": "델테크놀로지",
+        "sector": "AI 서버",
+        "px": 316.96,
+        "dayChg": 6.7,
+        "slPx": 297.94,
+        "tpPx": 355.0,
+        "posTags": [
+          "실적 서프라이즈"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: 실적 서프라이즈",
+          "핵심 기사: Dell Technologies (NYSE:DELL) Posts Quarterly Earnings Results, Beats Estimates By $2.90 EPS",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 74,
+        "news": [
+          {
+            "src": "US·Movers",
+            "title": "Dell Technologies (NYSE:DELL) Posts Quarterly Earnings Results, Beats Estimates By $2.90 EPS",
+            "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbEtJdTgwXzM2TjUwbmZ3YWRvSlJqanpNVWRNVDZ3N3MteTVtZ1ZkYUQ0aERoNTFBS0NBZDRzbjlRaWYwMWJLVFVmRFRadkNBazhmVkdzaXFBb21QUm51VWdzRWVaeWhvNW0weXVNMHJwbHVHdG9rV3dZQ0loOWNVcHVoelpnOXYzeGZXMWdZaUtpQXhJLURnRHgtX2RIOUNfODFyVDRvLVVpRHZLcUJ3d0VLb1pMMFFDZ2Q2ZDlrNDR2U3NyaXBXcWRhdTdodzFlZ0taYVYwOS1jWVVQNXlTSmdvOW5oajR2?oc=5",
+            "date": "Fri, 27 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "MSFT",
+        "name": "마이크로소프트",
+        "sector": "빅테크·AI",
+        "px": 492.85,
+        "dayChg": 0.6,
+        "slPx": 463.28,
+        "tpPx": 551.99,
+        "posTags": [
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: AI·수주·환원",
+          "핵심 기사: Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 69,
+        "news": [
+          {
+            "src": "CNBC·US",
+            "title": "Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+            "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+            "date": "Fri, 13 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "INTC",
+        "name": "인텔",
+        "sector": "반도체",
+        "px": 57.4,
+        "dayChg": 5.38,
+        "slPx": 53.96,
+        "tpPx": 64.29,
+        "posTags": [
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: AI·수주·환원",
+          "핵심 기사: SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 69,
+        "news": [
+          {
+            "src": "CNBC·US",
+            "title": "SoftBank swings to $7 billion loss after U.S. data center hit and Intel share decline",
+            "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html",
+            "date": "Tue, 10 Nov 2026"
+          }
+        ]
+      }
+    ],
+    "pullback": [
+      {
+        "code": "NVDA",
+        "name": "엔비디아",
+        "sector": "AI·반도체",
+        "px": 150.49,
+        "dayChg": 0.8,
+        "slPx": 141.46,
+        "tpPx": 168.55,
+        "posTags": [
+          "AI·수주·환원",
+          "강세 모멘텀",
+          "실적 서프라이즈"
+        ],
+        "why": [
+          "미국 실시간 기사 9건 포착: AI·수주·환원, 강세 모멘텀, 실적 서프라이즈",
+          "핵심 기사: Nvidia And AI Infrastructure Stocks Worth Watching For Data Center Demand",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 99,
+        "news": [
+          {
+            "src": "Yahoo·US",
+            "title": "Nvidia And AI Infrastructure Stocks Worth Watching For Data Center Demand",
+            "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ai-infrastructure-stocks-worth-061003955.html?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "Yahoo·US",
+            "title": "NVDA Stock Could Hit A Bottom Next Week As Jensen Huang Faces Congress, Says Analyst — 'I Would Buy It With Both Hands'",
+            "url": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-hit-bottom-jensen-haung-congress/cNRRYXMR9Vp?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "Yahoo·US",
+            "title": "Nvidia Stock Has Swung 5% or More in a Single Day 5 Times in November. Here's How Big a Position I Think Makes Sense.",
+            "url": "https://www.fool.com/investing/2026/11/27/nvidia-stock-has-swung-5-or-more-in-a-single-day-5-times-in-november-here-s-how-big-a-position-i-think-makes-sense/?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "PANW",
+        "name": "팔로알토",
+        "sector": "사이버보안",
+        "px": 366.76,
+        "dayChg": 2.98,
+        "slPx": 344.75,
+        "tpPx": 410.77,
+        "posTags": [
+          "실적 서프라이즈",
+          "강세 모멘텀",
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 3건 포착: 실적 서프라이즈, 강세 모멘텀, AI·수주·환원",
+          "핵심 기사: Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 99,
+        "news": [
+          {
+            "src": "CNBC·US",
+            "title": "Palo Alto stock jumps on earnings beat and company's big bet on securing open-weight models",
+            "url": "https://www.cnbc.com/2026/11/19/palo-alto-networks-earnings-applied-compute.html",
+            "date": "Thu, 19 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Palo Alto stock surges as all signs point to how important cybersecurity is in the AI age",
+            "url": "https://www.cnbc.com/investingclub/2026/11/18/palo-alto-surges-as-all-signs-point-to-cybersecurity-need-in-the-ai-age.html",
+            "date": "Thu, 19 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+            "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html",
+            "date": "Thu, 19 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "WMT",
+        "name": "월마트",
+        "sector": "유통·소비",
+        "px": 133.13,
+        "dayChg": 0.9,
+        "slPx": 125.14,
+        "tpPx": 149.11,
+        "posTags": [
+          "실적 서프라이즈",
+          "강세 모멘텀"
+        ],
+        "why": [
+          "미국 실시간 기사 2건 포착: 실적 서프라이즈, 강세 모멘텀",
+          "핵심 기사: Learn Why The Bull Case For Walmart (WMT) Could Change Following Earnings Beat",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 91,
+        "news": [
+          {
+            "src": "Yahoo·US",
+            "title": "Learn Why The Bull Case For Walmart (WMT) Could Change Following Earnings Beat",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-walmart-020743257.html?.tsrc=rss",
+            "date": "Sat, 28 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+            "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html",
+            "date": "Thu, 19 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "BAC",
+        "name": "뱅크오브아메리카",
+        "sector": "금융",
+        "px": 49.07,
+        "dayChg": 1.09,
+        "slPx": 46.13,
+        "tpPx": 54.96,
+        "posTags": [
+          "월가 목표가 상향"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: 월가 목표가 상향",
+          "핵심 기사: Regeneron Pharmaceuticals (NASDAQ:REGN) Stock Price Target Raised at Bank of America",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 81,
+        "news": [
+          {
+            "src": "WallSt·PT",
+            "title": "Regeneron Pharmaceuticals (NASDAQ:REGN) Stock Price Target Raised at Bank of America",
+            "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc3lON2tBemJJYUJscUdJSDVSa3BtSTlqbmhhajhWRElTRnBmVm96emVac0UwUFgtNWhZQ1dkMGtxOWNQWjJRQzFfczZvY052bmZxTzlZQ0pqSGlHM0pNSTdRNlNYMzBKSmExaFhKdkJfMkVhdkZpZDFxdndxSzJ1U0FJY19iRUotdG9hNEJTalJCdHczWUwtS25OUjZRWDBNTXpDVWJLRHM5QmE1S29oVjV6MlE0clNfZGNqNnlFaEwwek5Va2pZRllZOWJTZEJxY2tGdE9wTzJRQi1U?oc=5",
+            "date": "Fri, 27 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "HD",
+        "name": "홈디포",
+        "sector": "유통·리테일",
+        "px": 362.15,
+        "dayChg": 0.25,
+        "slPx": 340.42,
+        "tpPx": 405.61,
+        "posTags": [
+          "실적 서프라이즈"
+        ],
+        "why": [
+          "미국 실시간 기사 2건 포착: 실적 서프라이즈",
+          "핵심 기사: Why Home Depot shares are falling despite an earnings beat — and how to proceed",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 79,
+        "news": [
+          {
+            "src": "CNBC·US",
+            "title": "Why Home Depot shares are falling despite an earnings beat — and how to proceed",
+            "url": "https://www.cnbc.com/investingclub/2026/11/17/why-home-depot-shares-are-falling-despite-an-earnings-beat-and-how-to-proceed.html",
+            "date": "Tue, 17 Nov 2026"
+          },
+          {
+            "src": "CNBC·US",
+            "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+            "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html",
+            "date": "Tue, 17 Nov 2026"
+          }
+        ]
+      },
+      {
+        "code": "MSFT",
+        "name": "마이크로소프트",
+        "sector": "빅테크·AI",
+        "px": 492.85,
+        "dayChg": 0.6,
+        "slPx": 463.28,
+        "tpPx": 551.99,
+        "posTags": [
+          "AI·수주·환원"
+        ],
+        "why": [
+          "미국 실시간 기사 1건 포착: AI·수주·환원",
+          "핵심 기사: Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+          "미국 지수 반영: S&P500 +1.60% · 나스닥 +2.31% · 필라반도체 +4.69%"
+        ],
+        "score": 69,
+        "news": [
+          {
+            "src": "CNBC·US",
+            "title": "Cerebras pops after beating on quarterly revenue and announcing Microsoft deal",
+            "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+            "date": "Fri, 13 Nov 2026"
+          }
+        ]
+      }
+    ],
+    "news": [
+      {
+        "src": "Yahoo·US",
+        "title": "Nvidia And AI Infrastructure Stocks Worth Watching For Data Center Demand",
+        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-ai-infrastructure-stocks-worth-061003955.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "NVDA Stock Could Hit A Bottom Next Week As Jensen Huang Faces Congress, Says Analyst — 'I Would Buy It With Both Hands'",
+        "url": "https://stocktwits.com/news-articles/markets/equity/nvda-stock-hit-bottom-jensen-haung-congress/cNRRYXMR9Vp?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Coinbase CEO Brian Armstrong Scales Back Bitcoin Prediction, Still Sees Nearly 7x Upside By 2030",
+        "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/coinbase-ceo-brian-armstrong-scales-back-bitcoin-prediction-still-sees-nearly-7x-upside-by-2030/cNRRYbqR9Vo?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Tesla Stock And Other Tariff Protected Manufacturers Investors Are Watching",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-other-tariff-protected-051504941.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Michael Burry still sees 2 stocks worth betting against",
+        "url": "https://www.thestreet.com/investing/michael-burry-palantir-metlife-puts?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Nvidia Stock Has Swung 5% or More in a Single Day 5 Times in November. Here's How Big a Position I Think Makes Sense.",
+        "url": "https://www.fool.com/investing/2026/11/27/nvidia-stock-has-swung-5-or-more-in-a-single-day-5-times-in-november-here-s-how-big-a-position-i-think-makes-sense/?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Amazon takes its car store abroad for the first time in 2027",
+        "url": "https://www.thestreet.com/automotive/amazon-takes-its-car-store-abroad-britain-uk-for-first-time-2027?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Palantir Technologies (PLTR) Signed A Poland Defense Software Agreement",
+        "url": "https://finance.yahoo.com/technology/ai/articles/palantir-technologies-pltr-signed-poland-020938771.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Learn Why The Bull Case For Walmart (WMT) Could Change Following Earnings Beat",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/learn-why-bull-case-walmart-020743257.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Palantir's new military AI deal has a surprising catch",
+        "url": "https://www.thestreet.com/investing/palantirs-new-military-ai-deal-has-a-surprising-catch?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Taiwan, South Korea share chip whiplash but not the factory boom",
+        "url": "http://www.intellinews.com/taiwan-south-korea-share-chip-whiplash-but-not-the-factory-boom-488384/?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "SpaceX Stock Is Trading Below Its $135 IPO Price. History Says What Other Giant IPOs Did From There.",
+        "url": "https://www.fool.com/investing/2026/11/27/spacex-stock-is-trading-below-its-usd135-ipo-price-history-says-what-other-giant-ipos-did-from-there/?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "BEACN Announces Financial Results for the Third Quarter of 2026",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/beacn-announces-financial-results-third-035500980.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Are recent outages bad for software?",
+        "url": "https://finance.yahoo.com/technology/articles/recent-outages-bad-software-033947446.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Jim Cramer's says another chip stock down 56% is \"comically cheap\"",
+        "url": "https://www.thestreet.com/investing/stocks/mu-micron-after-amat-jim-cramer-investing-club-micron-stock-down-56-comically-cheap?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Here's Why Anthropic Stock Rallied on Friday -- and Why Wall Street Analysts Say It's Still a Buy Right Now",
+        "url": "https://www.fool.com/investing/2026/11/27/why-anthropic-stock-rallied-on-friday-wall-street-analysts-say-buy-right-now/?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "AXT Inc. (AXTI) Joins the Market’s Biggest Winners",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/axt-inc-axti-joins-market-062350204.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "The First AI Stock I Plan to Buy in 2027",
+        "url": "https://www.fool.com/investing/2026/11/28/the-first-ai-stock-i-plan-to-buy-in-2027/?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "Yahoo·US",
+        "title": "Novo Nordisk Stock And Other GLP 1 Leaders Worth Watching Now",
+        "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-stock-other-glp-020916247.html?.tsrc=rss",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Tidewater Inc. Stock 12‑Month Price Target Raised to $98.6, Implies 31% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORHBlVUhpYTcxeEFWZnZHVzhXaUxvaDBGSGw0YWdqRlFRNUpSeXQxVWlVMnpnSVFySXVJR2tWVkNxdGlDY2tTaXdUaTY3YmpCVk43a0dtaVNIRGlUS2ZmWklUV0dPbUVRbHFnV1pFZVliX0NDcktPY0c3TTdSZmdJSi1qZmFua3FtNTBRRi1ZNXNmZ1pJMmJNVGtZbUJ1VG5pY0Naek10ZzU3RG5Pb2k4d0ZETTc3MTU4X09lUWxjd1ZYYW8tWjJ0TF9oWGZXWUJFUnc?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "RBC Capital Remains a Buy on Mastercard (MA)",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNXd3RFRyd0EtZkp2Q2VlNkUzNGo1dWtoak9nLXhDRnJ3dGh3MS1NUEZYaHU0LVgtSDNsNHpxa3JSTlpQR1JpVWZ5elJ6YmVMa25oMWVmQWM2Z2E5M0cxRWhoSjdHelQzcGw4NnF6emZDZl91RkY5UG5vQnBwQzA2eHlvaXJyZ0h5STYwNkY5WS0zVWJ0NnZWN1ZGNWJkQ3NpeWp2bkJtSzd0Z1ZWaWhHTUdQMThJR2FZUkpON1kzZl9idm8?oc=5",
+        "date": "Sat, 28 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Palantir Raised Its 2026 Growth Outlook to 91%. Could the Stock Have More Room to Run?",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUDRzWVUtQmh1OTJiZG03T1d3VnE5Q1I0UzZDM3J5bGd6TkEzTHpRMi1zR2xrLVUtXzBWdDFPLVF5TDV2Uk1OMTV2WlJablpTNlY1RHRwdXUwYXNTTjQxQVJFcnRvQm1NbkI2RTdRWUkwZGlCajAzOTI2cWxIOFQ2YlFOd3NCV0otVDRyTkRfdTFSQWhtQy03ay1aRmhodnBLbi1KZmVrQzhwWE9tUENrU2kxeTdIdmdHbEFwQ2tOMXhDY21rRXc?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "symbol__ Stock Quote Price and Forecast",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nd1p3ZS1yZnBHWm40a2tNbnU1Y3BOdUNIbjNTU0EtWHNRTVl1elBwdzlRWHd1NHFnMzVOVWlhSExjVHdUWGNmS3QtRUtQalNa?oc=5",
+        "date": "Thu, 26 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Medexus Pharmaceuticals: this analyst just upgraded the stock",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWFySVZ1dC1JWTBLLUNyVDdHUzAtUlZhTE01Y3V4VzNWel9BTnpJZnVYY0F6R0dJaE12VXA5UmVYQ0NfaHUzcWx6aE93ZUp6TkVrcGZ6OEFYMGFfRm9XVzAwaTRaV2FkRzlVb1JUcnZmQ0VQQXFqUnFmSUpRTFJfMDNIY3I1NDF6dTlMUnJLYXZjd0dVY3ZJTV9JSUpEcTls?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "NIPPON STEEL CORP. Stock 12‑Month Price Target Raised to JPY 753.33, Implies 11% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbHMwazhUOHlnckxNZU5jU0UzcDFHa1pIQnZ0c2hPRG8zcmxyMUF5a3Ixb09IcnlnRzVxYk5jOUw1eFNwMDFuTlVIRU02UkJHVG01YlB5T05vYmpxS0sxYjRRU3diSm1xM1Z3ZWlEdTh4WkdYZmtZZjBoZGtjRE51YldLc1VocmUxaUxuN0NrR0Nac1NUd2dRbDNyM3EteW85a3czVXJnYnhwaWxZTkZmZEFIUjUwd2tlSzRGckg0dHZsLVI5cjlaa0dyLU44NWl6RGM5Njg1Rm01S2dMUDdn?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Ulta Beauty (NASDAQ:ULTA) Stock Price Target Raised at TD Cowen",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORHpjZklTMDZRTFJDaHI3aWhndzdyb3ZheFpWd0NUZVpLcUJRV3dYNlByUHV1a0xWZW9EZHBkYTVuQ0NTN0kyVzdVdUdNTVBQQzZBT0w1QjMzVVdMQXhBaFgxZ2RFWEZfV1ZYM0NVMm5kdXFTNWVuRWRlblREaGdoeDYxbzFsaDFsRmY1c29aeXFtNkpSNTJBOXNLdG1ORWZJX3lNS0hYOFBIcXVGU1VmMnRrS1hQcmp5R0I3QlVkdTY?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Full Truck Alliance Co. Ltd. Stock 12‑Month Price Target Raised to $12.73, Implies 43% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTkc3TFRpUlNYQ1BZcTRWUlNnVnVhNkxROXV3dVZUN3NfNkRSVnpIRTR1UDVzNGVQX3FSMGQwd2U3QklwaUd6Q19iZEN2OU1ydDNWTFotSE5Ka29ZZWo1RWdOUHNlWVhXSzZYeDBfay1HN2ROT3dJazVjNmVDd3NtTkZkQVBNT20tSnpjSFNoejYwTW1tcHMzdG9UbkZkUUx2b0tmdGhtSjdXY0F6RGprQlJCcDhlMjRRbFBEWHhoSjZMX2xIeUxXX2RLS2JtLWNnMHBMbWxkdmVZeHRqaWtRZ3VnVHA?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Regeneron Pharmaceuticals (NASDAQ:REGN) Stock Price Target Raised at Bank of America",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc3lON2tBemJJYUJscUdJSDVSa3BtSTlqbmhhajhWRElTRnBmVm96emVac0UwUFgtNWhZQ1dkMGtxOWNQWjJRQzFfczZvY052bmZxTzlZQ0pqSGlHM0pNSTdRNlNYMzBKSmExaFhKdkJfMkVhdkZpZDFxdndxSzJ1U0FJY19iRUotdG9hNEJTalJCdHczWUwtS25OUjZRWDBNTXpDVWJLRHM5QmE1S29oVjV6MlE0clNfZGNqNnlFaEwwek5Va2pZRllZOWJTZEJxY2tGdE9wTzJRQi1U?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Transocean Ltd (Switzerland) Stock 12‑Month Price Target Raised to $6.7, Implies 33% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSENUTWV0eHhtV1NwRnR3NHQxRHlvS2dFcmNGS24waVdYSXRIazhYMHhHc3JBSklWWWxVMVVyMU5sTk1RaFM5VFI2azFoX1J2Qm1ueTBqOVdGVUp4MWN6SHdUNEFORmhPY2U3eG1mZ01YNlhQNFpNc3lmaWVVM1RmcWphMURaaEZZTV8xZ0VQLWM0VzdmcnZlVUhmTEp0a3NCcXRHc0gtV2tyUGFSVkQ3NmpFMGxURzdfQ2VvMjU3Q0M1aER3YUZ1cjR5TWNlTERicXM4X2lfbHJjSmRHSy1nekZR?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Spotify Technology (NYSE:SPOT) Stock Rating Raised to Buy at Erste Group Bank",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMHV3X0RZbGg1LVIzQzlTdXhfRkpUSzRqVDVxeWhVbE9kWTM2bXJZWXpTQVNZS1VTam91QmgwU0pJQU8tR3JlVEdCQ1JHR1ZYb3FWSzFScXhqRVFoVE4waFh3OW5ndTRiay0wOGdaTDgxUGFGLTdEM1MwaU5YYnZUeGItLURBQkdtUHZyb19uT3JTQ1JqYlJHTy1heG5DeWNueDRESnA3UHViMktLWEJINjhRS0dQX3p1QUtsbW5acTJLc05ITUk1R2hYRWNQZ2RJc2Vn?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "HubSpot, AST SpaceMobile downgraded: Wall Street's top analyst calls",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRVNzRHZaa1NmcnJ6M2JMdGpCRm9oblRPUHRNNmUxLUwtX1BXNkQ4b19VMG5hSk83NXF6aU1xVlFDT0V4dk41bV8zaFNGQlZXbmttdkRqUVRlX1RadzFvMDFiVll1TTdma1JtSE1WQTlicVhZMjgzMWRucmZqT1BYdjZJNWZHV3dycnBDQ0YwczF0WERBR19vYXlDQUM2QkZWQTRFMFN2RQ?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Amazon, Tesla, CrowdStrike, Tesla and more analyst calls of the week",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPcDlnMmxCR2ZqWGMxTHlEbEhVbzF0ak5OblBlbTBBXzBVblh0MEZpSmNzTUlTMk5HMlg2NjNaQWdYemJwMi1QQm1uQ2JSckZTSWZHNlEwRjQ4alNWcjZDMHg3M3NPVEVSVEhCMXdfY0Zkc2M2THdWV2Zxb2lCbHVZNGJCVl9sUTBDbUFTY2Z4NDVUS2lzQ3ROTWRURnJsQy1rT3lUSDVYeDFQajYxOEVrZGdpWm5jczBJOVd5VFNReUdWR3FOTk5NeEZDeFYzcHJqVWc?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Zai Lab Limited Stock 12‑Month Price Target Raised to $35.9, Implies 56% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONDFjdzhpMmxsR0hPdGtrRW4yLTBuYkFINXdnM0swX01NU0s2MTRmOUJNd1F5cHdQd1lZcEp0Z29fQkVUOWFMaGtEUTY1QUlfazhpa2d2WG5FWENKc0VVRW5fcG1oSVZBa0pfWlNMeko2T21lbEc1eDFrdmpxcVZNVm9odGxEdlU4SnhVc2VlNGRVNEdBSjVoUGg2UDRWSlFsTTZvUEpZMldYbzY2elhoTVFObTdkQmxYUW50WGNvaFBIWElma3RIY0FscEU3XzIyZ2VrcQ?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "DIS Stock Quote Price and Forecast",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DcVFEeFNVVDJxcjFqb0VhYlQ3d2VjZVg2SWU1cGFCMUVnUDN5dEdfaGZEMXlmbDJhSTh2T1ItTlpUVl8yb1BoXzNsMnFEeDA?oc=5",
+        "date": "Thu, 26 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Valneva SE Stock 12‑Month Price Target Raised to $11.96, Implies 131% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeUlNTHltUHFXMHBJNUNNcDBTT3J5MFpDZDlPNVliZ0djWGZsd0RGcmppaDk5dFlGLVFZYUlaWlhuUldsZnpDLVdNeGtLdGxuRm9EaTZrZ2hwV1JiSGh6aE10RTN5NFliWXBPN2tRTUV6TkZVMVZuTlZwR0lVVURUU05kLUUyWkxaNVZ6VXhSLWJabE0xUnJUOFZMUzdsMnkzaW1zc2FIS0haUkJMenVKb0tUV0UyZ0kyVkx6R2F4Q0dtTVBMUF9IdGlNNjZQNW44?oc=5",
+        "date": "Thu, 26 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "TGT Stock Quote Price and Forecast",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwSW1sRk9XSDlXUEs2LUJfVkl2VUk4em9GQ09fSlhDcXhOdXNMZXpyV3BlMXF5a2l4NFY3a1hwT0U2YTJEUDEzQ3o5bXRqbGc?oc=5",
+        "date": "Thu, 26 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Strategy Inc Stock 12‑Month Price Target Raised to $232.06, Implies 190% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWFN1NlpjdWRZSmhTbzJJMHpRT2FlNjVCU1dseUV0Ti1HcmVCa1Z2cHN0N2JScU1PWm1YdkhNNmtadGcweEZMVzVzVm1hMDY2QXcyWTE5Tlo0QnV4NTFubExoTWpndW9rWEY4QnZxWTIzakoyeDlpS0tpQkRkT09TcjdGNEpyMzM3OWtycTNaeUVlSjdNVHJUX2tMd3YyanFtdU5VMEtBZ05QNWxVWTN0dmhaYVcybnZHcktMcFg5ZTdmMWFrWEVPNlljbC1qTHJXaUFFRQ?oc=5",
+        "date": "Thu, 26 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "WEC Energy Group, Inc. Stock 12‑Month Price Target Raised to $119.94, Implies 1% Upside",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbE5NekpyU3VYWFlOS1ktMW5KbjNKTVgxaTVCWHNpbGZQb0tNOFB1b3p4NHUtMVkyT3NJUUNTbHNjZXVnNm81ZndyeWQxbnd5blliUG5NRGVVazMtNTk2REd3LUwyZVp3TlhFUkNZT29LQWljZkFYdi1UNmtVaG1xWmRXNkc3eEVnNW4wa2dtOEJNNnFmZlpzRTU2a0RZS0N3N00wTjVabFhkTlVoZlFPSFFWY2lYMm11QS1IbmF0SzM5ZTZrR3I0UGM0RUw0bTNSZ19JU1dEM1FJUnpH?oc=5",
+        "date": "Thu, 26 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "Qfin Holdings upgraded by Citigroup with a new price target",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMEFVRzh3eWVYZXJDamNYdjlNX1Y1bm43cEd4TkE3MDd0VElFbk1Cb0RvZGtLUWIyZ3V6Ry1RM1NxcjJuUWJjVEJBc1dsZmFvbTJKMEZRTTJMR2p6RGtXVXg0Q0lpeEYtWnRxVFpvS0ltdGpzZ3ZSZnJnTlk4SEV4MGNLZVA3YTZrSzQtNXJsM0dScFhPSUdLWXJBMGcyUFdhaE1IQg?oc=5",
+        "date": "Fri, 27 Nov 2026"
+      },
+      {
+        "src": "WallSt·PT",
+        "title": "BLK Stock Quote Price and Forecast",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBKUTJnVTNrVTZVZHNBYndQUHFyZHdRVFRTMWhUdUc0SnROdjdaNVdGQWh2ZjVmMUt1S1VYV2pMYWxyZFljZGV1Nk1IWGNiYVk?oc=5",
+        "date": "Thu, 26 Nov 2026"
+      }
+    ]
+  },
   "scannedTotal": 292,
-  "analyzedDetail": 89,
+  "analyzedDetail": 77,
   "regime": {
     "score": 87,
     "type": "bull",
-    "badge": "🟢 선물·뉴스 강세 (네 마녀의 날 D-13 (12/10))",
+    "badge": "🟢 선물·뉴스 강세 (네 마녀의 날 D-12 (12/10))",
     "title": "호재·리포트 종목 적극 분할 매수",
     "maxSlots": 4,
     "riskScale": 1.0,
@@ -14,13 +842,13 @@
         "name": "코스피",
         "close": 4915.68,
         "chg": 4.34,
-        "state": "네 마녀의 날 D-13 (12/10)"
+        "state": "네 마녀의 날 D-12 (12/10)"
       },
       {
         "name": "코스닥",
         "close": 708.99,
         "chg": 8.13,
-        "state": "MSCI 리밸런싱 D-3 (11/30)"
+        "state": "MSCI 리밸런싱 D-2 (11/30)"
       }
     ]
   },
@@ -30,12 +858,12 @@
       "pct": 4.32
     },
     "futNasdaq": {
-      "px": 26673.5,
-      "pct": 2.2
+      "px": 26765.0,
+      "pct": 2.55
     },
     "fxKrw": {
-      "px": 1335.01,
-      "pct": -0.6
+      "px": 1333.9,
+      "pct": -0.68
     }
   },
   "swing": [
@@ -47,38 +875,39 @@
       "dayChg": 10.0,
       "slPx": 449350,
       "tpPx": 520300,
-      "ev": 5.8,
+      "ev": 11.0,
       "winRate": 95,
       "rs60": 10.0,
       "tradingVal": 546,
       "posTags": [
         "주주환원",
+        "강세·모멘텀",
         "외인·기관 수급"
       ],
       "why": [
-        "실시간 뉴스 6건 포착: 주주환원, 외인·기관 수급",
-        "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)",
-        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
+        "실시간 뉴스 8건 포착: 주주환원, 강세·모멘텀, 외인·기관 수급",
+        "핵심 기사: 주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)",
+        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
       ],
-      "score": 108,
+      "score": 160,
       "news": [
+        {
+          "src": "매일경제",
+          "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+          "url": "https://www.mk.co.kr/news/business/12220647",
+          "date": "Sat, 28 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+          "url": "https://www.mk.co.kr/news/stock/12220603",
+          "date": "Sat, 28 Nov 2026"
+        },
         {
           "src": "매일경제",
           "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
           "url": "https://www.mk.co.kr/news/stock/12220218",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-          "url": "https://www.mk.co.kr/news/stock/12220025",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-          "url": "https://www.mk.co.kr/news/stock/12219839",
           "date": "Fri, 27 Nov 2026"
         }
       ]
@@ -101,7 +930,7 @@
       "why": [
         "실시간 뉴스 2건 포착: 주주환원",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 90,
       "news": [
@@ -137,22 +966,66 @@
       ],
       "why": [
         "실시간 뉴스 2건 포착: 실적 성장, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "핵심 기사: [모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 87,
       "news": [
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
+          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
           "date": "Thu, 26 Nov 2026"
         },
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
+          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
           "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "코스피",
+      "px": 1111000.0,
+      "dayChg": 5.51,
+      "slPx": 1055450,
+      "tpPx": 1222100,
+      "ev": 3.0,
+      "winRate": 80,
+      "rs60": 5.5,
+      "tradingVal": 32668,
+      "posTags": [
+        "주주환원",
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 4건 포착: 주주환원, 강세·모멘텀",
+        "핵심 기사: 주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)",
+        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
+      ],
+      "score": 80,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+          "url": "https://www.mk.co.kr/news/business/12220647",
+          "date": "Sat, 28 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+          "url": "https://www.mk.co.kr/news/stock/12220603",
+          "date": "Sat, 28 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220218",
+          "date": "Fri, 27 Nov 2026"
         }
       ]
     },
@@ -174,7 +1047,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 수주·계약",
         "핵심 기사: [모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 73,
       "news": [
@@ -187,36 +1060,6 @@
       ]
     },
     {
-      "code": "095610",
-      "name": "테스",
-      "market": "코스닥",
-      "px": 85900.0,
-      "dayChg": 9.29,
-      "slPx": 81605,
-      "tpPx": 94490,
-      "ev": 2.3,
-      "winRate": 73,
-      "rs60": 9.3,
-      "tradingVal": 221,
-      "posTags": [
-        "수주·계약"
-      ],
-      "why": [
-        "실시간 뉴스 1건 포착: 수주·계약",
-        "핵심 기사: 타이거일렉 | 북미 CPU 테스트보드 수주 확대, 원자재 공급 부족이 성장 속도의 변수",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 73,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "타이거일렉 | 북미 CPU 테스트보드 수주 확대, 원자재 공급 부족이 성장 속도의 변수",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMjl3aXE4aFY5RnRQZ3V1dFhoRW5TblRoS204WW10NnIyZHI1Xzk0bXRsT3NGalVnLWpKYWFpN3J0TW9Nb2lDdnZjOER5OXFkSEVMaVRMQVVYTUZzOHBNaHBTaXdfUE1TS3ZtWEhrV1M1eU9qNGdSNlpsUExzWHVHZ2lqZWNYX2da?oc=5",
-          "date": "Fri, 27 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
@@ -234,7 +1077,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -247,92 +1090,9 @@
       ]
     }
   ],
-  "pullback": [
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 299500.0,
-      "dayChg": 0.34,
-      "slPx": 284525,
-      "tpPx": 329450,
-      "ev": 1.0,
-      "winRate": 60,
-      "rs60": 0.3,
-      "tradingVal": 2306,
-      "posTags": [],
-      "why": [
-        "실시간 뉴스 4건 포착: 시장 주목",
-        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 60,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-          "url": "https://www.mk.co.kr/news/stock/12219844",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
-          "url": "https://www.mk.co.kr/news/stock/12219832",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    }
-  ],
+  "pullback": [],
   "closeBet": [
     {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
-      "slPx": 256975,
-      "tpPx": 297550,
-      "ev": 1.7,
-      "winRate": 67,
-      "rs60": 4.4,
-      "tradingVal": 1035,
-      "posTags": [
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 3건 포착: 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 67,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
@@ -350,7 +1110,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -359,46 +1119,6 @@
           "title": "[모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ULW45RnFVWm9qMVhnaGZDTDFFdUNDWVo2OVA3T1gyaGktdk5ITmZEVGZ5VkVXcmRYV3pPR2xkNmMtWF9pcTBMYlVaRzRjYlNMeTAyVjcwLVJYYjU4?oc=5",
           "date": "Fri, 27 Nov 2026"
-        }
-      ]
-    },
-    {
-      "code": "278470",
-      "name": "에이피알",
-      "market": "코스피",
-      "px": 299500.0,
-      "dayChg": 0.34,
-      "slPx": 284525,
-      "tpPx": 329450,
-      "ev": 1.0,
-      "winRate": 60,
-      "rs60": 0.3,
-      "tradingVal": 2306,
-      "posTags": [],
-      "why": [
-        "실시간 뉴스 4건 포착: 시장 주목",
-        "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 60,
-      "news": [
-        {
-          "src": "매일경제",
-          "title": "브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-          "url": "https://www.mk.co.kr/news/stock/12219844",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "에이피알, 틱톡숍서 맞붙던 경쟁사 품었다…목표가↑",
-          "url": "https://www.mk.co.kr/news/stock/12219832",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
-          "date": "Thu, 26 Nov 2026"
         }
       ]
     }
@@ -422,7 +1142,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
         "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -447,48 +1167,6 @@
       ]
     },
     {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
-      "slPx": 256975,
-      "tpPx": 297550,
-      "ev": 1.7,
-      "winRate": 67,
-      "rs60": 4.4,
-      "tradingVal": 1035,
-      "posTags": [
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 3건 포착: 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 67,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
@@ -506,7 +1184,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -526,17 +1204,17 @@
       "dayChg": 0.34,
       "slPx": 284525,
       "tpPx": 329450,
-      "ev": 1.0,
-      "winRate": 60,
+      "ev": 0.5,
+      "winRate": 55,
       "rs60": 0.3,
       "tradingVal": 2306,
       "posTags": [],
       "why": [
-        "실시간 뉴스 4건 포착: 시장 주목",
+        "실시간 뉴스 3건 포착: 시장 주목",
         "핵심 기사: 브랜드501 인수한 에이피알…증권가 “인수가 3900억은 솔직히” [오늘 나온 보고서]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
-      "score": 60,
+      "score": 55,
       "news": [
         {
           "src": "매일경제",
@@ -568,38 +1246,39 @@
       "dayChg": 10.0,
       "slPx": 449350,
       "tpPx": 520300,
-      "ev": 5.8,
+      "ev": 11.0,
       "winRate": 95,
       "rs60": 10.0,
       "tradingVal": 546,
       "posTags": [
         "주주환원",
+        "강세·모멘텀",
         "외인·기관 수급"
       ],
       "why": [
-        "실시간 뉴스 6건 포착: 주주환원, 외인·기관 수급",
-        "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)",
-        "⚠️ 주의 키워드 동반(목표가 하향) — 눌림 분할 필수"
+        "실시간 뉴스 8건 포착: 주주환원, 강세·모멘텀, 외인·기관 수급",
+        "핵심 기사: 주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)",
+        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
       ],
-      "score": 108,
+      "score": 160,
       "news": [
+        {
+          "src": "매일경제",
+          "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+          "url": "https://www.mk.co.kr/news/business/12220647",
+          "date": "Sat, 28 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+          "url": "https://www.mk.co.kr/news/stock/12220603",
+          "date": "Sat, 28 Nov 2026"
+        },
         {
           "src": "매일경제",
           "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
           "url": "https://www.mk.co.kr/news/stock/12220218",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "SK하이닉스 하루 만에 매수 1위로 돌렸다…초고수, 삼성전자은 매도[주식 초고수는 지금]",
-          "url": "https://www.mk.co.kr/news/stock/12220025",
-          "date": "Fri, 27 Nov 2026"
-        },
-        {
-          "src": "매일경제",
-          "title": "DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-          "url": "https://www.mk.co.kr/news/stock/12219839",
           "date": "Fri, 27 Nov 2026"
         }
       ]
@@ -622,7 +1301,7 @@
       "why": [
         "실시간 뉴스 2건 포착: 주주환원",
         "핵심 기사: DS투자증권 “SK스퀘어, 4조3000억 주주환원 전망…당초 계획의 14배”",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 90,
       "news": [
@@ -658,22 +1337,66 @@
       ],
       "why": [
         "실시간 뉴스 2건 포착: 실적 성장, 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "핵심 기사: [모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 87,
       "news": [
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
+          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
           "date": "Thu, 26 Nov 2026"
         },
         {
           "src": "구글·리포트",
-          "title": "[모닝 리포트] \"파미셀, 두산 증설 수혜에 4분기 최대 실적 전망\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1rZjVfWXJwVS1XVUNvcENoUHQtZUpvSWpzYmJ1Qkx6ZHFxa0xuN2NJdTB2Tl9vSV8yQnVhRTMtVjJIUW5vTjRUUklWNU1peUJBcXpiTjgwYTFkQjVU?oc=5",
+          "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
           "date": "Thu, 26 Nov 2026"
+        }
+      ]
+    },
+    {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "코스피",
+      "px": 1111000.0,
+      "dayChg": 5.51,
+      "slPx": 1055450,
+      "tpPx": 1222100,
+      "ev": 3.0,
+      "winRate": 80,
+      "rs60": 5.5,
+      "tradingVal": 32668,
+      "posTags": [
+        "주주환원",
+        "강세·모멘텀"
+      ],
+      "why": [
+        "실시간 뉴스 4건 포착: 주주환원, 강세·모멘텀",
+        "핵심 기사: 주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)",
+        "⚠️ 주의 키워드 동반(변동성 주의) — 눌림 분할 필수"
+      ],
+      "score": 80,
+      "news": [
+        {
+          "src": "매일경제",
+          "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+          "url": "https://www.mk.co.kr/news/business/12220647",
+          "date": "Sat, 28 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+          "url": "https://www.mk.co.kr/news/stock/12220603",
+          "date": "Sat, 28 Nov 2026"
+        },
+        {
+          "src": "매일경제",
+          "title": "5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
+          "url": "https://www.mk.co.kr/news/stock/12220218",
+          "date": "Fri, 27 Nov 2026"
         }
       ]
     },
@@ -695,7 +1418,7 @@
       "why": [
         "실시간 뉴스 3건 포착: 강세·모멘텀",
         "핵심 기사: 5% 뛴 SK하이닉스 담고 4.7% 오른 삼성전자 던졌다…초고수, 삼전닉스 정반대 매매[주식 초고수는 지금]",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -720,48 +1443,6 @@
       ]
     },
     {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
-      "slPx": 256975,
-      "tpPx": 297550,
-      "ev": 1.7,
-      "winRate": 67,
-      "rs60": 4.4,
-      "tradingVal": 1035,
-      "posTags": [
-        "강세·모멘텀"
-      ],
-      "why": [
-        "실시간 뉴스 3건 포착: 강세·모멘텀",
-        "핵심 기사: [모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
-      ],
-      "score": 67,
-      "news": [
-        {
-          "src": "구글·리포트",
-          "title": "[모닝 리포트] \"나무가, 현대차 로봇 공급망 진입 기대…피지컬 AI 수혜\"",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vcjJoQUlxalVPZTItN1Z1WXBGRnVhb2FKaVQwVDF3dVFWZE9MWnJ5R0Rsd1dhdVduczJZcDVUcHQyVFBVczAxYzRSck1PWnJ6cl9CMEhqV1I3M1k3?oc=5",
-          "date": "Wed, 25 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]로보티즈, '분기 실적보다 2027년 성장성에 주목' 목표가 415,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9fcnRoRERjc2hpUmluV0I4Y3l0NjAxOEVEYkVSb0VIUVdDbXBJSkhLdHMwUFMxWkJIemlBYkg1UlpGYnZuTFgyanZ4WnJCZnY0dXNCbEdnLTFVOHJ4?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        },
-        {
-          "src": "구글·리포트",
-          "title": "[리포트 브리핑]한국가스공사, '양날의 LNG 가격 상승' 목표가 49,000원 - 현대차증권",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DdldDQk9JRkV5T2tKUHhidGRuX3U1c3VmOHY2d25QSXI1d2hZcktTdVRsWWM1QWpXUFRuazJqVXR0dmtCX2F1VzNaQjBFelBGamVlOHhoRWZoWFNR?oc=5",
-          "date": "Thu, 26 Nov 2026"
-        }
-      ]
-    },
-    {
       "code": "012330",
       "name": "현대모비스",
       "market": "코스피",
@@ -779,7 +1460,7 @@
       "why": [
         "실시간 뉴스 1건 포착: 증권사 매수",
         "핵심 기사: [모닝 리포트] \"현대모비스, 첫 분기 영업익 1조 기대…자동차 업종 최선호주\"",
-        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.20% · 네 마녀의 날 D-13 (12/10)"
+        "선물·만기 반영: 코스피선물 +4.32% · 나스닥선물 +2.55% · 네 마녀의 날 D-12 (12/10)"
       ],
       "score": 67,
       "news": [
@@ -799,8 +1480,8 @@
       "market": "코스피",
       "px": 473000.0,
       "dayChg": 10.0,
-      "rs60": 108,
-      "ev": 5.8
+      "rs60": 160,
+      "ev": 11.0
     },
     {
       "code": "402340",
@@ -821,6 +1502,15 @@
       "ev": 3.7
     },
     {
+      "code": "000660",
+      "name": "SK하이닉스",
+      "market": "코스피",
+      "px": 1111000.0,
+      "dayChg": 5.51,
+      "rs60": 80,
+      "ev": 3.0
+    },
+    {
       "code": "064760",
       "name": "티씨케이",
       "market": "코스닥",
@@ -830,29 +1520,11 @@
       "ev": 2.3
     },
     {
-      "code": "095610",
-      "name": "테스",
-      "market": "코스닥",
-      "px": 85900.0,
-      "dayChg": 9.29,
-      "rs60": 73,
-      "ev": 2.3
-    },
-    {
       "code": "005930",
       "name": "삼성전자",
       "market": "코스피",
       "px": 179500.0,
       "dayChg": 4.79,
-      "rs60": 67,
-      "ev": 1.7
-    },
-    {
-      "code": "005380",
-      "name": "현대차",
-      "market": "코스피",
-      "px": 270500.0,
-      "dayChg": 4.44,
       "rs60": 67,
       "ev": 1.7
     },
@@ -871,11 +1543,41 @@
       "market": "코스피",
       "px": 299500.0,
       "dayChg": 0.34,
-      "rs60": 60,
-      "ev": 1.0
+      "rs60": 55,
+      "ev": 0.5
     }
   ],
   "news": [
+    {
+      "src": "매일경제",
+      "title": "“스미마셍, 엔화가 없는데요”…일본 라멘집서 원화코인 쓸 날 올까",
+      "url": "https://www.mk.co.kr/news/economy/12220665",
+      "date": "Sat, 28 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "주가 급락에 자사주 매입 속도 내는 SK하이닉스…하루 매수 주문 70만주로",
+      "url": "https://www.mk.co.kr/news/business/12220647",
+      "date": "Sat, 28 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "한국서 5% 뛴 SK하이닉스, 미국선 7%대 급등…나스닥도 2.31%↑",
+      "url": "https://www.mk.co.kr/news/stock/12220603",
+      "date": "Sat, 28 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "주식시장 새내기인데 첫날 몸값이 6.6조원…개미가 만나는 美 기업 달라졌다",
+      "url": "https://www.mk.co.kr/news/stock/12220593",
+      "date": "Sat, 28 Nov 2026"
+    },
+    {
+      "src": "매일경제",
+      "title": "“오래 기다렸죠?” 돌아온 외국인…삼전닉스 내다팔더니 ‘이것’ 샀다",
+      "url": "https://www.mk.co.kr/news/stock/12220584",
+      "date": "Sat, 28 Nov 2026"
+    },
     {
       "src": "매일경제",
       "title": "‘트리플 할인’일 때 담아서 키워볼까…1년 만에 48% 오른 ETF [이번주 찜할 ETF]",
@@ -890,14 +1592,14 @@
     },
     {
       "src": "매일경제",
-      "title": "\"노후 생활비·자녀 결혼자금 … 모든 돈에 꼬리표를 붙여라\"",
-      "url": "https://www.mk.co.kr/news/stock/12220398",
+      "title": "美 세포배양 로봇社 셀트리오, 韓 상장 속도",
+      "url": "https://www.mk.co.kr/news/stock/12220397",
       "date": "Fri, 27 Nov 2026"
     },
     {
       "src": "매일경제",
-      "title": "美 세포배양 로봇社 셀트리오, 韓 상장 속도",
-      "url": "https://www.mk.co.kr/news/stock/12220397",
+      "title": "\"노후 생활비·자녀 결혼자금 … 모든 돈에 꼬리표를 붙여라\"",
+      "url": "https://www.mk.co.kr/news/stock/12220398",
       "date": "Fri, 27 Nov 2026"
     },
     {
@@ -1027,39 +1729,9 @@
       "date": "Fri, 27 Nov 2026"
     },
     {
-      "src": "매일경제",
-      "title": "팔사람은 다 팔았다던데... 주가 V자 반등 안나온 이유",
-      "url": "https://www.mk.co.kr/news/business/12219828",
-      "date": "Fri, 27 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "“솔직히 당신도 공매도 하고싶잖아”…‘하락베팅’ 이달 5% 급증",
-      "url": "https://www.mk.co.kr/news/stock/12219806",
-      "date": "Fri, 27 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "‘트리플 할인’일 때 담아서 키워볼까 … 1년 만에 48% 오른 ETF",
-      "url": "https://www.mk.co.kr/news/stock/12219561",
-      "date": "Fri, 27 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "금리 올렸는데 은행주 왜 파래요…한발 먼저 가는 주식 ‘선반영’ 해석",
-      "url": "https://www.mk.co.kr/news/stock/12219785",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
-      "src": "매일경제",
-      "title": "“AI 거품”이라더니 13일만에 말 바꿨다…상승에 베팅 건 ‘빅쇼트’ 주인공",
-      "url": "https://www.mk.co.kr/news/stock/12219779",
-      "date": "Thu, 26 Nov 2026"
-    },
-    {
       "src": "구글·리포트",
-      "title": "이달 들어 '목표가 하향' 리포트 1000건 돌파…그 속에서 오른 86곳은?",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5YnhtUTlGMTJ4aEJ5cHVTUm9Wdm9yd1pzSE9md1llNWE5V25TaG81MVZKRk5tUURaU2dFbEVZNFJNa01wSjVFMHVxVS1jM1E0NHdzWHlDS3BRZw?oc=5",
+      "title": "하향 리포트 1000개 쏟아질 때 목표가 오른 '알짜 종목'은",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EM0plWlVpR1gzdW45S2FMMXRObUdPOWVpVDhoTEd3YXVTYXd4dVc3THRqbmlFNzJ1ZW1Ob0FjT3dvX0M3WHc0OG9tTWt4X0FCQmZlYmVFVzZMQQ?oc=5",
       "date": "Fri, 27 Nov 2026"
     },
     {
@@ -1070,26 +1742,20 @@
     },
     {
       "src": "구글·리포트",
-      "title": "하향 리포트 1000개 쏟아질 때 목표가 오른 '알짜 종목'은",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EM0plWlVpR1gzdW45S2FMMXRObUdPOWVpVDhoTEd3YXVTYXd4dVc3THRqbmlFNzJ1ZW1Ob0FjT3dvX0M3WHc0OG9tTWt4X0FCQmZlYmVFVzZMQQ?oc=5",
-      "date": "Fri, 27 Nov 2026"
-    },
-    {
-      "src": "구글·리포트",
       "title": "스튜디오드래곤 | 중국 구작 판매 기대 확대, 2027년 이익 개선의 추가 변수",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcVdoV09JelFHWndjYXBrc1hJVGd0THY3eUExeUp2dEVYY1EzUFhoeTlPTmxrUjJ1eDRvc0I2VE54Z0FQZm51OTBXNEpaWHFsSTNPZUhMVzFvU0xSQmZtXzRBSEFpVTROMTlWa01CRF9DTXlwQ2Iwb0hWSTBXa043NkJ0UlhocVlZ?oc=5",
       "date": "Thu, 26 Nov 2026"
     },
     {
       "src": "구글·리포트",
-      "title": "[모닝 리포트] \"SK스퀘어, 4조3000억 규모 주주환원 기대\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1UGNIY2huaEp0T1FwTGVWUUwwbjVCaUx6U0MxS1ZaX1gxUU1JalloN0ExZHBsbURxQnRFdnBoQjBNaWppcHZ5N0R4clVIMUFiUjVBa1BYcVIxWnBU?oc=5",
-      "date": "Thu, 26 Nov 2026"
+      "title": "이달 들어 '목표가 하향' 리포트 1000건 돌파…그 속에서 오른 86곳은?",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5YnhtUTlGMTJ4aEJ5cHVTUm9Wdm9yd1pzSE9md1llNWE5V25TaG81MVZKRk5tUURaU2dFbEVZNFJNa01wSjVFMHVxVS1jM1E0NHdzWHlDS3BRZw?oc=5",
+      "date": "Fri, 27 Nov 2026"
     },
     {
       "src": "구글·리포트",
-      "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
+      "title": "[모닝 리포트] \"SK스퀘어, 4조3000억 규모 주주환원 기대\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1UGNIY2huaEp0T1FwTGVWUUwwbjVCaUx6U0MxS1ZaX1gxUU1JalloN0ExZHBsbURxQnRFdnBoQjBNaWppcHZ5N0R4clVIMUFiUjVBa1BYcVIxWnBU?oc=5",
       "date": "Thu, 26 Nov 2026"
     },
     {
@@ -1100,8 +1766,8 @@
     },
     {
       "src": "구글·리포트",
-      "title": "[모닝 리포트] \"두산로보틱스, 솔루션 성장에도 고정비 부담\"",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EVjlQZmZXeVZHMXZQZjY0clJDYnM3ZnJlZDN4Tkd0cTNGZ2Y1dzJZSk5aYkpFMUVGWDJOb1BGVUlLRlRoZ1ZBb2lzd2JnTmtZRXE4a3NoM0JHenhn?oc=5",
+      "title": "[모닝 리포트] \"에이피알, 닥터멜락신 인수로 메디큐브 성공 방정식 재현\"",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE13ajhUR1FHZkFQbjhiRDhjVXpnZldITFIydnRIb2h2MjBZUWdmcTJjT2VJRGgtWmFnZEdMeEdITkdsaEFyZnlaUHdNRGREX2l2VEdfOE9PblY1a3JG?oc=5",
       "date": "Thu, 26 Nov 2026"
     },
     {
@@ -1109,6 +1775,12 @@
       "title": "[모닝 리포트] 티씨케이, 수주잔고 분기 매출 2.2배…재고는 줄었다",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBYUWdPSlhab3VmelJHdGEtNC15WkdibWZRdFZ3aDNSek1OaDRNYmtmRXZTVldER1V3RzJjWEtCcWs0N0hLczQ5azdFODFZRWxuNHNOenJEUmdpRnVl?oc=5",
       "date": "Thu, 26 Nov 2026"
+    },
+    {
+      "src": "구글·리포트",
+      "title": "엘티씨 | 세정장비 생산능력 확보, 321단 NAND 소재의 수익성 개선 본격화",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOemVXZXVXbVZ4Nk5vSHVrZ1RyeFFjeDBPbnpybFBVYktMV3NsSXBpRmc3Tk43RW1JQTZpRzQ4eHpyaGJJcTV1VFFwbVg2Y2lQZVd3cFdKdnB3N2g1SkYyMU5wR3QySzFaNE40bXh3Y29HNEszejVBQWNCcmtjYnM4eVFWeE1oakVk?oc=5",
+      "date": "Fri, 27 Nov 2026"
     },
     {
       "src": "구글·리포트",
